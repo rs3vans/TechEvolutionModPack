@@ -1,0 +1,13 @@
+
+setIcon(<betterwithmods:single_machine:0>)
+setTitle("Milling Around")
+setDescription("The first thing you should look to craft is a Mill, which will allow you to process some of the raw materials you find...")
+
+addParent("pack:1_mechanical/_")
+hiddenUnless("pack:1_mechanical/_")
+setFrameType("GOAL")
+setRequiresParents()
+setPos(50,0)
+
+criteria1 = addCriteria("Craft a mill", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:single_machine:0>)

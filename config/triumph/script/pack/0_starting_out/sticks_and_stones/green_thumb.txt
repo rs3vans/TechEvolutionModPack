@@ -1,0 +1,14 @@
+
+setIcon(<betterwithmods:material:2>)
+setTitle("Green Thumb")
+setDescription("Hemp is an extremely useful plant - you should grow some! You can't do much with it now, but you'll want a TON of it later...")
+
+addParent("pack:0_starting_out/sticks_and_stones/_")
+hiddenUnless("pack:0_starting_out/sticks_and_stones/_")
+setRequiresParents()
+setPos(50,-50)
+
+criteria1 = addCriteria("Reach 'Farming' level 2", "reskillable:skill_level")
+criteria1.addConditions({"skill": "reskillable:farming", "level": 2})
+criteria2 = addCriteria("Collect at least 64 hemp", "minecraft:inventory_changed")
+criteria2.addItem(<betterwithmods:material:2, count:64>)

@@ -1,0 +1,13 @@
+
+setIcon(<immersiveengineering:tool:0>)
+setTitle("Completed")
+setDescription("...")
+setShowToast(false)
+setAnnounceToChat(false)
+
+alwaysHidden()
+addParent("pack:2_industrial/_")
+
+addCriteria("Completed 'Mechanist's Playground'", "minecraft:impossible")
+//criteria = addCriteria("Completed 'Mechanist's Playground'", "triumph:completed_advancement")
+//criteria.setAdvancement("pack:2_industrial/done")

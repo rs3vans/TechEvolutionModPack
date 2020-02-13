@@ -1,0 +1,12 @@
+
+setIcon(<enderio:item_alloy_endergy_ingot:0>)
+setTitle("That's Just Crude")
+setDescription("Not nearly as good as the real thing, Crude Steel can be used in a pinch. Just don't expect it to last very long!")
+
+addParent("pack:1_mechanical/milling_around/melting_down/_")
+hiddenUnless("pack:1_mechanical/milling_around/melting_down/_")
+setRequiresParents()
+setPos(50,150)
+
+criteria1 = addCriteria("Make at least 4 crude steel", "minecraft:inventory_changed")
+criteria1.addItem(<ore:ingotCrudeSteel, count:4~64>)

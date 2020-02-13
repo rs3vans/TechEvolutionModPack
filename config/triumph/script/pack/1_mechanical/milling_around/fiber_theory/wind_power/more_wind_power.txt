@@ -1,0 +1,12 @@
+
+setIcon(<betterwithmods:axle_generator:2>)
+setTitle("MORE Wind Power!")
+setDescription("A Vertical Windmill is just like a Windmill, except bigger, and ... vertical. It also works even when blocks are placed above it (e.g. underground).")
+
+addParent("pack:1_mechanical/milling_around/fiber_theory/wind_power/_")
+hiddenUnless("pack:1_mechanical/milling_around/fiber_theory/wind_power/_")
+setRequiresParents()
+setPos(0,-150)
+
+criteria1 = addCriteria("Craft a vertical windmill", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:axle_generator:2>)

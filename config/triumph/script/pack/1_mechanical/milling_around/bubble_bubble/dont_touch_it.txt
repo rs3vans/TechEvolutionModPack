@@ -1,0 +1,12 @@
+
+setIcon(<betterwithmods:material:17>)
+setTitle("Don't Touch It")
+setDescription("The essence of hell, concentrated into an ingot. Useful in the creation of Hibachis.")
+
+addParent("pack:1_mechanical/milling_around/bubble_bubble/_")
+hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/_")
+setRequiresParents()
+setPos(100,50)
+
+criteria1 = addCriteria("Craft at least 3 hellfire ingots", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:material:17, count:3~64>)

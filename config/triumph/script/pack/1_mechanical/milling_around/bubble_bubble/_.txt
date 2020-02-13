@@ -1,0 +1,13 @@
+
+setIcon(<betterwithmods:cooking_pot:1>)
+setTitle("Bubble, Bubble")
+setDescription("It's not just for soup! A cauldron will help you make many things...")
+
+addParent("pack:1_mechanical/milling_around/_")
+hiddenUnless("pack:1_mechanical/milling_around/_")
+setFrameType("GOAL")
+setRequiresParents()
+setPos(100,0)
+
+criteria1 = addCriteria("Craft a cauldron", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:cooking_pot:1>)

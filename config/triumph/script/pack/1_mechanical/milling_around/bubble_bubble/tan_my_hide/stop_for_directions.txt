@@ -1,0 +1,12 @@
+
+setIcon(<antiqueatlas:antique_atlas:0>)
+setTitle("Stop For Directions")
+setDescription("Keep getting lost? Not any more! The Antique Atlas will help you be more aware of your surroundings, provide you wil markers so you can remember where things are, and help you find your way back home...")
+
+addParent("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/_")
+hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/_")
+setRequiresParents()
+setPos(150,50)
+
+criteria1 = addCriteria("Craft an antique atlas", "minecraft:inventory_changed")
+criteria1.addItem(<antiqueatlas:antique_atlas:0, count:1~64>)

@@ -1,0 +1,12 @@
+
+setIcon(<betterwithmods:axle_generator:1>)
+setTitle("Water Power!")
+setDescription("A Waterwheel will generate mechanical power just like the windmill, but without being affected by weather.\n\nIt requires flowing water to function (as you might expect).")
+
+addParent("pack:1_mechanical/milling_around/fiber_theory/wind_power/_")
+hiddenUnless("pack:1_mechanical/milling_around/fiber_theory/wind_power/_")
+setRequiresParents()
+setPos(100,-150)
+
+criteria1 = addCriteria("Craft a waterwheel", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:axle_generator:1>)

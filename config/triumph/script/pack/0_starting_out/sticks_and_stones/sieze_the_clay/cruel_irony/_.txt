@@ -1,0 +1,15 @@
+
+setIcon(<rustic:ironberries>)
+setTitle("A Cruel Irony")
+setDescription("To get iron, you first have to get... iron. Iron ore can't be harvested without an iron pickaxe, but there's a way, and finding an Ironwood tree is the key!\n\nFind an Ironwood tree and chop it down - but know that your 'Gathering' skill must be at least level 2 first! Collect at least 12 Ironberries.")
+
+addParent("pack:0_starting_out/sticks_and_stones/sieze_the_clay/all_dried_up")
+hiddenUnless("pack:0_starting_out/sticks_and_stones/sieze_the_clay/_")
+setFrameType("GOAL")
+setRequiresParents()
+setPos(150,100)
+
+criteria1 = addCriteria("Reach 'Gathering' level 2", "reskillable:skill_level")
+criteria1.addConditions({"skill": "reskillable:gathering", "level": 2})
+criteria2 = addCriteria("Collect at least 12 ironberries", "minecraft:inventory_changed")
+criteria2.addItem(<rustic:ironberries, count:12~64>)

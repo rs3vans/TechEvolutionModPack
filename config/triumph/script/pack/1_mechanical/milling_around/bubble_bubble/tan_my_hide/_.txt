@@ -1,0 +1,13 @@
+
+setIcon(<betterwithmods:material:32>)
+setTitle("Tan My Hide")
+setDescription("Raw leather isn't so useful. Tanning leather makes it useful for many things, and is necessary for moving forward.")
+
+addParent("pack:1_mechanical/milling_around/bubble_bubble/_")
+hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/_")
+setRequiresParents()
+setFrameType("GOAL")
+setPos(150,0)
+
+criteria1 = addCriteria("Make at least 3 tanned leather", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:material:32, count:3~64>)

@@ -1,0 +1,12 @@
+
+setIcon(<minecraft:obsidian>)
+setTitle("Deeper")
+setDescription("You may have noticed strange, unlit Nether portals scattered about your world.\n\nSince you don't yet have access to diamond tools, these portals are the only way to access the Nether. Find one, light it, and travel to the Nether!")
+
+addParent("pack:1_mechanical/_")
+hiddenUnless("pack:1_mechanical/_")
+setRequiresParents()
+setPos(0,-50)
+
+criteria = addCriteria("Travel to the Nether dimension", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_nether")

@@ -1,0 +1,11 @@
+
+setIcon(<immersiveengineering:metal_decoration0:4>)
+setTitle("Multi-blocks!")
+setDescription("Gotts build 'em all!")
+
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+addCriteria("impossible", "minecraft:impossible")

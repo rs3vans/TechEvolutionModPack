@@ -1,0 +1,12 @@
+
+setIcon(<ceramics:clay_bucket>)
+setTitle("A Bucket Made of Clay")
+setDescription("Lack of iron got you down? Want a way to pick up water? Clay to the rescue! Just be aware that it won't handle really hot liquids for very long...")
+
+addParent("pack:0_starting_out/sticks_and_stones/sieze_the_clay/youre_kilning_me/_")
+hiddenUnless("pack:0_starting_out/sticks_and_stones/sieze_the_clay/youre_kilning_me/_")
+setRequiresParents()
+setPos(0,150)
+
+criteria1 = addCriteria("Craft a clay bucket", "minecraft:inventory_changed")
+criteria1.addItem(<ceramics:clay_bucket>)

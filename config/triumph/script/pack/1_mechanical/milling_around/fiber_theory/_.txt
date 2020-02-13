@@ -1,0 +1,13 @@
+
+setIcon(<immersiveengineering:material:4>)
+setTitle("Fiber Theory")
+setDescription("Hemp fibers can be woven into things like string or tough fabric. Just toss some hemp into your mill and grind away...")
+
+addParent("pack:1_mechanical/milling_around/_")
+hiddenUnless("pack:1_mechanical/milling_around/_")
+setFrameType("GOAL")
+setRequiresParents()
+setPos(50,-50)
+
+criteria1 = addCriteria("Collect at least 8 hemp fibers", "minecraft:inventory_changed")
+criteria1.addItem(<immersiveengineering:material:4, count:8~64>)

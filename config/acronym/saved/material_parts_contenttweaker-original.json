@@ -1,0 +1,10 @@
+{
+  "materialMappings": {
+    "soularium_plate": 5,
+    "end_steel_plate": 3,
+    "raw_bedrock_dust": 0,
+    "endstone_dust": 1,
+    "stellar_alloy_plate": 4,
+    "dark_steel_plate": 2
+  }
+}

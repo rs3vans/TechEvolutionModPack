@@ -1,0 +1,17 @@
+
+setIcon(<minecraft:flint>)
+setTitle("Sticks and Stones")
+setDescription("You did what now?! You tried to punch a tree? I bet that hurt! You'll want to craft some tools to help you out. Sticks can be obtained by breaking leaves, string can be crafted from plant fibes (found by breaking grass), and flint is found in gravel...")
+
+addParent("pack:0_starting_out/_")
+hiddenUnless("pack:0_starting_out/_")
+setRequiresParents()
+setFrameType("GOAL")
+setPos(50,0)
+
+criteria1 = addCriteria("Collect at least 2 sticks", "minecraft:inventory_changed")
+criteria1.addItem(<ore:stickWood, count:2~64>)
+criteria2 = addCriteria("Collect at least 2 string", "minecraft:inventory_changed")
+criteria2.addItem(<ore:string, count:2~64>)
+criteria3 = addCriteria("Collect at least 5 flint", "minecraft:inventory_changed")
+criteria3.addItem(<ore:itemFlint, count:5~64>)

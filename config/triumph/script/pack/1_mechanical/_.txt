@@ -1,0 +1,13 @@
+
+setIcon(<betterwithmods:material:0>)
+setTitle("Mechanist's Playground")
+setDescription("You've shown you're capable of so much more than bashing rocks together! Learn how to harness that thing you call a brain and make the your stuff work for you.\n\nAs a mechanist, you build contraptions from windmills to saws, and some do gardening too. What are you waiting for?!")
+setBackground("betterwithmods:textures/blocks/wooden_gearbox_side.png")
+setShowToast(false)
+setAnnounceToChat(false)
+setPos(0, 0)
+
+criteria = addCriteria("Completed 'Starting Out'", "triumph:completed_advancement")
+criteria.setAdvancement("pack:0_starting_out/z")
+
+addRewardItem(<betterwithmods:manual>)

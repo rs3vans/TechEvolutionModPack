@@ -1,0 +1,10 @@
+
+setIcon(<minecraft:grass>)
+setTitle("Starting out!")
+setDescription("A brand new world awaits you...")
+setBackground("minecraft:textures/blocks/dirt.png")
+setShowToast(false)
+setAnnounceToChat(false)
+setPos(0, 0)
+
+addCriteria("location", "minecraft:location")

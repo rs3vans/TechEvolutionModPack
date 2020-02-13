@@ -1,0 +1,12 @@
+
+setIcon(<betterwithmods:hibachi>)
+setTitle("Eternal Flame")
+setDescription("When given a redstone signal, a Hibach will produce fire which can't be put out, even by a strong gust of wind.")
+
+addParent("pack:1_mechanical/milling_around/bubble_bubble/dont_touch_it")
+hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/_")
+setRequiresParents()
+setPos(100,100)
+
+criteria1 = addCriteria("Craft a hibachi", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:hibachi, count:1~64>)

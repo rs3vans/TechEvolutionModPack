@@ -1,0 +1,14 @@
+
+setIcon(<rustic:apiary>)
+setTitle("Bee-have!")
+setDescription("Bees are your friend! You'll find beehives on trees, and can knock them down to obtain the bees within. Build an Apiary for them to live in, and they'll produce honeycomb for you. If the apiary is placed near crops, it will help them grow faster...")
+
+addParent("pack:0_starting_out/sticks_and_stones/getting_wood/_")
+hiddenUnless("pack:0_starting_out/sticks_and_stones/getting_wood/_")
+setRequiresParents()
+setPos(150,0)
+
+criteria1 = addCriteria("Collect at least one bee", "minecraft:inventory_changed")
+criteria1.addItem(<rustic:bee, count:1~64>)
+criteria2 = addCriteria("Craft an apiary", "minecraft:inventory_changed")
+criteria2.addItem(<rustic:apiary>)

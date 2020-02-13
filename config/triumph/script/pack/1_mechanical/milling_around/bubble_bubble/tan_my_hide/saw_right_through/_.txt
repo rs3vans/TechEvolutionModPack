@@ -1,0 +1,12 @@
+setIcon(<betterwithmods:saw>)
+setTitle("Saw Right Through")
+setDescription("The Saw can help you break down wood much faster and more efficiently than using an axe! \n\nNote: If placed at the right height, the Saw has a chance to decapitate mobs when it's used to kill them.")
+
+addParent("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/_")
+hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/_")
+setRequiresParents()
+setFrameType("GOAL")
+setPos(200,0)
+
+criteria1 = addCriteria("Craft a saw", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:saw>)

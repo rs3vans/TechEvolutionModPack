@@ -1,0 +1,12 @@
+
+setIcon(<betterwithmods:single_machine:3>)
+setTitle("You Spin Me Right 'Round")
+setDescription("A Turntable will allow you to work clay into useful shapes that can then be fired.")
+
+addParent("pack:1_mechanical/milling_around/_")
+hiddenUnless("pack:1_mechanical/milling_around/_")
+setRequiresParents()
+setPos(50,50)
+
+criteria1 = addCriteria("Craft a turntable", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:single_machine:3>)

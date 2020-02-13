@@ -1,0 +1,11 @@
+setIcon(<supersoundmuffler:sound_muffler>)
+setTitle("Shhhh!")
+setDescription("Some noises can be REALLY annoying! Don't want to listen to them anymore? Craft a Super Sound Muffler and you won't be disappointed!\n\nThis patented device is guaranteed to make those pesky noises go away... or your money back!")
+
+addParent("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/saw_right_through/_")
+hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/saw_right_through/_")
+setRequiresParents()
+setPos(250,50)
+
+criteria1 = addCriteria("Craft a super sound muffler", "minecraft:inventory_changed")
+criteria1.addItem(<supersoundmuffler:sound_muffler, count:1~64>)

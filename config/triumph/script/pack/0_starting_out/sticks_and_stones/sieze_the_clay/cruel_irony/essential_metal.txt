@@ -1,0 +1,13 @@
+
+setIcon(<minecraft:iron_ingot>)
+setTitle("Essential Metal")
+setDescription("Acquiring iron is the key to moving forward...")
+
+addParent("pack:0_starting_out/sticks_and_stones/sieze_the_clay/cruel_irony/_")
+hiddenUnless("pack:0_starting_out/sticks_and_stones/sieze_the_clay/cruel_irony/_")
+setRequiresParents()
+setFrameType("CHALLENGE")
+setPos(200,100)
+
+criteria1 = addCriteria("Collect at least 3 iron ingots", "minecraft:inventory_changed")
+criteria1.addItem(<ore:ingotIron, count:3~64>)

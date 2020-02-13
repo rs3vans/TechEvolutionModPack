@@ -1,0 +1,12 @@
+
+setIcon(<improvedbackpacks:backpack>)
+setTitle("Packmule")
+setDescription("Not enough inventory space? A Backpack is handy indeed...")
+
+addParent("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/_")
+hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/_")
+setRequiresParents()
+setPos(150,-50)
+
+criteria1 = addCriteria("Craft a backpack", "minecraft:inventory_changed")
+criteria1.addItem(<improvedbackpacks:backpack, count:1~64>)

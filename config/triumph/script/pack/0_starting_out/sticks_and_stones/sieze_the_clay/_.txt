@@ -1,0 +1,13 @@
+
+setIcon(<minecraft:clay_ball>)
+setTitle("Sieze The Clay")
+setDescription("Clay is extemely useful, especially when you're just starting out! You'll want to collect a good bit of it...")
+
+addParent("pack:0_starting_out/sticks_and_stones/_")
+hiddenUnless("pack:0_starting_out/sticks_and_stones/_")
+setFrameType("GOAL")
+setRequiresParents()
+setPos(50,100)
+
+criteria1 = addCriteria("Collect at least 24 clay balls", "minecraft:inventory_changed")
+criteria1.addItem(<ore:itemClay, count:24~64>)

@@ -1,0 +1,13 @@
+
+setIcon(<immersiveengineering:tool:0>)
+setTitle("Hammer Time!")
+setDescription("Ah, the Engineer's Hammer. With it, so many new things are possible. Hold it in your hand... FEEL the possibilities!")
+
+addParent("pack:1_mechanical/milling_around/melting_down/thats_just_crude")
+hiddenUnless("pack:1_mechanical/milling_around/melting_down/_")
+setRequiresParents()
+setFrameType("CHALLENGE")
+setPos(50,200)
+
+criteria1 = addCriteria("Craft an engineer's hammer", "minecraft:inventory_changed")
+criteria1.addItem(<immersiveengineering:tool:0, count:1~64>)

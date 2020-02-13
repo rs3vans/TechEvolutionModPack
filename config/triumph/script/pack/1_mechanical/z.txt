@@ -1,0 +1,12 @@
+
+setIcon(<betterwithmods:material:0>)
+setTitle("Completed")
+setDescription("...")
+setShowToast(false)
+setAnnounceToChat(false)
+
+alwaysHidden()
+addParent("pack:1_mechanical/_")
+
+criteria = addCriteria("Completed 'Mechanist's Playground'", "triumph:completed_advancement")
+criteria.setAdvancement("pack:1_mechanical/milling_around/melting_down/hammer_time")

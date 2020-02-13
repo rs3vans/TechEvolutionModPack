@@ -1,0 +1,13 @@
+
+setIcon(<betterwithmods:cooking_pot:0>)
+setTitle("Melting Down")
+setDescription("A Crucible is used to break things back down into their component parts, as well as to combine a few other things into something else.")
+
+addParent("pack:1_mechanical/milling_around/you_spin_me_right_round")
+hiddenUnless("pack:1_mechanical/milling_around/_")
+setFrameType("GOAL")
+setRequiresParents()
+setPos(50,100)
+
+criteria1 = addCriteria("Craft a crucible", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:cooking_pot:0>)

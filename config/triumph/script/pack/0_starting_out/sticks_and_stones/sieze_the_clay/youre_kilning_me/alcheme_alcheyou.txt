@@ -1,0 +1,14 @@
+
+setIcon(<rustic:condenser>)
+setTitle("Alche-me, Alche-you")
+setDescription("Potions aren't attainable right now, but elixirs are! Craft an Alchemic Condenser and two Alchemic Retorts to get started...")
+
+addParent("pack:0_starting_out/sticks_and_stones/sieze_the_clay/youre_kilning_me/_")
+hiddenUnless("pack:0_starting_out/sticks_and_stones/sieze_the_clay/youre_kilning_me/_")
+setRequiresParents()
+setPos(100,150)
+
+criteria1 = addCriteria("Craft an alchemic condenser", "minecraft:inventory_changed")
+criteria1.addItem(<rustic:condenser>)
+criteria2 = addCriteria("Craft two alchemic retorts", "minecraft:inventory_changed")
+criteria2.addItem(<rustic:retort, count:2~64>)

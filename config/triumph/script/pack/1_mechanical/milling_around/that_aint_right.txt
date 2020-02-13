@@ -1,0 +1,12 @@
+
+setIcon(<betterwithmods:material:15>)
+setTitle("That 'Aint Right")
+setDescription("You'll need to collect some Netherrack to advance... and then you'll want to grind it.\n\nBe sure to plug your ears!")
+
+addParent("pack:1_mechanical/milling_around/_")
+hiddenUnless("pack:1_mechanical/milling_around/_")
+setRequiresParents()
+setPos(0,50)
+
+criteria1 = addCriteria("Make at least 3 ground netherrack", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:material:15>)

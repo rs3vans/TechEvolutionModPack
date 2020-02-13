@@ -1,0 +1,12 @@
+
+setIcon(<minecraft:grass>)
+setTitle("Completed")
+setDescription("...")
+setShowToast(false)
+setAnnounceToChat(false)
+
+alwaysHidden()
+addParent("pack:0_starting_out/_")
+
+criteria = addCriteria("Completed 'Starting Out'", "triumph:completed_advancement")
+criteria.setAdvancement("pack:0_starting_out/sticks_and_stones/cruel_irony/essential_metal")

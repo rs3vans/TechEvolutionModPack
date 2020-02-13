@@ -1,0 +1,11 @@
+setIcon(<betterwithmods:bellows:0>)
+setTitle("Bellows, My Fellow")
+setDescription("A bellows will contract when given mechanical power, and expand when that power stops. A bellows will stoke any flames in front of it, but if those flames aren't produced by a Hibachi, they'll probably just go out.")
+
+addParent("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/saw_right_through/_")
+hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/saw_right_through/_")
+setRequiresParents()
+setPos(250,0)
+
+criteria1 = addCriteria("Craft a bellows", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:bellows:0, count:1~64>)

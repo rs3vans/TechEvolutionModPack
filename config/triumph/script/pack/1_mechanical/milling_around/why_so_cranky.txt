@@ -1,0 +1,12 @@
+
+setIcon(<betterwithmods:hand_crank>)
+setTitle("Why So Cranky?")
+setDescription("Until you can craft a Windmill, the Hand Crank is your only option for powering the Mill. No, it isn't fun - it's hard work!\n\nMake sure to stock up on some food...")
+
+addParent("pack:1_mechanical/milling_around/_")
+hiddenUnless("pack:1_mechanical/milling_around/_")
+setRequiresParents()
+setPos(100,-50)
+
+criteria1 = addCriteria("Craft a hand crank", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:hand_crank>)

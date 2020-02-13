@@ -1,0 +1,15 @@
+
+Parser.addRequiredMod("immersiveengineering")
+
+setIcon(<immersiveengineering:metal_multiblock, meta:1>)
+setTitle("Crusher")
+setDescription("Form a crusher multiblock")
+
+addParent("pack:multiblocks/0_root")
+
+hideLines()
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Crusher")

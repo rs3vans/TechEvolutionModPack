@@ -1,0 +1,13 @@
+
+setIcon(<immersiveengineering:tool:0>)
+setTitle("Industrial Revolution")
+setDescription("Ah! The smell of smoke in the air! The sound of steel grinding against stone! That copper taste you get in your mouth when you accidentally electrocute yourself!\n\nAs an engineer, you'll build many wonderful things. Sure, they won't exactly be compact, but why not leave your footprint on this world! Go forth and build!")
+setBackground("immersiveengineering:textures/blocks/sheetmetal_steel.png")
+setShowToast(false)
+setAnnounceToChat(false)
+setPos(0, 0)
+
+criteria = addCriteria("Completed 'Mechanist's Playground'", "triumph:completed_advancement")
+criteria.setAdvancement("pack:1_mechanical/z")
+
+addRewardItem(<immersiveengineering:tool:3>)
