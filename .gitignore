@@ -1,2 +1,11 @@
+.mixin.out/
+TombManyGraves/
+bendspacks/
 mods/
+logs/
+saves/
+options.txt
 minecraftinstance.json
+*.log
+usercache.json
+usernamecache.json

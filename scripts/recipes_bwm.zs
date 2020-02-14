@@ -14,7 +14,6 @@ Crucible.removeAll();
 # Remove (almost) ALL steel stuff
 JEI.removeAndHide(<betterwithmods:material:13>);
 JEI.removeAndHide(<betterwithmods:material:14>);
-//JEI.removeAndHide(<betterwithmods:material:16>);
 JEI.removeAndHide(<betterwithmods:material:30>);
 JEI.removeAndHide(<betterwithmods:material:36>);
 JEI.removeAndHide(<betterwithmods:material:38>);
@@ -105,8 +104,8 @@ recipes.addShaped("custom/torches_from_nether_coal", <minecraft:torch> * 8, [
 ]);
 
 # Hellfire
-//<betterwithmods:material:17>.displayName = "Hellfire Ingot";
-//Cauldron.addUnstoked([<ore:dustIron>, <ore:dustBlaze>], [<betterwithmods:material:17>]);
+Cauldron.remove([<betterwithmods:material:17>]);
+Cauldron.addUnstoked([<ore:dustIron>, <ore:dustHellfire> * 6], [<betterwithmods:material:17>]);
 
 # Chopping block
 recipes.addShapeless("custom/chopping_block", <betterwithmods:aesthetic:0> * 4, [

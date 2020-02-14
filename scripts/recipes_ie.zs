@@ -154,8 +154,8 @@ recipes.addShapeless("custom/blaze_powder_from_hammer", <minecraft:blaze_powder>
 ]);
 
 # Soul / Nether
-AlloySmelter.addRecipe(<ore:ingotHellfire>.firstItem, <ore:dustIron>, <ore:dustBlaze>, 160);
-ArcFurnace.addRecipe(<ore:ingotHellfire>.firstItem, <ore:dustIron>, null, 80, 512, [<ore:dustBlaze>]);
+AlloySmelter.addRecipe(<ore:ingotHellfire>.firstItem, <ore:dustIron>, <ore:dustHellfire> * 6, 160);
+ArcFurnace.addRecipe(<ore:ingotHellfire>.firstItem, <ore:dustIron>, null, 80, 512, [<ore:dustHellfire> * 6]);
 
 Crusher.addRecipe(<ore:dustNether>.firstItem * 2, <ore:netherrack>, 1024);
 

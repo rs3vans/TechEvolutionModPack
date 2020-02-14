@@ -293,3 +293,44 @@ AlloySmelter.addRecipe(<immersiveengineering:metal:6>, <ore:dustCopper>, <ore:du
 recipes.removeByRecipeName("immersiveengineering:material/dust_electrum");
 AlloySmelter.removeRecipe(<immersiveengineering:metal:7>);
 AlloySmelter.addRecipe(<immersiveengineering:metal:7>, <ore:dustSilver>, <ore:dustGold>, 120);
+
+# Cruse Steel Tools
+recipes.addShaped("custom/crude_steel_sword", <immersiveengineering:sword_steel>.withDamage(576), [
+    [<ore:ingotCrudeSteel>],
+    [<ore:ingotCrudeSteel>],
+    [<ore:stickTreatedWood>]
+]);
+recipes.addShaped("custom/crude_steel_shovel", <immersiveengineering:shovel_steel>.withDamage(576), [
+    [<ore:ingotCrudeSteel>],
+    [<ore:stickTreatedWood>],
+    [<ore:stickTreatedWood>]
+]);
+recipes.addShaped("custom/crude_steel_axe", <immersiveengineering:axe_steel>.withDamage(576), [
+    [<ore:ingotCrudeSteel>, <ore:ingotCrudeSteel>],
+    [<ore:ingotCrudeSteel>, <ore:stickTreatedWood>],
+    [null, <ore:stickTreatedWood>]
+]);
+recipes.addShaped("custom/crude_steel_pickaxe", <immersiveengineering:pickaxe_steel>.withDamage(576), [
+    [<ore:ingotCrudeSteel>, <ore:ingotCrudeSteel>, <ore:ingotCrudeSteel>],
+    [null, <ore:stickTreatedWood>, null],
+    [null, <ore:stickTreatedWood>, null]
+]);
+
+recipes.addShaped("custom/crude_steel_boots", <immersiveengineering:steel_armor_feet>.withDamage(245), [
+    [<ore:ingotCrudeSteel>, null, <ore:ingotCrudeSteel>],
+    [<ore:ingotCrudeSteel>, null, <ore:ingotCrudeSteel>]
+]);
+recipes.addShaped("custom/crude_steel_leggings", <immersiveengineering:steel_armor_legs>.withDamage(283), [
+    [<ore:ingotCrudeSteel>, <ore:ingotCrudeSteel>, <ore:ingotCrudeSteel>],
+    [<ore:ingotCrudeSteel>, null, <ore:ingotCrudeSteel>],
+    [<ore:ingotCrudeSteel>, null, <ore:ingotCrudeSteel>]
+]);
+recipes.addShaped("custom/crude_steel_helmet", <immersiveengineering:steel_armor_head>.withDamage(207), [
+    [<ore:ingotCrudeSteel>, <ore:ingotCrudeSteel>, <ore:ingotCrudeSteel>],
+    [<ore:ingotCrudeSteel>, null, <ore:ingotCrudeSteel>]
+]);
+recipes.addShaped("custom/crude_steel_chestplate", <immersiveengineering:steel_armor_chest>.withDamage(302), [
+    [<ore:ingotCrudeSteel>, <ore:ingotCrudeSteel>, <ore:ingotCrudeSteel>],
+    [<ore:ingotCrudeSteel>, <ore:ingotCrudeSteel>, <ore:ingotCrudeSteel>],
+    [<ore:ingotCrudeSteel>, null, <ore:ingotCrudeSteel>]
+]);
