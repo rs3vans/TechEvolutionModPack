@@ -1,0 +1,12 @@
+
+setIcon(<immersiveengineering:stone_decoration:1>)
+setTitle("Having a Blast")
+setDescription("The Blast Furnace is a multiblock stucture which will convert iron into steel using Coal Coke as fuel.\n\nForm it by placing 27 Blast Brick blocks in a 3 x 3 x 3 layout and right-click with the Engineer's Hammer.")
+
+addParent("pack:2_industrial/coke_a_coal_a/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/_")
+setRequiresParents()
+setPos(150,0)
+
+criteria1 = addCriteria("Form the 'Blast Furnace' multiblock", "immersiveengineering:multiblock_formed")
+criteria1.setMultiblock("IE:BlastFurnace")

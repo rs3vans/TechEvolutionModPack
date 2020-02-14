@@ -1,0 +1,12 @@
+
+setIcon(<immersiveengineering:stone_decoration:10>)
+setTitle("Alloy There!")
+setDescription("The Alloy Kiln is a multiblock which allows you to combine two substances together with heat to make another.\n\nIt's formed with Kiln Brick blocks in a 2 x 2 x 2 layout. Right-click with your Engineer's Hammer to form!")
+
+addParent("pack:2_industrial/_")
+hiddenUnless("pack:2_industrial/_")
+setRequiresParents()
+setPos(50,0)
+
+criteria1 = addCriteria("Form the 'Alloy Kiln' multiblock", "immersiveengineering:multiblock_formed")
+criteria1.setMultiblock("IE:AlloySmelter")

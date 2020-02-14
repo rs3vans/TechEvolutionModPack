@@ -1,0 +1,13 @@
+
+setIcon(<immersiveengineering:metal:8>)
+setTitle("Man of Steel")
+setDescription("Steel is the engineer's 'bread and butter'. You're going to need a LOT of it, so better stock up...")
+
+addParent("pack:2_industrial/coke_a_coal_a/having_a_blast")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/_")
+setRequiresParents()
+setFrameType("GOAL")
+setPos(200,0)
+
+criteria1 = addCriteria("Make at least 3 steel ingots", "minecraft:inventory_changed")
+criteria1.addItem(<ore:ingotSteel, count:3~64>)

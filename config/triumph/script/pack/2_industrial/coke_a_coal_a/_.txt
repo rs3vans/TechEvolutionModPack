@@ -1,0 +1,13 @@
+
+setIcon(<immersiveengineering:stone_decoration:0>)
+setTitle("Coke-A-Coal-A")
+setDescription("The Coke Oven is a multiblock structure which will convert regular coal into Coal Coke. Coal Coke is needed to fuel the Blast Furnace and is required in order to make steel.\n\nTo form the Coke Oven, place 27 Coke Brick blocks in a 3 x 3 x 3 layout and right-click with the Engineer's Hammer.")
+
+addParent("pack:2_industrial/alloy_there")
+hiddenUnless("pack:2_industrial/_")
+setRequiresParents()
+setFrameType("GOAL")
+setPos(100,0)
+
+criteria1 = addCriteria("Form the 'Coke Oven' multiblock", "immersiveengineering:multiblock_formed")
+criteria1.setMultiblock("IE:CokeOven")

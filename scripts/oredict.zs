@@ -76,6 +76,9 @@
 # dustSoulsand
 <ore:dustSoulsand>.add(<quark:soul_powder>);
 
+# craftingTableTreatedWood
+<ore:craftingTableTreatedWood>.add(<engineersdecor:treated_wood_crafting_table>);
+
 # ingotHellfire
 <ore:ingotHellfire>.add(<betterwithmods:material:17>);
 

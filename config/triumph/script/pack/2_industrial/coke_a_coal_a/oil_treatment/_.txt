@@ -1,0 +1,12 @@
+
+setIcon(<immersiveengineering:treated_wood:0>)
+setTitle("Oil Treatment")
+setDescription("A byproduct of making Coal Coke, Creosote Oil can be used to treat any wood planks, making them tougher and more suitable for the construction of various things.\n\nPlace a bucket of Creosote Oil into the world and throw any 8 wood planks into the oil to treat them.")
+
+addParent("pack:2_industrial/coke_a_coal_a/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/_")
+setRequiresParents()
+setPos(100,-50)
+
+criteria1 = addCriteria("Make at least 32 treated wood planks", "minecraft:inventory_changed")
+criteria1.addItem(<ore:plankTreatedWood, count:32~64>)
