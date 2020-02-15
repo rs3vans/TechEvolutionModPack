@@ -82,10 +82,6 @@ recipes.addShaped("custom/cauldron2", <betterwithmods:cooking_pot:1>, [
 # Niter
 Mill.addRecipe([<betterwithmods:creeper_oyster>], [<ore:dustSaltpeter>.firstItem]);
 
-# Soul Sand / Dust
-Cauldron.addStoked([<ore:sand> * 4, <ore:itemSkull>], [<minecraft:soul_sand> * 4]);
-Mill.addRecipe([<minecraft:soul_sand>], [<ore:dustSoulsand>.firstItem]);
-
 # Nether Sludge
 Cauldron.addStoked([<ore:dustNetherrack>, <ore:dustPotash>, <ore:itemClay>], [<ore:sludgeNether>.firstItem]);
 Crucible.addUnstoked([<ore:sludgeNether>], [<ore:ingotBrickNether>.firstItem]);
