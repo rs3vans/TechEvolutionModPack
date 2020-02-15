@@ -9,3 +9,4 @@ minecraftinstance.json
 *.log
 usercache.json
 usernamecache.json
+config/splash.properties
