@@ -28,3 +28,16 @@ TableCrafting.addShaped(<extendedcrafting:table_elite>, [
     [null, <ore:barsDarkSteel>, <ore:blockDarkSteel>, <ore:barsDarkSteel>, null],
     [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>]
 ]);
+
+TableCrafting.addShaped(<extendedcrafting:crafting_core>, [
+	[<ore:plateSteel>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:plateSteel>], 
+	[<ore:blockSheetmetalSteel>, <ore:blockSteel>, <ore:plateUranium>, <ore:blockSteel>, <ore:blockSheetmetalSteel>], 
+	[<ore:blockSheetmetalSteel>, <ore:plateUranium>, <ore:craftingTableWood>, <ore:plateUranium>, <ore:blockSheetmetalSteel>], 
+	[<ore:blockSheetmetalSteel>, <ore:blockSteel>, <ore:plateUranium>, <ore:blockSteel>, <ore:blockSheetmetalSteel>], 
+	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
+]);
+recipes.addShaped("custom/crafting_pedestal", <extendedcrafting:pedestal> * 4, [
+    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+    [null, <ore:stone>, null],
+    [<ore:stone>, <ore:stone>, <ore:stone>]
+]);
