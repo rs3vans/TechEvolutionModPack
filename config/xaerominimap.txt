@@ -23,7 +23,7 @@ oldDeathpoints:false
 distance:1
 showCoords:true
 lockNorth:false
-zoom:3
+zoom:4
 mapSize:-1
 entityAmount:1
 chunkGrid:0
@@ -72,7 +72,7 @@ showTime:0
 biomeColorsVanillaMode:false
 lookingAtAngle:20
 lookingAtAngleVertical:180
-interface:dummy:0:50:true:false:false:false
+interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false
