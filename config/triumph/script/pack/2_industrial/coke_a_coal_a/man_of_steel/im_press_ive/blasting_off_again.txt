@@ -1,0 +1,11 @@
+setIcon(<immersiveengineering:stone_decoration:2>)
+setTitle("Blasting Off Again")
+setDescription("The Blast Furnace is slow! On top of that, you can't automate it! You want the Enhanced Blast Furnace!\n\nWhen equipped with powered pre-heaters, the Enhanced Blast Furnace will create steel twice as fast!")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/im_press_ive/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/im_press_ive/_")
+setRequiresParents()
+setPos(100,100)
+
+criteria1 = addCriteria("Form the 'Enhanced Blast Furnace' multiblock", "immersiveengineering:multiblock_formed")
+criteria1.setMultiblock("IE:BlastFurnaceAdvanced")

@@ -1,0 +1,12 @@
+
+setIcon(<vc:airships/item_airship:0>)
+setTitle("Flying Machine")
+setDescription("Like the Wright Brothers, you too will experience the thrill of climbing into a machine and taking to the skies!")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/crazy_crafter/combination_station")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/crazy_crafter/_")
+setRequiresParents()
+setPos(300,50)
+
+criteria1 = addCriteria("Craft an airship", "minecraft:inventory_changed")
+criteria1.addItem(<vc:airships/item_airship:0, count:1~64>)

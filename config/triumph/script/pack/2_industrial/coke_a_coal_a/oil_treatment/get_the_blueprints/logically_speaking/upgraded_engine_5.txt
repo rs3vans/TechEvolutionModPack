@@ -1,0 +1,12 @@
+
+setIcon(<vc:upgrades/item_upgrade_airship_engine:5>)
+setTitle("Upgraded Engine (Tier 5)")
+setDescription("A Tier 5 Engine Upgrade will increase your Airship's fuel efficiency.")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/upgraded_engine_4")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/_")
+setRequiresParents()
+setPos(450,-200)
+
+criteria1 = addCriteria("Craft a tier 5 engine upgrade", "minecraft:inventory_changed")
+criteria1.addItem(<vc:upgrades/item_upgrade_airship_engine:5, count:1~64>)

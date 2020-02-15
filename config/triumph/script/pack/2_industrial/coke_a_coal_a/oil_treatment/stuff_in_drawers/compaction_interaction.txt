@@ -1,0 +1,12 @@
+
+setIcon(<storagedrawers:compdrawers>)
+setTitle("Compaction Interaction")
+setDescription("The Compacting Drawer has the unique ability to store multiple forms of certain items.\n\nWant to store melons and have easy access to both whole melons and slices at the same time? You got it!")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/stuff_in_drawers/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/stuff_in_drawers/_")
+setRequiresParents()
+setPos(50,-100)
+
+criteria1 = addCriteria("Craft a compacting drawer", "minecraft:inventory_changed")
+criteria1.addItem(<storagedrawers:compdrawers, count:1~64>)

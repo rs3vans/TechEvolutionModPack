@@ -1,0 +1,14 @@
+
+setIcon(<vc:upgrades/item_upgrade_airship_engine:1>)
+setTitle("Upgraded Engine (Tier 1)")
+setDescription("A Tier 1 Engine Upgrade will increase your Airship's fuel efficiency.")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/_")
+setRequiresParents()
+setPos(250,-200)
+
+criteria1 = addCriteria("Craft a tier 1 engine upgrade", "minecraft:inventory_changed")
+criteria1.addItem(<vc:upgrades/item_upgrade_airship_engine:1, count:1~64>)
+criteria2 = addCriteria("Completed Flying Machine", "triumph:completed_advancement")
+criteria2.setAdvancement("pack:2_industrial/coke_a_coal_a/man_of_steel/crazy_crafter/flying_machine")

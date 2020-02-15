@@ -1,0 +1,13 @@
+
+setIcon(<vc:item_logic_chip>)
+setTitle("Locically Speaking")
+setDescription("The Logic Chip is an advanced component which makes the Airship a possibility, and is a gateway to crafting upgrades for your Airship.")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/in_pursuit_of_flight")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/_")
+setRequiresParents()
+setFrameType("GOAL")
+setPos(200,-150)
+
+criteria1 = addCriteria("Craft at least 4 logic chips", "minecraft:inventory_changed")
+criteria1.addItem(<vc:item_logic_chip, count:4~64>)

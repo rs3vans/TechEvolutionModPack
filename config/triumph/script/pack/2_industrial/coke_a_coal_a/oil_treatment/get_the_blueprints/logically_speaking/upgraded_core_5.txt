@@ -1,0 +1,12 @@
+
+setIcon(<vc:upgrades/item_upgrade_airship_core:5>)
+setTitle("Upgraded Core (Tier 5)")
+setDescription("A Tier 5 Core Upgrade will increase your Airship's capacity for fuel.")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/upgraded_core_4")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/_")
+setRequiresParents()
+setPos(450,-150)
+
+criteria1 = addCriteria("Craft a tier 5 core upgrade", "minecraft:inventory_changed")
+criteria1.addItem(<vc:upgrades/item_upgrade_airship_core:5, count:1~64>)

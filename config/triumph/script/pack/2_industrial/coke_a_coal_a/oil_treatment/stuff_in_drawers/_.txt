@@ -1,0 +1,14 @@
+
+setIcon(<storagedrawers:basicdrawers:1, nbt:{material:"oak"}>)
+setTitle("Stuff In Drawers")
+setDescription("Managing all your stuff can be a hastle - organization is the key!\n\nStorage Drawers can help you keep all your items in the right place. Craft at least 3 basic or custom drawers...")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/_")
+setRequiresParents()
+setFrameType("GOAL")
+setPos(100,-100)
+
+setRequirements("any")
+criteria1 = addCriteria("Make at least 3 drawers", "minecraft:inventory_changed")
+criteria1.addItem(<ore:drawerWood, count:3~64>)

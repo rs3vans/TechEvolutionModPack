@@ -6,7 +6,7 @@ setDescription("Want a better crafting table? Look no further! The Treated Wood 
 addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/_")
 hiddenUnless("pack:2_industrial/coke_a_coal_a/_")
 setRequiresParents()
-setPos(50,-100)
+setPos(50,-50)
 
 criteria1 = addCriteria("Craft a treated wood crafting table", "minecraft:inventory_changed")
 criteria1.addItem(<engineersdecor:treated_wood_crafting_table, count:1~64>)

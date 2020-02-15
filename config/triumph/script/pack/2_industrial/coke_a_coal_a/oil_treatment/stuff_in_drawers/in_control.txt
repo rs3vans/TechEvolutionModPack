@@ -1,0 +1,12 @@
+
+setIcon(<storagedrawers:controller>)
+setTitle("In Control")
+setDescription("While keeping your stuff in drawers is nice, it can be tedious to sort all your items afer, for example, coming back to your base from your mine.\n\nA Drawer Controller will make your life even easier! Craft one today!")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/stuff_in_drawers/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/stuff_in_drawers/_")
+setRequiresParents()
+setPos(100,-150)
+
+criteria1 = addCriteria("Craft a drawer controller", "minecraft:inventory_changed")
+criteria1.addItem(<storagedrawers:controller, count:1~64>)

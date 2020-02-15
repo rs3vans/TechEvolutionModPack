@@ -1,0 +1,12 @@
+
+setIcon(<improvedbackpacks:upgrade:4>)
+setTitle("Bigger Backpack (Tier 5)")
+setDescription("A Tier 5 Backpack upgrade will add an additional row of storage to your Backpack's inventory.\n\nSimply place your Backpack in a crafting grid along with the upgrae to apply...")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/bigger_backpack_4")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/_")
+setRequiresParents()
+setPos(450,-100)
+
+criteria1 = addCriteria("Upgrade your backpack to 'Tier 5'", "minecraft:inventory_changed")
+criteria1.addItem(<improvedbackpacks:backpack, nbt:{Tier:5}, count:1~64>)

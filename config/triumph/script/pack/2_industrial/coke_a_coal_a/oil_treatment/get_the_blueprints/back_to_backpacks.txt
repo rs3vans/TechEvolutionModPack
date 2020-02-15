@@ -1,0 +1,12 @@
+
+setIcon(<immersiveengineering:blueprint>)
+setTitle("Back to Backpacks")
+setDescription("Your Backpack - you DO have a Backpack, right? - is expandable!\n\nCraft a 'Backpack Upgrades' Blueprint in order to upgrade the Backpack's capacity.")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/_")
+setRequiresParents()
+setPos(200,-100)
+
+criteria1 = addCriteria("Craft the 'Backpack Upgrades' blueprint", "minecraft:inventory_changed")
+criteria1.addItem(<immersiveengineering:blueprint, nbt:{blueprint:"Backpack Upgrades"}, count:1~64>)

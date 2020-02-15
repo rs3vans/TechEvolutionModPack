@@ -6,6 +6,7 @@ setDescription("A Steel Crafting Table will help you up your game in the craftin
 addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
 hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
 setRequiresParents()
+setFrameType("GOAL")
 setPos(200,50)
 
 criteria1 = addCriteria("Craft a steel crafting table", "minecraft:inventory_changed")

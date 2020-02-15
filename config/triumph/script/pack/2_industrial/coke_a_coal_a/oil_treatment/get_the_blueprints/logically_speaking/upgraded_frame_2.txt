@@ -1,0 +1,12 @@
+
+setIcon(<vc:upgrades/item_upgrade_airship_frame:2>)
+setTitle("Upgraded Frame (Tier 2)")
+setDescription("A Tier 2 Frame Upgrade will increase your Airship's speed.")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/upgraded_frame_1")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/_")
+setRequiresParents()
+setPos(200,-250)
+
+criteria1 = addCriteria("Craft a tier 2 frame upgrade", "minecraft:inventory_changed")
+criteria1.addItem(<vc:upgrades/item_upgrade_airship_frame:2, count:1~64>)

@@ -1,0 +1,14 @@
+
+setIcon(<extendedcrafting:crafting_core>)
+setTitle("Combination Station")
+setDescription("The Combination Crafter is a multiblock mechanism which combines various items together using RF.\n\nYou'll need to craft the Crafting Core and some Pedestals - check the recipe you're interested in to see how many pedestals it requires.")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/crazy_crafter/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/crazy_crafter/_")
+setRequiresParents()
+setPos(250,50)
+
+criteria1 = addCriteria("Craft a crafting core", "minecraft:inventory_changed")
+criteria1.addItem(<extendedcrafting:crafting_core, count:1~64>)
+criteria2 = addCriteria("Craft atleast 4 pedestals", "minecraft:inventory_changed")
+criteria2.addItem(<extendedcrafting:pedestal, count:4~64>)

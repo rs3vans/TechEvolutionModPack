@@ -1,0 +1,12 @@
+
+setIcon(<vc:upgrades/item_upgrade_airship_balloon:5>)
+setTitle("Upgraded Balloon (Tier 5)")
+setDescription("A Tier 5 Balloon Upgrade will increase your Airship's speed.")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/upgraded_balloon_4")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/_")
+setRequiresParents()
+setPos(250,-300)
+
+criteria1 = addCriteria("Craft a tier 5 balloon upgrade", "minecraft:inventory_changed")
+criteria1.addItem(<vc:upgrades/item_upgrade_airship_balloon:5, count:1~64>)

@@ -1,0 +1,12 @@
+
+setIcon(<immersiveengineering:blueprint>)
+setTitle("In Pursuit of Flight")
+setDescription("Before you can take to the skies, you must discover the plans you'll need to craft the Airship...")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/_")
+setRequiresParents()
+setPos(150,-150)
+
+criteria1 = addCriteria("Craft the 'Airship Components' blueprint", "minecraft:inventory_changed")
+criteria1.addItem(<immersiveengineering:blueprint, nbt:{blueprint:"Airship Components"}, count:1~64>)
