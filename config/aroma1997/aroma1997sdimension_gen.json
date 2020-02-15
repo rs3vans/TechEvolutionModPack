@@ -12,7 +12,7 @@
 	{
 		"type": "oreGen",
 		"identifier": "clay_ore",
-		"enabled": true,
+		"enabled": false,
 		"amount": 0.5,
 		"size": 20,
 		"minHeight": 60,
@@ -40,6 +40,66 @@
 		"ore": "aroma1997sdimension:miningore"
 	},
 	{
+		"type": "oreGen",
+		"identifier": "copper_ore",
+		"enabled": true,
+		"amount": 6.0,
+		"size": 8,
+		"minHeight": 32,
+		"maxHeight": 65,
+		"ore": "immersiveengineering:ore:0"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "bauxite_ore",
+		"enabled": true,
+		"amount": 1.0,
+		"size": 2,
+		"minHeight": 24,
+		"maxHeight": 45,
+		"ore": "immersiveengineering:ore:1"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "lead_ore",
+		"enabled": true,
+		"amount": 2.0,
+		"size": 4,
+		"minHeight": 24,
+		"maxHeight": 45,
+		"ore": "immersiveengineering:ore:2"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "silver_ore",
+		"enabled": true,
+		"amount": 2.0,
+		"size": 4,
+		"minHeight": 6,
+		"maxHeight": 24,
+		"ore": "immersiveengineering:ore:3"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "nickel_ore",
+		"enabled": true,
+		"amount": 1.0,
+		"size": 2,
+		"minHeight": 6,
+		"maxHeight": 24,
+		"ore": "immersiveengineering:ore:4"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "uranium_ore",
+		"enabled": true,
+		"amount": 0.5,
+		"size": 3,
+		"minHeight": 6,
+		"maxHeight": 16,
+		"ore": "immersiveengineering:ore:5"
+	},
+	{
 		"type": "lakes",
 		"identifier": "lava_lake",
 		"enabled": false,
@@ -64,6 +124,20 @@
 		"type": "grass",
 		"identifier": "grass",
 		"enabled": false
+	},
+	{
+		"type": "oreReplace",
+		"identifier": "replaceHCGardens",
+		"enabled": true,
+		"targetBlock": "minecraft:air",
+		"originalBlock": [
+			"harvestcraft:aridgarden",
+			"harvestcraft:frostgarden",
+			"harvestcraft:shadedgarden",
+			"harvestcraft:soggygarden",
+			"harvestcraft:tropicalgarden",
+			"harvestcraft:windygarden"
+		]
 	},
 	{
 		"type": "oreReplace",
