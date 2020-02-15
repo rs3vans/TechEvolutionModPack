@@ -2,46 +2,54 @@ import mods.jei.JEI;
 import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.Blueprint;
+import mods.extendedcrafting.TableCrafting;
+import mods.extendedcrafting.CombinationCrafting;
 
 JEI.removeAndHide(<vc:airship_workbench>);
 JEI.removeAndHide(<vc:symbols/item_display_symbol>);
 JEI.removeAndHide(<vc:achievements/achievement_airship_portal>);
 
+
 # Airship parts
 
 recipes.removeByRecipeName("vc:item_airship_balloon");
-recipes.addShaped("custom/vc_airship_balloon", <vc:item_airship_balloon>, [
-    [<ore:fabricHemp>, <immersiveengineering:wirecoil:3>, <ore:fabricHemp>],
-    [<immersiveengineering:wirecoil:3>, null, <immersiveengineering:wirecoil:3>],
-    [<ore:fabricHemp>, <immersiveengineering:wirecoil:3>, <ore:fabricHemp>]
+TableCrafting.addShaped(<vc:item_airship_balloon>, [
+    [<immersiveengineering:wirecoil:3>, <ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>, <immersiveengineering:wirecoil:3>],
+    [<ore:fabricHemp>, <immersiveengineering:wirecoil:3>, <ore:fabricHemp>, <immersiveengineering:wirecoil:3>, <ore:fabricHemp>],
+    [<ore:fabricHemp>, <ore:fabricHemp>, <immersiveengineering:wirecoil:3>, <ore:fabricHemp>, <ore:fabricHemp>],
+    [<ore:fabricHemp>, <immersiveengineering:wirecoil:3>, <ore:fabricHemp>, <immersiveengineering:wirecoil:3>, <ore:fabricHemp>],
+    [<immersiveengineering:wirecoil:3>, <ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>, <immersiveengineering:wirecoil:3>]
 ]);
 
 recipes.removeByRecipeName("vc:item_airship_frame");
-recipes.addShaped("custom/vc_airship_frame", <vc:item_airship_frame>, [
-    [<ore:plateSteel>, <vc:item_logic_chip>, <ore:plateSteel>],
-    [<vc:item_logic_chip>, <minecraft:minecart>, <vc:item_logic_chip>],
-    [<ore:plateSteel>, <vc:item_logic_chip>, <ore:plateSteel>]
+TableCrafting.addShaped(<vc:item_airship_frame>, [
+    [<ore:plateSteel>, <vc:item_logic_chip>, <minecraft:minecart>, <vc:item_logic_chip>, <ore:plateSteel>],
+    [<ore:plateSteel>, <vc:item_logic_chip>, <vc:item_logic_chip>, <vc:item_logic_chip>, <ore:plateSteel>],
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
 ]);
 
 recipes.removeByRecipeName("vc:item_airship_engine");
-recipes.addShaped("custom/vc_airship_engine", <vc:item_airship_engine>, [
-    [<ore:plateSteel>, <ore:scaffoldingSteel>, <ore:plateSteel>],
-    [<immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_device1:1>, <immersiveengineering:metal_decoration0:5>],
-    [<ore:plateSteel>, <vc:item_logic_chip>, <ore:plateSteel>]
+TableCrafting.addShaped(<vc:item_airship_engine>, [
+    [<ore:blockSteel>, <ore:plateSteel>, <ore:scaffoldingSteel>, <ore:plateSteel>, <ore:blockSteel>],
+    [<ore:plateSteel>, <engineersdecor:panzerglass_block>, <vc:item_logic_chip>, <engineersdecor:panzerglass_block>, <ore:plateSteel>],
+    [<ore:scaffoldingSteel>, <ore:stickUranium>, <ore:stickUranium>, <ore:stickUranium>, <ore:scaffoldingSteel>],
+    [<ore:plateSteel>, <engineersdecor:panzerglass_block>, <vc:item_logic_chip>, <engineersdecor:panzerglass_block>, <ore:plateSteel>],
+    [<ore:blockSteel>, <ore:plateSteel>, <ore:scaffoldingSteel>, <ore:plateSteel>, <ore:blockSteel>]
 ]);
 
 recipes.removeByRecipeName("vc:item_airship_ignition");
-recipes.addShaped("custom/vc_airship_ignition", <vc:item_airship_ignition>, [
-    [<ore:plateSteel>, <ore:scaffoldingSteel>, <ore:plateSteel>],
-    [<immersiveengineering:metal_decoration0:6>, <ore:blockUranium>, <immersiveengineering:metal_decoration0:6>],
-    [<ore:plateSteel>, <immersiveengineering:metal_device0:2>, <ore:plateSteel>]
+TableCrafting.addShaped(<vc:item_airship_ignition>, [
+	[null, null, <ore:blockSheetmetalAluminum>, <ore:blockSheetmetalAluminum>, null], 
+	[null, <ore:blockSteel>, <immersiveengineering:metal_decoration0:6>, <immersiveengineering:metal_decoration0:6>, <ore:blockSteel>], 
+	[<ore:blockSheetmetalSteel>, <immersiveengineering:metal_device1:1>, <vc:item_logic_chip>, <immersiveengineering:metal_decoration0:5>, <ore:plateSteel>], 
+	[<ore:blockSheetmetalSteel>, <immersiveengineering:metal_device1:1>, <immersiveengineering:metal_decoration0:5>, <vc:item_logic_chip>, <ore:plateSteel>], 
+	[null, <ore:blockSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:blockSteel>]
 ]);
 
 recipes.removeByRecipeName("vc:airships/item_airship");
-recipes.addShaped("custom/vc_airship", <vc:airships/item_airship>, [
-    [<immersiveengineering:wirecoil:4>, <vc:item_airship_balloon>, <immersiveengineering:wirecoil:4>],
-    [<vc:item_airship_engine>, <vc:item_airship_ignition>, <vc:item_airship_engine>],
-    [<immersiveengineering:wirecoil:4>, <vc:item_airship_frame>, <immersiveengineering:wirecoil:4>]
+CombinationCrafting.addRecipe(<vc:airships/item_airship>, 4915200, 4096, <vc:item_airship_ignition>, [
+    <vc:item_airship_balloon>, <vc:item_airship_engine>, <vc:item_airship_engine>, <vc:item_airship_frame>,
+    <immersiveengineering:wirecoil:4>, <immersiveengineering:wirecoil:4>, <immersiveengineering:wirecoil:4>, <immersiveengineering:wirecoil:4>
 ]);
 
 
