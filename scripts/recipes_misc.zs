@@ -27,9 +27,15 @@ furnace.remove(<ceramics:clay_bucket>);
 furnace.remove(<ceramics:unfired_clay:5>);
 
 # NC
-recipes.replaceAllOccurences(<minecraft:nether_brick>, <minecraft:netherbrick>, <*>.only(function(item) {
+recipes.replaceAllOccurences(<minecraft:nether_brick>, <ore:ingotBrickNether>, <*>.only(function(item) {
     return !isNull(item) & item.definition.owner == "netherchest";
 }));
+
+# NEX
+furnace.remove(<netherex:gloomy_netherbrick>, <netherex:gloomy_netherrack>);
+furnace.remove(<netherex:lively_netherbrick>, <netherex:lively_netherrack>);
+furnace.remove(<netherex:icy_netherbrick>, <netherex:icy_netherrack>);
+furnace.remove(<netherex:fiery_netherbrick>, <netherex:fiery_netherrack>);
 
 # SSM
 JEI.removeAndHide(<supersoundmuffler:sound_muffler_bauble>);
