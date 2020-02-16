@@ -31,9 +31,10 @@
 <ore:dustCarbon>.add(<enderio:item_material:23>);
 <ore:dustCharcoal>.add(<betterwithmods:material:37>);
 
-# shardCarbonado / shardMoltenCarbonado
+# shardCarbonado / shardMoltenCarbonado / gemCarbonado
 <ore:shardCarbonado>.add(<carbonado:carbonado_shard>);
 <ore:shardMoltenCarbonado>.add(<carbonado:carbonado_shard_molten>);
+<ore:gemCarbonado>.add(<carbonado:carbonado>);
 
 # itemSharpFlint
 <ore:itemSharpFlint>.add(<flintmod:tool_part_flint>);
