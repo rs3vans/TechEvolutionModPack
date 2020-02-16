@@ -206,11 +206,6 @@ recipes.addShapeless("custom/leather", <minecraft:leather>, [
     <minecraft:rotten_flesh>, <ore:dustSalt>
 ]);
 
-# Nether Wart
-recipes.addShapeless("custom/nether_wart", <ore:cropNetherWart>.firstItem * 2, [
-    <ore:listAllmushroom>, <ore:meatRotten>, <ore:itemBonemeal>
-]);
-
 # Blaze
 recipes.removeByRecipeName("minecraft:blaze_powder");
 

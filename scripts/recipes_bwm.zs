@@ -102,7 +102,7 @@ recipes.addShaped("custom/torches_from_nether_coal", <minecraft:torch> * 8, [
 
 # Hellfire
 recipes.addShapeless("custom/hellfire_dust", <betterwithmods:material:16> * 2, [
-    <ore:dustNetherrack>, <ore:dustNetherrack>, <ore:dustNetherrack>, <ore:dustNetherrack>,
+    <ore:dustNetherrack>, <ore:cropNetherWart>,
     <ore:dustIron>, <ore:dustBlaze>
 ]);
 
