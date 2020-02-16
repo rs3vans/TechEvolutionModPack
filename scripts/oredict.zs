@@ -80,8 +80,9 @@
 # craftingTableTreatedWood
 <ore:craftingTableTreatedWood>.add(<engineersdecor:treated_wood_crafting_table>);
 
-# ingotHellfire
+# ingotHellfire / dustHellfire
 <ore:ingotHellfire>.add(<betterwithmods:material:17>);
+<ore:dustHellfire>.add(<betterwithmods:material:16>);
 
 # seedHemp
 <ore:seedHemp>.add(<betterwithmods:hemp>);

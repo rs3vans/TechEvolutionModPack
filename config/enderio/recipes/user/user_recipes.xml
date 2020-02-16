@@ -98,8 +98,7 @@
 
   <recipe name="Alloy: Hellfire Ingot" required="true">
     <alloying energy="8000" exp="0.5">
-      <input name="dustIron"/>
-      <input name="dustHellfire" amount="4"/>
+      <input name="dustHellfire"/>
       <output name="ingotHellfire"/>
     </alloying>
   </recipe>

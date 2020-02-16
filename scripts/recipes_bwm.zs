@@ -6,7 +6,8 @@ import mods.betterwithmods.Saw;
 import mods.betterwithmods.Cauldron;
 import mods.betterwithmods.Crucible;
 import mods.betterwithmods.Turntable;
-import mods.betterwithmods.FilteredHopper;
+
+JEI.hideCategory("bwm.hopper");
 
 Anvil.removeAll();
 Crucible.removeAll();
@@ -100,8 +101,10 @@ recipes.addShaped("custom/torches_from_nether_coal", <minecraft:torch> * 8, [
 ]);
 
 # Hellfire
-Cauldron.remove([<betterwithmods:material:17>]);
-Cauldron.addUnstoked([<ore:dustIron>, <ore:dustHellfire> * 6], [<betterwithmods:material:17>]);
+recipes.addShapeless("custom/hellfire_dust", <betterwithmods:material:16> * 2, [
+    <ore:dustNetherrack>, <ore:dustNetherrack>, <ore:dustNetherrack>, <ore:dustNetherrack>,
+    <ore:dustIron>, <ore:dustBlaze>
+]);
 
 # Chopping block
 recipes.addShapeless("custom/chopping_block", <betterwithmods:aesthetic:0> * 4, [
@@ -328,6 +331,8 @@ JEI.removeAndHide(<betterwithmods:cobblestone:*>);
 JEI.removeAndHide(<betterwithmods:iron_wall>);
 JEI.removeAndHide(<betterwithmods:nether_growth>);
 JEI.removeAndHide(<betterwithmods:mining_charge>);
+JEI.removeAndHide(<betterwithmods:single_machine:2>);
+JEI.removeAndHide(<betterwithmods:urn:*>);
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.diamond_nugget");
 recipes.removeByRecipeName("betterwithmods:items/material/material.diamond_ingot");
@@ -345,9 +350,6 @@ recipes.removeByRecipeName("betterwithmods:blocks/redstone/hibachi");
 Kiln.remove(<minecraft:end_stone>);
 Kiln.remove([<betterwithmods:urn:0>]);
 
-Turntable.remove(<betterwithmods:unfired_pottery:3>);
-Turntable.add(<betterwithmods:unfired_pottery:3>, [<minecraft:clay_ball> * 2]);
-
 Cauldron.remove([<betterwithmods:material:1> * 4]);
 Cauldron.remove([<betterwithmods:material:35> * 8]);
 Cauldron.remove([<betterwithmods:material:29> * 2]);
@@ -358,5 +360,3 @@ Cauldron.remove([<betterwithmods:material:28>]);
 Cauldron.remove([<minecraft:gunpowder> * 2]);
 Cauldron.remove([<minecraft:dye:2>]);
 Cauldron.remove([<betterwithmods:blood_sapling>]);
-
-FilteredHopper.removeRecipeByInput(<betterwithmods:material:23>);
