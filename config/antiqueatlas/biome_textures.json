@@ -1,7 +1,6 @@
 {
   "version": 2,
   "data": {
-    "aroma1997sdimension:miningbiome": "PLAINS",
     "beneath:the_beneath": "PLAINS",
     "minecraft:beaches": "SHORE",
     "minecraft:birch_forest": "BIRCH",
@@ -65,6 +64,10 @@
     "minecraft:taiga_cold_hills": "SNOW_PINES_HILLS",
     "minecraft:taiga_hills": "PINES_HILLS",
     "minecraft:void": "END_VOID",
+    "netherex:arctic_abyss": "SNOW",
+    "netherex:fungi_forest": "SAVANNA",
+    "netherex:ruthless_sands": "SAVANNA",
+    "netherex:torrid_wasteland": "SAVANNA",
     "nt:aegean_archipelago": "WATER",
     "nt:alium_meadow": "PLAINS",
     "nt:alps": "PINES_HILLS",

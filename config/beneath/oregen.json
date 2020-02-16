@@ -70,6 +70,66 @@
     "maxy": 246
   },
   {
+    "ore": "immersiveengineering:ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 28,
+    "size": 12,
+    "miny": 32,
+    "maxy": 246
+  },
+  {
+    "ore": "immersiveengineering:ore",
+    "oremeta": 1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 8,
+    "size": 2,
+    "miny": 32,
+    "maxy": 246
+  },
+  {
+    "ore": "immersiveengineering:ore",
+    "oremeta": 2,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 12,
+    "size": 6,
+    "miny": 16,
+    "maxy": 128
+  },
+  {
+    "ore": "immersiveengineering:ore",
+    "oremeta": 3,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 12,
+    "size": 6,
+    "miny": 6,
+    "maxy": 32
+  },
+  {
+    "ore": "immersiveengineering:ore",
+    "oremeta": 4,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 6,
+    "size": 3,
+    "miny": 6,
+    "maxy": 24
+  },
+  {
+    "ore": "immersiveengineering:ore",
+    "oremeta": 5,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 6,
+    "size": 4,
+    "miny": 6,
+    "maxy": 16
+  },
+  {
     "ore": "minecraft:monster_egg",
     "oremeta": 0,
     "source": "minecraft:stone",

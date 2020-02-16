@@ -11,9 +11,9 @@
 
   <recipe name="Alloy: Infinity Dust" required="true">
     <alloying energy="90000" exp="0.0">
-      <input name="dustRawBedrock"/>
+      <input name="carbonado:carbonado_shard_molten"/>
+      <input name="dustEndstone"/>
       <input name="dustEnder"/>
-      <input name="dustBlaze"/>
       <output name="dustBedrock" />
     </alloying>
   </recipe>
@@ -87,7 +87,6 @@
       <output name="ingotBrickNetherGlazed"/>
     </alloying>
   </recipe>
-
   <recipe name="Alloy: Nethercotta, Variant" required="true">
     <alloying energy="1400" exp="0.2">
       <input name="itemClay"/>
@@ -107,27 +106,35 @@
   
   <recipe name="Alloy: Energetic Alloy" required="true">
     <alloying energy="10000" exp="0.7">
-      <input name="dustRedstone"/>
       <input name="ingotHellfire"/>
+      <input name="dustRedstone"/>
       <input name="dustGlowstone"/>
       <output name="ingotEnergeticAlloy"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Vibrant Alloy" required="true">
+    <alloying energy="10000" exp="1">
+      <input name="ingotEnergeticAlloy"/>
+      <input name="oredict:enderpearl"/>
+      <input name="dustUranium"/>
+      <output name="ingotVibrantAlloy"/>
     </alloying>
   </recipe>
 
   <recipe name="Alloy: Dark Steel" required="true">
     <alloying energy="20000" exp="0.5">
       <input name="ingotSteel"/>
-      <input name="shardCarbonado"/>
       <input name="dustObsidian"/>
+      <input name="dustBedrock"/>
       <output name="ingotDarkSteel"/>
     </alloying>
   </recipe>
-
   <recipe name="Alloy: Dark Steel, Variant" required="true">
     <alloying energy="19000" exp="0.5">
       <input name="dustSteel"/>
-      <input name="shardCarbonado"/>
       <input name="dustObsidian"/>
+      <input name="dustBedrock"/>
       <output name="ingotDarkSteel"/>
     </alloying>
   </recipe>
@@ -140,7 +147,6 @@
       <output name="ingotSoularium"/>
     </alloying>
   </recipe>
-
   <recipe name="Alloy: Soularium, Variant" required="true">
     <alloying energy="9000" exp="0.7">
       <input name="dustElectrum"/>
@@ -199,6 +205,15 @@
     </alloying>
   </recipe>
 
+  <recipe name="Alloy: Endergy Crystalline Alloy" required="true">
+    <alloying energy="10000" exp="0.6">
+      <input name="itemPulsatingPowder"/>
+      <input name="ingotGold"/>
+      <input name="dustPrismarine"/>
+      <output name="ingotCrystallineAlloy"/>
+    </alloying>
+  </recipe>
+
   <recipe name="Alloy: Ender Eye" required="true">
     <alloying energy="10000" exp="0.5">
       <input name="enderpearl"/>
@@ -209,30 +224,24 @@
   </recipe>
 
   <recipe name="Alloy: End Steel" required="true">
-    <alloying energy="20000" exp="0.5">
+    <alloying energy="20000" exp="0.6">
       <input name="ingotDarkSteel"/>
       <input name="dustEndstone"/>
-      <input name="dustObsidian"/>
+      <input name="blockEnderBiotite"/>
       <output name="ingotEndSteel"/>
     </alloying>
   </recipe>
 
   <recipe name="Alloy: Endergy Melodic Alloy" required="true">
-    <alloying energy="20000" exp="0.5">
+    <alloying energy="20000" exp="0.75">
       <input name="ingotEndSteel"/>
+      <input name="obsidianEnd"/>
       <input name="minecraft:dragon_breath"/>
-      <input name="dustNickel"/>
       <output name="ingotMelodicAlloy"/>
     </alloying>
   </recipe>
   
-  <recipe name="Alloy: Endergy Stellar Alloy" required="true">
-    <alloying energy="20000" exp="0.5">
-      <input name="ingotMelodicAlloy"/>
-      <input name="minecraft:nether_star"/>
-      <input name="itemGhastTear" />
-      <output name="ingotStellarAlloy" amount="2"/>
-    </alloying>
+  <recipe name="Alloy: Endergy Stellar Alloy" required="true" disabled="true">
   </recipe>
 
   <recipe name="Alloy: Recycle Steel Tool" required="true">
@@ -365,14 +374,6 @@
     </sagmilling>
   </recipe>
 
-  <recipe name="Sagmill: Raw Bedrock Dust" required="true">
-    <sagmilling energy="50000" bonus="none">
-      <input name="minecraft:bedrock" />
-      <output name="minecraft:bedrock" />
-      <output name="dustRawBedrock" chance="0.5" />
-    </sagmilling>
-  </recipe>
-
   <recipe name="Sagmill: Soul Sand Dust" required="true">
     <sagmilling energy="2400" bonus="none">
       <input name="minecraft:soul_sand" />
@@ -403,7 +404,6 @@
       <output name="dustSaltpeter" amount="2"/>
     </sagmilling>
   </recipe>
-
   <recipe name="Sagmill: Saltpeter, Variant" required="true">
     <sagmilling energy="2500" bonus="none">
       <input name="itemCreeperSkull" />
@@ -431,6 +431,14 @@
     <sagmilling energy="1600" bonus="none">
       <input name="oredict:enderpearl"/>
       <output name="nuggetEnderpearl" amount="4"  />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Carbonado Shard" required="true">
+    <sagmilling energy="5000" bonus="none">
+      <input name="carbonado:carbonado"/>
+      <output name="carbonado:carbonado_shard" amount="4" />
+      <output name="carbonado:carbonado_shard" chance="0.1" />
     </sagmilling>
   </recipe>
 
