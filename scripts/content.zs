@@ -28,12 +28,6 @@ dragonsBreath.setEmptySound(<soundevent:item.bucket.empty_lava>);
 dragonsBreath.setMaterial(<blockmaterial:lava>);
 dragonsBreath.register();
 
-val rawBedrock = MaterialSystem.getMaterialBuilder()
-        .setName("Raw Bedrock")
-        .setColor(Color.fromHex("333333"))
-        .build();
-rawBedrock.registerParts([ "dust" ] as string[]);
-
 val endstone = MaterialSystem.getMaterialBuilder()
         .setName("Endstone")
         .setColor(Color.fromHex("d6d09c"))

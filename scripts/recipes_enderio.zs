@@ -2,6 +2,7 @@
 
 import mods.jei.JEI;
 import mods.extendedcrafting.TableCrafting;
+import mods.enderio.AlloySmelter;
 
 JEI.removeAndHide(<enderio:item_material:9>);
 JEI.removeAndHide(<enderio:item_material:24>);
@@ -57,6 +58,12 @@ recipes.addShaped("custom/brewing_stand", <minecraft:brewing_stand>, [
     [null, <minecraft:blaze_rod>, null],
     [<ore:ingotIronEquiv>, <ore:ingotIronEquiv>, <ore:ingotIronEquiv>]
 ]);
+
+# Stellar Alloy (required NBT)
+AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:3> * 2,
+	[<ore:ingotMelodicAlloy>, <ore:netherStar>, <enderio:item_soul_vial:1>.withTag({entityId: "minecraft:shulker"})],
+	20000,
+	1.0 as float);
 
 # Custom Tools / Armor
 recipes.remove(<enderio:item_dark_steel_chestplate>);

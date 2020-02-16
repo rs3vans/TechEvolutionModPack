@@ -8,6 +8,7 @@ import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.Refinery;
 import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.BottlingMachine;
+import mods.immersiveengineering.Fermenter;
 import mods.immersivepetroleum.Distillation;
 import mods.inworldcrafting.ExplosionCrafting;
 import mods.inworldcrafting.FluidToItem;
@@ -115,6 +116,7 @@ ArcFurnace.addRecipe(<ore:ingotDiamond>.firstItem, <ore:ingotSteel>, null, 300, 
 
 # Carbonado
 BlastFurnace.addRecipe(<ore:shardMoltenCarbonado>.firstItem, <ore:shardCarbonado>, 600);
+Crusher.addRecipe(<ore:shardCarbonado>.firstItem * 4, <ore:gemCarbonado>, 2048);
 ArcFurnace.addRecipe(<ore:shardMoltenCarbonado>.firstItem, <ore:shardCarbonado>, null, 200, 512);
 
 # Crude steel
@@ -169,11 +171,11 @@ ArcFurnace.addRecipe(<ore:ingotBrickNether>.firstItem, <ore:ingotBrickNetherUnfi
 
 Crusher.addRecipe(<ore:dustSoulsand>.firstItem, <minecraft:soul_sand>, 2048, <ore:dustSoulsand>.firstItem, 0.25);
 
-//AlloySmelter.addRecipe(<minecraft:ghast_tear>, <ore:gemDiamond>, <ore:dustSoulsand> * 4, 1200);
-//ArcFurnace.addRecipe(<minecraft:ghast_tear>, <ore:gemDiamond>, null, 300, 4096, [<ore:dustSoulsand> * 3]);
-
 # Chorus
-Squeezer.addRecipe(null, <liquid:chorusjuice> * 100, <minecraft:chorus_fruit>, 2048);
+// Squeezer.addRecipe(null, <liquid:chorusjuice> * 100, <minecraft:chorus_fruit>, 2048);
+
+# Mead
+//Fermenter.addRecipe(<minecraft:bucket>, <liquid:mead>, <forge>, 2048);
 
 # Ender
 ArcFurnace.addRecipe(<minecraft:ender_pearl>, <ore:dustEnder> * 4, null, 100, 1024);
@@ -187,24 +189,26 @@ Distillation.addRecipe([<liquid:dragonsbreath> * 250, <liquid:steam> * 750], [<o
 BottlingMachine.addRecipe(<minecraft:dragon_breath>, <minecraft:glass_bottle>, <liquid:dragonsbreath> * 250);
 
 # Infinity
-ExplosionCrafting.explodeItemRecipe(<minecraft:bedrock>, <minecraft:end_stone> * 64, 100);
-Crusher.addRecipe(<minecraft:bedrock>, <minecraft:bedrock>, 60000, <ore:dustRawBedrock>.firstItem, 0.5);
-ArcFurnace.addRecipe(<ore:dustBedrock>.firstItem, <ore:dustRawBedrock>, null, 640, 3125, [<ore:dustEnder>, <ore:dustBlaze>]);
+ArcFurnace.addRecipe(<ore:dustBedrock>.firstItem, <ore:shardMoltenCarbonado>, null, 640, 3125, [<ore:dustEndstone>, <ore:dustEnder>]);
 
 # Energetic Alloy
-ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:1>);
-ArcFurnace.addRecipe(<enderio:item_alloy_ingot:1>, <ore:ingotHellfire>, null, 200, 512, [<ore:dustRedstone>, <ore:dustGlowstone>]);
+ArcFurnace.removeRecipe(<ore:ingotEnergeticAlloy>.firstItem);
+ArcFurnace.addRecipe(<ore:ingotEnergeticAlloy>.firstItem, <ore:ingotHellfire>, null, 200, 512, [<ore:dustRedstone>, <ore:dustGlowstone>]);
+
+# Vibrant Alloy
+ArcFurnace.removeRecipe(<ore:ingotVibrantAlloy>.firstItem);
+ArcFurnace.addRecipe(<ore:ingotVibrantAlloy>.firstItem, <ore:ingotEnergeticAlloy>, null, 200, 512, [<ore:enderpearl>, <ore:dustUranium>]);
 
 # Dark Steel
-ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:6>);
-ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6>, <ore:dustSteel>, <ore:itemSlag>.firstItem, 180, 512, [<ore:shardCarbonado>, <ore:dustObsidian>]);
-ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6>, <ore:ingotSteel>, <ore:itemSlag>.firstItem, 200, 512, [<ore:shardCarbonado>, <ore:dustObsidian>]);
+ArcFurnace.removeRecipe(<ore:ingotDarkSteel>.firstItem);
+ArcFurnace.addRecipe(<ore:ingotDarkSteel>.firstItem, <ore:dustSteel>, <ore:itemSlag>.firstItem, 180, 512, [<ore:dustObsidian>, <ore:dustBedrock>]);
+ArcFurnace.addRecipe(<ore:ingotDarkSteel>.firstItem, <ore:ingotSteel>, <ore:itemSlag>.firstItem, 200, 512, [<ore:dustObsidian>, <ore:dustBedrock>]);
 
 # Soularium
-ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:7>);
-ArcFurnace.addRecipe(<enderio:item_alloy_ingot:7>, <ore:dustElectrum>, null, 180, 512, [<ore:dustSoulsand>]);
-ArcFurnace.addRecipe(<enderio:item_alloy_ingot:7>, <ore:ingotElectrum>, null, 200, 512, [<ore:dustSoulsand>]);
-ArcFurnace.addRecipe(<enderio:item_alloy_ingot:7>, <ore:dustSoularium>, null, 100, 512);
+ArcFurnace.removeRecipe(<ore:ingotSoularium>.firstItem);
+ArcFurnace.addRecipe(<ore:ingotSoularium>.firstItem, <ore:dustElectrum>, null, 180, 512, [<ore:dustSoulsand>]);
+ArcFurnace.addRecipe(<ore:ingotSoularium>.firstItem, <ore:ingotElectrum>, null, 200, 512, [<ore:dustSoulsand>]);
+ArcFurnace.addRecipe(<ore:ingotSoularium>.firstItem, <ore:dustSoularium>, null, 100, 512);
 
 # Replace regular leather in recipes
 recipes.replaceAllOccurences(<ore:leather>, <ore:hideTanned>.firstItem, <*>.only(function(item) {

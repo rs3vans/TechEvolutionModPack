@@ -36,3 +36,6 @@ recipes.addShaped("custom/ender_arrow", <quark:arrow_ender> * 8, [
     [<ore:enderpearl>, <ore:arrow>, <ore:enderpearl>],
     [<ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>]
 ]);
+
+# Biotite
+recipes.removeByRecipeName("quark:biotite_block");

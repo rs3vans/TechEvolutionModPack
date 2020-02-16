@@ -1,4 +1,5 @@
 import mods.extendedcrafting.TableCrafting;
+import mods.extendedcrafting.CombinationCrafting;
 
 # Hunting
 recipes.replaceAllOccurences(<ore:arrow>, <ore:itemSkull>, <*>.only(function(item) {

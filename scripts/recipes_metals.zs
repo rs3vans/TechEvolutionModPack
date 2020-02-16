@@ -12,6 +12,7 @@ furnace.remove(<immersiveengineering:metal:2>, <immersiveengineering:ore:2>);
 furnace.remove(<immersiveengineering:metal:3>, <immersiveengineering:ore:3>);
 furnace.remove(<immersiveengineering:metal:4>, <immersiveengineering:ore:4>);
 furnace.remove(<immersiveengineering:metal:5>, <immersiveengineering:ore:5>);
+furnace.remove(<quark:biotite>, <quark:biotite_ore>);
 
 furnace.addRecipe(<minecraft:iron_nugget>, <minecraft:iron_ore>);
 furnace.addRecipe(<minecraft:gold_nugget>, <minecraft:gold_ore>);
@@ -294,7 +295,17 @@ recipes.removeByRecipeName("immersiveengineering:material/dust_electrum");
 AlloySmelter.removeRecipe(<immersiveengineering:metal:7>);
 AlloySmelter.addRecipe(<immersiveengineering:metal:7>, <ore:dustSilver>, <ore:dustGold>, 120);
 
-# Cruse Steel Tools
+# Carbonado
+recipes.removeByRecipeName("carbonado:carbonado_block");
+recipes.removeByRecipeName("carbonado:carbonado");
+MetalPress.addRecipe(<ore:blockCarbonado>.firstItem, <ore:gemCarbonado>, <immersiveengineering:mold:6>, 2048, 9);
+MetalPress.addRecipe(<ore:gemCarbonado>.firstItem * 9, <ore:blockCarbonado>, <immersiveengineering:mold:7>, 2048);
+
+# Ender Biotite
+MetalPress.addRecipe(<ore:blockEnderBiotite>.firstItem, <ore:gemEnderBiotite>, <immersiveengineering:mold:5>, 2048, 4);
+MetalPress.addRecipe(<ore:gemEnderBiotite>.firstItem * 4, <ore:blockEnderBiotite>, <immersiveengineering:mold:7>, 2048);
+
+# Crude Steel Tools
 recipes.addShaped("custom/crude_steel_sword", <immersiveengineering:sword_steel>.withDamage(576), [
     [<ore:ingotCrudeSteel>],
     [<ore:ingotCrudeSteel>],

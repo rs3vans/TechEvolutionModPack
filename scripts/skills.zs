@@ -71,8 +71,6 @@ Requirement.addRequirement(<carbonado:carbonado_shovel>, "reskillable:gathering|
 
 // - Shears
 Requirement.addRequirement(<minecraft:shears>, "reskillable:gathering|5");
-Requirement.addRequirement(<bettershears:flint_shears>, "reskillable:gathering|2");
-Requirement.addRequirement(<bettershears:diamond_shears>, "reskillable:gathering|8");
 Requirement.addRequirement(<enderio:item_dark_steel_shears>, "reskillable:gathering|16");
 
 // - Hoes
