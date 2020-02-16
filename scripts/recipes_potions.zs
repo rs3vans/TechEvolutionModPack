@@ -72,7 +72,7 @@ val potions = [
     {result: "enderio:floating", input: "minecraft:awkward", item: "fruitPoppedChorus"},
     {result: "enderio:strong_floating", input: "enderio:floating", item: "dustGlowstone"},
     {result: "enderio:long_floating", input: "enderio:floating", item: "dustRedstone"},
-    {result: "enderio:confusion", input: "minecraft:awkward", item: "itemCocoaBeans"},
+    {result: "enderio:confusion", input: "minecraft:awkward", item: "dyeBrown"},
     {result: "enderio:long_confusion", input: "enderio:confusion", item: "dustRedstone"},
     {result: "enderio:withering", input: "minecraft:awkward", item: "dustWither"},
     {result: "enderio:long_withering", input: "enderio:withering", item: "dustRedstone"}

@@ -118,9 +118,17 @@
 <ore:flowerAll>.add(<minecraft:red_flower:*>);
 <ore:flowerAll>.add(<quark:root_flower:*>);
 
-# bedrockIron
-<ore:ingotBedrockIron>.add(<refinedstorage:quartz_enriched_iron>);
-<ore:blockBedrockIron>.add(<refinedstorage:quartz_enriched_iron_block>);
+# fruitPoppedChorus
+<ore:fruitPoppedChorus>.add(<minecraft:chorus_fruit_popped>);
+
+# dustWither
+<ore:dustWither>.add(<quark:black_ash>);
+
+# blockEnderBiotite
+<ore:blockEnderBiotite>.add(<quark:biotite_block>);
+
+# obsidianEnd
+<ore:obsidianEnd>.add(<stygian:endobsidian>);
 
 # itemCreeperOyster
 <ore:itemCreeperOyster>.add(<betterwithmods:creeper_oyster>);
