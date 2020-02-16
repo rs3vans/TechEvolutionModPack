@@ -1,11 +1,6 @@
 import mods.extendedcrafting.TableCrafting;
 import mods.extendedcrafting.CombinationCrafting;
 
-# Hunting
-recipes.replaceAllOccurences(<ore:arrow>, <ore:itemSkull>, <*>.only(function(item) {
-    return !isNull(item) & item.definition.owner == "huntingdim";
-}));
-
 # The Beneath
 TableCrafting.addShaped(<beneath:teleporterbeneath>, [
     [<ore:blockSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:blockSteel>],
