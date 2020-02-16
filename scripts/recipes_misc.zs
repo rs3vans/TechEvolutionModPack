@@ -8,6 +8,7 @@ JEI.removeAndHide(<immersiveengineering:metal_decoration2:2>);
 
 # Endstone by throwing Dragon's Breath
 JEI.addDescription(<minecraft:end_stone>, "Throw a bottle of Dragon's Breath at some regular stone to convert it to End stone.");
+JEI.addDescription(<minecraft:dragon_breath>, "Throw a bottle of Dragon's Breath at some regular stone to convert it to End stone.");
 
 # TOP
 JEI.removeAndHide(<theoneprobe:diamond_helmet_probe>);

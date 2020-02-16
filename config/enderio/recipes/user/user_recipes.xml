@@ -13,7 +13,6 @@
     <alloying energy="90000" exp="0.0">
       <input name="carbonado:carbonado_shard_molten"/>
       <input name="dustEndstone"/>
-      <input name="dustEnder"/>
       <output name="dustBedrock" />
     </alloying>
   </recipe>
@@ -374,15 +373,24 @@
   </recipe>
 
   <recipe name="Sagmill: Soul Sand Dust" required="true">
-    <sagmilling energy="2400" bonus="none">
+    <sagmilling energy="2400">
       <input name="minecraft:soul_sand" />
       <output name="quark:soul_powder" />
       <output name="quark:soul_powder" chance="0.5" />
     </sagmilling>
   </recipe>
 
+  <recipe name="Sagmill: Endstone Dust" required="true">
+    <sagmilling energy="3200">
+      <input name="oredict:endstone" />
+      <output name="dustEndstone" />
+      <output name="dustEndstone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+
   <recipe name="Sagmill: Ground Netherrack" required="true">
-    <sagmilling energy="1000" bonus="none">
+    <sagmilling energy="1000">
       <input name="netherrack" />
       <output name="dustNetherrack" amount="2"/>
       <output name="dustNetherrack" chance="0.15" />
@@ -391,20 +399,20 @@
   </recipe>
 
   <recipe name="Sagmill: Cocoa Powder" required="true">
-    <sagmilling energy="500" bonus="none">
+    <sagmilling energy="500">
       <input name="dyeBrown" />
       <output name="foodCocoapowder" amount="2"/>
     </sagmilling>
   </recipe>
 
   <recipe name="Sagmill: Saltpeter" required="true">
-    <sagmilling energy="2500" bonus="none">
+    <sagmilling energy="2500">
       <input name="itemCreeperOyster" />
       <output name="dustSaltpeter" amount="2"/>
     </sagmilling>
   </recipe>
   <recipe name="Sagmill: Saltpeter, Variant" required="true">
-    <sagmilling energy="2500" bonus="none">
+    <sagmilling energy="2500">
       <input name="itemCreeperSkull" />
       <output name="dustSaltpeter" amount="6"/>
     </sagmilling>
@@ -420,21 +428,21 @@
   </recipe>
 
   <recipe name="Sagmill: Ender Skull" required="true">
-    <sagmilling energy="3500" bonus="none">
+    <sagmilling energy="3500">
       <input name="itemEndermanSkull" />
       <output name="enderpearl" amount="4"/>
     </sagmilling>
   </recipe>
 
   <recipe name="Sagmill: Ender Pearl" required="true">
-    <sagmilling energy="1600" bonus="none">
+    <sagmilling energy="1600">
       <input name="oredict:enderpearl"/>
       <output name="nuggetEnderpearl" amount="4"  />
     </sagmilling>
   </recipe>
 
   <recipe name="Sagmill: Carbonado Shard" required="true">
-    <sagmilling energy="5000" bonus="none">
+    <sagmilling energy="5000">
       <input name="carbonado:carbonado"/>
       <output name="carbonado:carbonado_shard" amount="4" />
       <output name="carbonado:carbonado_shard" chance="0.1" />

@@ -4,8 +4,8 @@ import mods.contenttweaker.Color;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.MaterialSystem;
 
-val chorusJuice = VanillaFactory.createFluid("chorusjuice", Color.fromHex("5f395f"));
-chorusJuice.register();
+val enderSyrup = VanillaFactory.createFluid("endersyrup", Color.fromHex("aed100"));
+enderSyrup.register();
 
 val dragonsBrew = VanillaFactory.createFluid("dragonsbrew", Color.fromHex("e61774"));
 dragonsBrew.setDensity(1000);

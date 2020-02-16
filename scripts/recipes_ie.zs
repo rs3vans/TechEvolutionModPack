@@ -172,11 +172,8 @@ ArcFurnace.addRecipe(<ore:ingotBrickNether>.firstItem, <ore:ingotBrickNetherUnfi
 
 Crusher.addRecipe(<ore:dustSoulsand>.firstItem, <minecraft:soul_sand>, 2048, <ore:dustSoulsand>.firstItem, 0.25);
 
-# Chorus
-// Squeezer.addRecipe(null, <liquid:chorusjuice> * 100, <minecraft:chorus_fruit>, 2048);
-
-# Mead
-//Fermenter.addRecipe(<minecraft:bucket>, <liquid:mead>, <forge>, 2048);
+# Endstone
+Crusher.addRecipe(<ore:dustEndstone>.firstItem, <ore:endstone>, 2048, <ore:dustEndstone>.firstItem, 0.15);
 
 # Ender
 ArcFurnace.addRecipe(<minecraft:ender_pearl>, <ore:dustEnder> * 4, null, 100, 1024);
@@ -185,12 +182,13 @@ Crusher.addRecipe(<ore:dustEnder>.firstItem * 3, <minecraft:ender_pearl>, 4096, 
 Crusher.addRecipe(<ore:enderpearl>.firstItem * 4, <ore:itemEndermanSkull>, 2048);
 
 # Dragon
-Refinery.addRecipe(<liquid:dragonsbrew> * 10, <liquid:chorusjuice> * 5, <liquid:lava> * 5, 2048);
+Mixer.addRecipe(<liquid:endersyrup> * 250, <liquid:honey> * 250, [<ore:dustEnder>], 2048);
+Refinery.addRecipe(<liquid:dragonsbrew> * 10, <liquid:endersyrup> * 5, <liquid:lava> * 5, 2048);
 Distillation.addRecipe([<liquid:dragonsbreath> * 250, <liquid:steam> * 750], [<ore:obsidian>.firstItem], <liquid:dragonsbrew> * 2000, 4096, 1200, [1]);
 BottlingMachine.addRecipe(<minecraft:dragon_breath>, <minecraft:glass_bottle>, <liquid:dragonsbreath> * 250);
 
 # Infinity
-ArcFurnace.addRecipe(<ore:dustBedrock>.firstItem, <ore:shardMoltenCarbonado>, null, 640, 3125, [<ore:dustEndstone>, <ore:dustEnder>]);
+ArcFurnace.addRecipe(<ore:dustBedrock>.firstItem, <ore:shardMoltenCarbonado>, null, 640, 3125, [<ore:dustEndstone>]);
 
 # Energetic Alloy
 ArcFurnace.removeRecipe(<ore:ingotEnergeticAlloy>.firstItem);
