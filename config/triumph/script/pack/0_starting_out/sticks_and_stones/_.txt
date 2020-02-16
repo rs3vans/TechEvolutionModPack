@@ -4,7 +4,6 @@ setTitle("Sticks and Stones")
 setDescription("You did what now?! You tried to punch a tree? I bet that hurt! You'll want to craft some tools to help you out. Sticks can be obtained by breaking leaves, string can be crafted from plant fibes (found by breaking grass), and flint is found in gravel...")
 
 addParent("pack:0_starting_out/_")
-hiddenUnless("pack:0_starting_out/_")
 setRequiresParents()
 setFrameType("GOAL")
 setPos(50,0)
