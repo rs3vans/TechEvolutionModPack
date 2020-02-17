@@ -80,8 +80,8 @@ recipes.addShaped("custom/cauldron2", <betterwithmods:cooking_pot:1>, [
     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 ]);
 
-# Niter
-Mill.addRecipe([<betterwithmods:creeper_oyster>], [<ore:dustSaltpeter>.firstItem]);
+# Hides
+Mill.addRecipe([<ore:hideSalamander>], [<betterwithmods:material:7>]);
 
 # Nether Sludge
 Cauldron.addStoked([<ore:dustNetherrack>, <ore:dustPotash>, <ore:itemClay>], [<ore:sludgeNether>.firstItem]);
@@ -105,6 +105,8 @@ recipes.addShapeless("custom/hellfire_dust", <betterwithmods:material:16> * 2, [
     <ore:dustNetherrack>, <ore:cropNetherWart>,
     <ore:dustIron>, <ore:dustBlaze>
 ]);
+Cauldron.remove([<betterwithmods:material:17>]);
+Cauldron.addUnstoked([<betterwithmods:material:16>], [<betterwithmods:material:17>]);
 
 # Chopping block
 recipes.addShapeless("custom/chopping_block", <betterwithmods:aesthetic:0> * 4, [

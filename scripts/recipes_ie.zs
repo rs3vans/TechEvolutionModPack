@@ -148,6 +148,10 @@ recipes.addShaped("custom/blast_brick", <immersiveengineering:stone_decoration:1
     [<ore:ingotBrickNether>, <ore:ingotBrickNetherGlazed>, <ore:ingotBrickNether>]
 ]);
 
+# Quartz
+Crusher.addRecipe(<ore:dustNetherQuartz>.firstItem, <ore:gemQuartz>, 2048, <ore:dustNetherQuartz>.firstItem, 0.1);
+Crusher.addRecipe(<ore:gemQuartz>.firstItem * 2, <ore:oreQuartz>, 2048, <ore:dustNetherQuartz>.firstItem, 0.1);
+
 # Blaze
 MetalPress.addRecipe(<minecraft:blaze_rod>, <minecraft:blaze_powder>, <immersiveengineering:mold:2>, 4096, 6);
 

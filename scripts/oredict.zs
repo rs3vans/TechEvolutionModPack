@@ -50,6 +50,10 @@
 <ore:hideTanned>.add(<betterwithmods:material:32>);
 <ore:hideTanned>.remove(<betterwithmods:material:6>);
 
+# hideSalamander
+<ore:hideSalamander>.add(<netherex:orange_salamander_hide>);
+<ore:hideSalamander>.add(<netherex:black_salamander_hide>);
+
 # listAllmushroom
 <ore:listAllmushroom>.add(<rustic:deathstalk_mushroom>);
 <ore:listAllmushroom>.add(<rustic:mooncap_mushroom>);

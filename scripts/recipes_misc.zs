@@ -38,6 +38,37 @@ furnace.remove(<netherex:lively_netherbrick>, <netherex:lively_netherrack>);
 furnace.remove(<netherex:icy_netherbrick>, <netherex:icy_netherrack>);
 furnace.remove(<netherex:fiery_netherbrick>, <netherex:fiery_netherrack>);
 
+JEI.removeAndHide(<netherex:withered_amedian_hammer>);
+JEI.removeAndHide(<netherex:blazed_amedian_hammer>);
+JEI.removeAndHide(<netherex:frosted_amedian_hammer>);
+JEI.removeAndHide(<netherex:withered_amedian_sword>);
+JEI.removeAndHide(<netherex:blazed_amedian_sword>);
+JEI.removeAndHide(<netherex:frosted_amedian_sword>);
+JEI.removeAndHide(<netherex:withered_amedian_pickaxe>);
+JEI.removeAndHide(<netherex:blazed_amedian_pickaxe>);
+JEI.removeAndHide(<netherex:frosted_amedian_pickaxe>);
+JEI.removeAndHide(<netherex:withered_amedian_axe>);
+JEI.removeAndHide(<netherex:blazed_amedian_axe>);
+JEI.removeAndHide(<netherex:frosted_amedian_axe>);
+JEI.removeAndHide(<netherex:withered_amedian_shovel>);
+JEI.removeAndHide(<netherex:blazed_amedian_shovel>);
+JEI.removeAndHide(<netherex:frosted_amedian_shovel>);
+JEI.removeAndHide(<netherex:withered_amedian_hoe>);
+JEI.removeAndHide(<netherex:blazed_amedian_hoe>);
+JEI.removeAndHide(<netherex:frosted_amedian_hoe>);
+JEI.removeAndHide(<netherex:wither_bone_helmet>);
+JEI.removeAndHide(<netherex:wither_bone_chestplate>);
+JEI.removeAndHide(<netherex:wither_bone_leggings>);
+JEI.removeAndHide(<netherex:wither_bone_boots>);
+JEI.removeAndHide(<netherex:orange_salamander_hide_helmet>);
+JEI.removeAndHide(<netherex:orange_salamander_hide_chestplate>);
+JEI.removeAndHide(<netherex:orange_salamander_hide_leggings>);
+JEI.removeAndHide(<netherex:orange_salamander_hide_boots>);
+JEI.removeAndHide(<netherex:black_salamander_hide_helmet>);
+JEI.removeAndHide(<netherex:black_salamander_hide_chestplate>);
+JEI.removeAndHide(<netherex:black_salamander_hide_leggings>);
+JEI.removeAndHide(<netherex:black_salamander_hide_boots>);
+
 # SSM
 JEI.removeAndHide(<supersoundmuffler:sound_muffler_bauble>);
 
