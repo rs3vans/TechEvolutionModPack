@@ -71,14 +71,14 @@ TableCrafting.addShaped(<enderio:item_dark_steel_chestplate>, [
     [<ore:plateDarkSteel>, <ore:plateDarkSteel>, null, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
     [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
     [<ore:plateDarkSteel>, <ore:gearDark>, <ore:plateDarkSteel>, <ore:gearDark>, <ore:plateDarkSteel>],
-    [null, <ore:plateDarkSteel>, <enderio:item_basic_capacitor:2>, <ore:plateDarkSteel>, null],
+    [null, <ore:plateDarkSteel>, <enderio:item_basic_capacitor:1>, <ore:plateDarkSteel>, null],
     [null, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, null]
 ]);
 
 recipes.remove(<enderio:item_dark_steel_helmet>);
 TableCrafting.addShaped(<enderio:item_dark_steel_helmet>, [
     [null, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, null],
-    [<ore:plateDarkSteel>, <ore:gearDark>, <enderio:item_basic_capacitor:2>, <ore:gearDark>, <ore:plateDarkSteel>],
+    [<ore:plateDarkSteel>, <ore:gearDark>, <enderio:item_basic_capacitor:1>, <ore:gearDark>, <ore:plateDarkSteel>],
     [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
     [<ore:plateDarkSteel>, null, null, null, <ore:plateDarkSteel>]
 ]);
@@ -86,13 +86,13 @@ TableCrafting.addShaped(<enderio:item_dark_steel_helmet>, [
 recipes.remove(<enderio:item_dark_steel_boots>);
 TableCrafting.addShaped(<enderio:item_dark_steel_boots>, [
     [null, <ore:plateDarkSteel>, null, <ore:plateDarkSteel>, null],
-    [<ore:plateDarkSteel>, <enderio:item_basic_capacitor:2>, null, <enderio:item_basic_capacitor:2>, <ore:plateDarkSteel>],
+    [<ore:plateDarkSteel>, <enderio:item_basic_capacitor:1>, null, <enderio:item_basic_capacitor:1>, <ore:plateDarkSteel>],
     [<ore:ingotDarkSteel>, <ore:gearDark>, null, <ore:gearDark>, <ore:ingotDarkSteel>]
 ]);
 
 recipes.remove(<enderio:item_dark_steel_leggings>);
 TableCrafting.addShaped(<enderio:item_dark_steel_leggings>, [
-    [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <enderio:item_basic_capacitor:2>, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
+    [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <enderio:item_basic_capacitor:1>, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
     [<ore:plateDarkSteel>, <ore:gearDark>, <ore:plateDarkSteel>, <ore:gearDark>, <ore:plateDarkSteel>],
     [<ore:plateDarkSteel>, <ore:plateDarkSteel>, null, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
     [<ore:plateDarkSteel>, <ore:plateDarkSteel>, null, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
@@ -104,7 +104,7 @@ TableCrafting.addShaped(<enderio:item_dark_steel_sword>, [
 	[null, null, null, null, <ore:ingotDarkSteel>], 
 	[null, <ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>, null], 
 	[null, <ore:ingotDarkSteel>, <ore:gearDark>, null, null], 
-	[null, <enderio:item_basic_capacitor:2>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null], 
+	[null, <enderio:item_basic_capacitor:1>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null], 
 	[<ore:stickTreatedWood>, null, null, null, null]
 ]);
 
@@ -112,7 +112,7 @@ recipes.remove(<enderio:item_dark_steel_pickaxe>);
 TableCrafting.addShaped(<enderio:item_dark_steel_pickaxe>, [
 	[null, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null], 
 	[null, null, null, <ore:gearDark>, <ore:ingotDarkSteel>], 
-	[null, null, <enderio:item_basic_capacitor:2>, null, <ore:ingotDarkSteel>], 
+	[null, null, <enderio:item_basic_capacitor:1>, null, <ore:ingotDarkSteel>], 
 	[null, <ore:stickTreatedWood>, null, null, <ore:ingotDarkSteel>], 
 	[<ore:stickTreatedWood>, null, null, null, null]
 ]);
@@ -121,7 +121,7 @@ recipes.remove(<enderio:item_dark_steel_axe>);
 TableCrafting.addShaped(<enderio:item_dark_steel_axe>, [
 	[null, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null, null], 
 	[null, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:gearDark>, null], 
-	[null, null, <enderio:item_basic_capacitor:2>, <ore:ingotDarkSteel>, null], 
+	[null, null, <enderio:item_basic_capacitor:1>, <ore:ingotDarkSteel>, null], 
 	[null, <ore:stickTreatedWood>, null, null, null], 
 	[<ore:stickTreatedWood>, null, null, null, null]
 ]);
@@ -140,14 +140,14 @@ TableCrafting.addShaped(<enderio:item_dark_steel_shears>, [
 	[null, null, <ore:ingotDarkSteel>, <ore:nuggetDarkSteel>, null], 
 	[null, <ore:ingotDarkSteel>, <ore:nuggetDarkSteel>, null, <ore:nuggetDarkSteel>], 
 	[null, <ore:ingotDarkSteel>, null, <ore:nuggetDarkSteel>, <ore:ingotDarkSteel>], 
-	[null, <enderio:item_basic_capacitor:2>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null], 
+	[null, <enderio:item_basic_capacitor:1>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null], 
 	[<ore:gearDark>, null, null, null, null]
 ]);
 
 recipes.remove(<enderio:item_dark_steel_crook>);
 TableCrafting.addShaped(<enderio:item_dark_steel_crook>, [
 	[null, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:gearDark>], 
-	[<ore:ingotDarkSteel>, null, null, <enderio:item_basic_capacitor:2>, <ore:nuggetDarkSteel>], 
+	[<ore:ingotDarkSteel>, null, null, <enderio:item_basic_capacitor:1>, <ore:nuggetDarkSteel>], 
 	[null, null, <ore:stickTreatedWood>, null, null], 
 	[null, <ore:stickTreatedWood>, null, null, null], 
 	[<ore:stickTreatedWood>, null, null, null, null]
@@ -156,7 +156,7 @@ TableCrafting.addShaped(<enderio:item_dark_steel_crook>, [
 recipes.remove(<enderio:item_dark_steel_hand>);
 TableCrafting.addShaped(<enderio:item_dark_steel_hand>, [
 	[<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:stickTreatedWood>], 
-	[null, <ore:nuggetDarkSteel>, null, <ore:gearDark>, <enderio:item_basic_capacitor:2>], 
+	[null, <ore:nuggetDarkSteel>, null, <ore:gearDark>, <enderio:item_basic_capacitor:1>], 
 	[<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:stickTreatedWood>], 
 	[null, null, null, null, <ore:stickTreatedWood>], 
 	[null, null, null, null, <ore:stickTreatedWood>]
@@ -165,7 +165,7 @@ TableCrafting.addShaped(<enderio:item_dark_steel_hand>, [
 recipes.remove(<enderio:item_dark_steel_shield>);
 TableCrafting.addShaped(<enderio:item_dark_steel_shield>, [
 	[<ore:ingotDarkSteel>, <ore:plateDarkSteel>, <ore:ingotDarkSteel>], 
-	[<ore:plateDarkSteel>, <enderio:item_basic_capacitor:2>, <ore:plateDarkSteel>], 
+	[<ore:plateDarkSteel>, <enderio:item_basic_capacitor:1>, <ore:plateDarkSteel>], 
 	[<ore:plateDarkSteel>, <ore:gearDark>, <ore:plateDarkSteel>], 
 	[<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>], 
 	[<ore:ingotDarkSteel>, <ore:plateDarkSteel>, <ore:ingotDarkSteel>]
@@ -526,7 +526,7 @@ recipes.remove(<enderio:block_attractor_obelisk>);
 TableCrafting.addShaped(<enderio:block_attractor_obelisk>, [
 	[null, null, <ore:itemAttractorCrystal>, null, null], 
 	[null, null, null, null, null], 
-	[null, <ore:ingotSoularium>, <enderio:item_basic_capacitor:2>, <ore:ingotSoularium>, null], 
+	[null, <ore:ingotSoularium>, <enderio:item_basic_capacitor:1>, <ore:ingotSoularium>, null], 
 	[<ore:ingotSoularium>, <ore:ingotEnergeticAlloy>, <ore:itemSoulMachineChassi>, <ore:ingotEnergeticAlloy>, <ore:ingotSoularium>], 
 	[<ore:ingotSoularium>, <ore:plateSoularium>, <ore:gearDark>, <ore:plateSoularium>, <ore:ingotSoularium>]
 ]);
@@ -535,7 +535,7 @@ recipes.remove(<enderio:block_aversion_obelisk>);
 TableCrafting.addShaped(<enderio:block_aversion_obelisk>, [
 	[null, null, <ore:itemSkull>, null, null], 
 	[null, null, null, null, null], 
-	[null, <ore:ingotSoularium>, <enderio:item_basic_capacitor:2>, <ore:ingotSoularium>, null], 
+	[null, <ore:ingotSoularium>, <enderio:item_basic_capacitor:1>, <ore:ingotSoularium>, null], 
 	[<ore:ingotSoularium>, <ore:ingotEnergeticAlloy>, <ore:itemSoulMachineChassi>, <ore:ingotEnergeticAlloy>, <ore:ingotSoularium>], 
 	[<ore:ingotSoularium>, <ore:plateSoularium>, <ore:gearDark>, <ore:plateSoularium>, <ore:ingotSoularium>]
 ]);
@@ -544,7 +544,7 @@ recipes.remove(<enderio:block_inhibitor_obelisk>);
 TableCrafting.addShaped(<enderio:block_inhibitor_obelisk>, [
 	[null, null, <ore:enderpearl>, null, null], 
 	[null, null, null, null, null], 
-	[null, <ore:ingotSoularium>, <enderio:item_basic_capacitor:2>, <ore:ingotSoularium>, null], 
+	[null, <ore:ingotSoularium>, <enderio:item_basic_capacitor:1>, <ore:ingotSoularium>, null], 
 	[<ore:ingotSoularium>, <ore:ingotEnergeticAlloy>, <ore:itemSoulMachineChassi>, <ore:ingotEnergeticAlloy>, <ore:ingotSoularium>], 
 	[<ore:ingotSoularium>, <ore:plateSoularium>, <ore:gearDark>, <ore:plateSoularium>, <ore:ingotSoularium>]
 ]);
@@ -553,7 +553,7 @@ recipes.remove(<enderio:block_relocator_obelisk>);
 TableCrafting.addShaped(<enderio:block_relocator_obelisk>, [
 	[null, null, <ore:blockPrismarine>, null, null], 
 	[null, null, null, null, null], 
-	[null, <ore:ingotSoularium>, <enderio:item_basic_capacitor:2>, <ore:ingotSoularium>, null], 
+	[null, <ore:ingotSoularium>, <enderio:item_basic_capacitor:1>, <ore:ingotSoularium>, null], 
 	[<ore:ingotSoularium>, <ore:ingotEnergeticAlloy>, <ore:itemSoulMachineChassi>, <ore:ingotEnergeticAlloy>, <ore:ingotSoularium>], 
 	[<ore:ingotSoularium>, <ore:plateSoularium>, <ore:gearDark>, <ore:plateSoularium>, <ore:ingotSoularium>]
 ]);

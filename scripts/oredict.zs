@@ -69,6 +69,10 @@
 <ore:dustNether>.add(<betterwithmods:material:15>);
 <ore:sludgeNether>.add(<betterwithmods:material:35>);
 
+# gemAmethyst / oreAmethyst
+<ore:gemAmethyst>.add(<netherex:amethyst_crystal>);
+<ore:oreAmethyst>.add(<netherex:amethyst_ore>);
+
 # ingotBrickNetherUnfired
 <ore:ingotBrickNetherUnfired>.add(<betterwithmods:unfired_pottery:5>);
 

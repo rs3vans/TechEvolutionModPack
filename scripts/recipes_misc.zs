@@ -38,6 +38,8 @@ furnace.remove(<netherex:lively_netherbrick>, <netherex:lively_netherrack>);
 furnace.remove(<netherex:icy_netherbrick>, <netherex:icy_netherrack>);
 furnace.remove(<netherex:fiery_netherbrick>, <netherex:fiery_netherrack>);
 
+furnace.remove(<netherex:amethyst_ore>);
+
 JEI.removeAndHide(<netherex:withered_amedian_hammer>);
 JEI.removeAndHide(<netherex:blazed_amedian_hammer>);
 JEI.removeAndHide(<netherex:frosted_amedian_hammer>);

@@ -159,6 +159,9 @@ recipes.addShapeless("custom/blaze_powder_from_hammer", <minecraft:blaze_powder>
     <minecraft:blaze_rod>, ieHammerTransformer
 ]);
 
+# Amethyst
+Crusher.addRecipe(<ore:gemAmethyst>.firstItem * 2, <ore:oreAmethyst>, 2048, <ore:gemAmethyst>.firstItem, 0.5);
+
 # Hellfire
 BlastFurnace.addRecipe(<ore:ingotHellfire>.firstItem, <ore:dustHellfire>, 600);
 ArcFurnace.addRecipe(<ore:ingotHellfire>.firstItem, <ore:dustHellfire>, null, 200, 512);
@@ -204,8 +207,8 @@ ArcFurnace.addRecipe(<ore:ingotVibrantAlloy>.firstItem, <ore:ingotEnergeticAlloy
 
 # Dark Steel
 ArcFurnace.removeRecipe(<ore:ingotDarkSteel>.firstItem);
-ArcFurnace.addRecipe(<ore:ingotDarkSteel>.firstItem, <ore:dustSteel>, <ore:itemSlag>.firstItem, 180, 512, [<ore:dustObsidian>, <ore:dustBedrock>]);
-ArcFurnace.addRecipe(<ore:ingotDarkSteel>.firstItem, <ore:ingotSteel>, <ore:itemSlag>.firstItem, 200, 512, [<ore:dustObsidian>, <ore:dustBedrock>]);
+ArcFurnace.addRecipe(<ore:ingotDarkSteel>.firstItem, <ore:dustSteel>, <ore:itemSlag>.firstItem, 180, 512, [<ore:dustObsidian>, <ore:gemAmethyst>]);
+ArcFurnace.addRecipe(<ore:ingotDarkSteel>.firstItem, <ore:ingotSteel>, <ore:itemSlag>.firstItem, 200, 512, [<ore:dustObsidian>, <ore:gemAmethyst>]);
 
 # Soularium
 ArcFurnace.removeRecipe(<ore:ingotSoularium>.firstItem);

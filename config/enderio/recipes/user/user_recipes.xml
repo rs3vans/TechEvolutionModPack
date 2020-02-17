@@ -124,7 +124,7 @@
     <alloying energy="20000" exp="0.5">
       <input name="ingotSteel"/>
       <input name="dustObsidian"/>
-      <input name="dustBedrock"/>
+      <input name="gemAmethyst"/>
       <output name="ingotDarkSteel"/>
     </alloying>
   </recipe>
@@ -132,7 +132,7 @@
     <alloying energy="19000" exp="0.5">
       <input name="dustSteel"/>
       <input name="dustObsidian"/>
-      <input name="dustBedrock"/>
+      <input name="gemAmethyst"/>
       <output name="ingotDarkSteel"/>
     </alloying>
   </recipe>
