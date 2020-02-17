@@ -14,3 +14,6 @@ config/jei/worldSettings.cfg
 config/acronym
 config/InvTweaks.cfg
 config/xaerominimap.txt
+config/ZombieAwareness/MobLists.cfg
+config/netherex/biomes
+config/netherex/trades
