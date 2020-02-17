@@ -1,3 +1,4 @@
+.DS_Store
 .mixin.out/
 TombManyGraves/
 bendspacks/
@@ -9,8 +10,10 @@ minecraftinstance.json
 *.log
 usercache.json
 usernamecache.json
+XaeroWaypoints
 config/splash.properties
 config/jei/worldSettings.cfg
+config/jei/bookmarks.ini
 config/acronym
 config/InvTweaks.cfg
 config/xaerominimap.txt
