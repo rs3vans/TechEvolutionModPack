@@ -188,7 +188,7 @@ Distillation.addRecipe([<liquid:dragonsbreath> * 250, <liquid:steam> * 750], [<o
 BottlingMachine.addRecipe(<minecraft:dragon_breath>, <minecraft:glass_bottle>, <liquid:dragonsbreath> * 250);
 
 # Infinity
-ArcFurnace.addRecipe(<ore:dustBedrock>.firstItem, <ore:shardMoltenCarbonado>, null, 640, 3125, [<ore:dustEndstone>]);
+ArcFurnace.addRecipe(<ore:dustBedrock>.firstItem, <ore:shardMoltenCarbonado>, null, 640, 3125, [<ore:dustEndstone> * 8]);
 
 # Energetic Alloy
 ArcFurnace.removeRecipe(<ore:ingotEnergeticAlloy>.firstItem);

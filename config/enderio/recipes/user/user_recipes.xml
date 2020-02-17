@@ -12,7 +12,7 @@
   <recipe name="Alloy: Infinity Dust" required="true">
     <alloying energy="90000" exp="0.0">
       <input name="carbonado:carbonado_shard_molten"/>
-      <input name="dustEndstone"/>
+      <input name="dustEndstone" amount="8"/>
       <output name="dustBedrock" />
     </alloying>
   </recipe>
