@@ -6,7 +6,9 @@ setDescription("While keeping your stuff in drawers is nice, it can be tedious t
 addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/stuff_in_drawers/_")
 hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/stuff_in_drawers/_")
 setRequiresParents()
-setPos(100,-150)
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(100,-200)
 
 criteria1 = addCriteria("Craft a drawer controller", "minecraft:inventory_changed")
 criteria1.addItem(<storagedrawers:controller, count:1~64>)

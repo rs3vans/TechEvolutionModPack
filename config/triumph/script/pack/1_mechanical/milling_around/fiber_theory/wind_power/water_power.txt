@@ -6,6 +6,8 @@ setDescription("A Waterwheel will generate mechanical power just like the windmi
 addParent("pack:1_mechanical/milling_around/fiber_theory/wind_power/_")
 hiddenUnless("pack:1_mechanical/milling_around/fiber_theory/wind_power/_")
 setRequiresParents()
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(100,-150)
 
 criteria1 = addCriteria("Craft a waterwheel", "minecraft:inventory_changed")

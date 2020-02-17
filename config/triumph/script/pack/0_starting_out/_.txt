@@ -5,6 +5,8 @@ setDescription("A brand new world awaits you...")
 setBackground("minecraft:textures/blocks/dirt.png")
 setShowToast(false)
 setAnnounceToChat(false)
+setCompletedIconColor(150, 150, 150)
+setCompletedTitleColor(33, 73, 0)
 setPos(0, 0)
 
 addCriteria("location", "minecraft:location")

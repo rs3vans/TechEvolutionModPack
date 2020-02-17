@@ -6,6 +6,8 @@ setDescription("The essence of hell, concentrated into an ingot. Useful in the c
 addParent("pack:1_mechanical/milling_around/bubble_bubble/_")
 hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/_")
 setRequiresParents()
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(100,50)
 
 criteria1 = addCriteria("Craft at least 3 hellfire ingots", "minecraft:inventory_changed")

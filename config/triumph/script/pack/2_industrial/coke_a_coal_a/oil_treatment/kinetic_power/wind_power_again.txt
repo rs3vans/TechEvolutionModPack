@@ -1,0 +1,17 @@
+
+setIcon(<immersiveengineering:wooden_device1:1>)
+setTitle("Wind and Water Power, Again")
+setDescription("Similar to the mechanical windmill and waterwheel you saw before, the Windmill and Waterwheel (IE) will generate IF when connected to a Kinetic Dynamo.\n\nTake your pick!")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/kinetic_power/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/kinetic_power/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(50,-100)
+
+setRequirements("any")
+criteria1 = addCriteria("Craft a windmill (IE)", "minecraft:inventory_changed")
+criteria1.addItem(<immersiveengineering:wooden_device1:1, count:1~64>)
+criteria2 = addCriteria("Craft a waterwheel (IE)", "minecraft:inventory_changed")
+criteria2.addItem(<immersiveengineering:wooden_device1:0, count:1~64>)

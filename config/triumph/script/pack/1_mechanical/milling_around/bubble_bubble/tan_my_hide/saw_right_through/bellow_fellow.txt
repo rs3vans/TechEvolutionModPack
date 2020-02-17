@@ -5,6 +5,8 @@ setDescription("A bellows will contract when given mechanical power, and expand 
 addParent("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/saw_right_through/_")
 hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/saw_right_through/_")
 setRequiresParents()
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(250,0)
 
 criteria1 = addCriteria("Craft a bellows", "minecraft:inventory_changed")

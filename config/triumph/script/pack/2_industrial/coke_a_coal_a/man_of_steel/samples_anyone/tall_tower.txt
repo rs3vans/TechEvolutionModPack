@@ -1,0 +1,14 @@
+
+setIcon(<immersiveengineering:sheetmetal:9>)
+setTitle("Tall Tower")
+setDescription("The Distillation Tower multiblock is a massive machine which will separate a single fluid into multiple.\n\nIts primary purpose is for distilling Crude Oil, but it's also necessary for advancing to better technology.")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/samples_anyone/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/samples_anyone/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(350,100)
+
+criteria1 = addCriteria("Form the 'Distillation Tower' multiblock", "immersiveengineering:multiblock_formed")
+criteria1.setMultiblock("IP:DistillationTower")

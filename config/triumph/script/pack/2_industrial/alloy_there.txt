@@ -6,6 +6,8 @@ setDescription("The Alloy Kiln is a multiblock which allows you to combine two s
 addParent("pack:2_industrial/_")
 hiddenUnless("pack:2_industrial/_")
 setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
 setPos(50,0)
 
 criteria1 = addCriteria("Form the 'Alloy Kiln' multiblock", "immersiveengineering:multiblock_formed")

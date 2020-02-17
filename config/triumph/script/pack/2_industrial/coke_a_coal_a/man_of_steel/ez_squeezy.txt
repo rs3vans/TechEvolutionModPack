@@ -1,0 +1,14 @@
+
+setIcon(<minecraft:piston>)
+setTitle("EZ-Squeezy")
+setDescription("The Squeezer multiblock is a machine which can press various items, extracting fluids from them.")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(250,-50)
+
+criteria1 = addCriteria("Form the 'Squeezer' multiblock", "immersiveengineering:multiblock_formed")
+criteria1.setMultiblock("IE:Squeezer")

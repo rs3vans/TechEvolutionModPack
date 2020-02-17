@@ -6,7 +6,9 @@ setDescription("Your Backpack - you DO have a Backpack, right? - is expandable!\
 addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/_")
 hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/_")
 setRequiresParents()
-setPos(200,-100)
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(250,-200)
 
 criteria1 = addCriteria("Craft the 'Backpack Upgrades' blueprint", "minecraft:inventory_changed")
 criteria1.addItem(<immersiveengineering:blueprint, nbt:{blueprint:"Backpack Upgrades"}, count:1~64>)

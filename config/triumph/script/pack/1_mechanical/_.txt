@@ -5,6 +5,8 @@ setDescription("You've shown you're capable of so much more than bashing rocks t
 setBackground("betterwithmods:textures/blocks/wooden_gearbox_side.png")
 setShowToast(false)
 setAnnounceToChat(false)
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(0, 0)
 
 criteria = addCriteria("Completed 'Starting Out'", "triumph:completed_advancement")

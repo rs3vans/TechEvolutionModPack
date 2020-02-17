@@ -6,6 +6,8 @@ setDescription("A Turntable will allow you to work clay into useful shapes that 
 addParent("pack:1_mechanical/milling_around/_")
 hiddenUnless("pack:1_mechanical/milling_around/_")
 setRequiresParents()
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(50,50)
 
 criteria1 = addCriteria("Craft a turntable", "minecraft:inventory_changed")

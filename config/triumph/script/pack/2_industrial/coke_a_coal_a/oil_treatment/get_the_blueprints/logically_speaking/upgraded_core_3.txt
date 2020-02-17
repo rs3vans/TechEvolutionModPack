@@ -6,7 +6,9 @@ setDescription("A Tier 3 Core Upgrade will increase your Airship's capacity for 
 addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/upgraded_core_2")
 hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/_")
 setRequiresParents()
-setPos(350,-150)
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(250,-400)
 
 criteria1 = addCriteria("Craft a tier 3 core upgrade", "minecraft:inventory_changed")
 criteria1.addItem(<vc:upgrades/item_upgrade_airship_core:3, count:1~64>)

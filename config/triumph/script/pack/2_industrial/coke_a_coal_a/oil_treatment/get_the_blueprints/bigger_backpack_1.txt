@@ -6,7 +6,9 @@ setDescription("A Tier 1 Backpack upgrade will add an additional row of storage 
 addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/back_to_backpacks")
 hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/_")
 setRequiresParents()
-setPos(250,-100)
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(300,-200)
 
 criteria1 = addCriteria("Upgrade your backpack to 'Tier 1'", "minecraft:inventory_changed")
 criteria1.addItem(<improvedbackpacks:backpack, nbt:{Tier:1}, count:1~64>)

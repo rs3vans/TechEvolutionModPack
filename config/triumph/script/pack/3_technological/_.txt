@@ -1,0 +1,15 @@
+
+setIcon(<enderio:item_material:20>)
+setTitle("Technological Transcendance")
+setDescription("You've done it! You've surpassed the need for loud machines and hanging wires - smaller is better!\n\nNow that you've finally unleashed your technological capabilities, what will you build...?")
+setBackground("enderio:textures/blocks/block_alloy_dark_steel.png")
+setShowToast(false)
+setAnnounceToChat(false)
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(0, 0)
+
+criteria = addCriteria("Completed 'Industrial Revolution'", "triumph:completed_advancement")
+criteria.setAdvancement("pack:2_industrial/z")
+
+// addRewardItem(<immersiveengineering:tool:3>)

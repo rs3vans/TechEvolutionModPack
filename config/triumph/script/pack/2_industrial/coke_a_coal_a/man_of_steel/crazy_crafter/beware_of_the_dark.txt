@@ -6,7 +6,9 @@ setDescription("The Beneath is a vast, terrifying place. There, you will find or
 addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/crazy_crafter/_")
 hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/crazy_crafter/_")
 setRequiresParents()
-setPos(200,100)
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(200,150)
 
 criteria = addCriteria("Travel to the Beneath dimension", "minecraft:changed_dimension")
 criteria.setDimensionDestination("The Beneath")

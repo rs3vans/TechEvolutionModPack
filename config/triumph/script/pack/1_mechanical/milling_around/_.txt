@@ -7,6 +7,8 @@ addParent("pack:1_mechanical/_")
 hiddenUnless("pack:1_mechanical/_")
 setFrameType("GOAL")
 setRequiresParents()
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(50,0)
 
 criteria1 = addCriteria("Craft a mill", "minecraft:inventory_changed")

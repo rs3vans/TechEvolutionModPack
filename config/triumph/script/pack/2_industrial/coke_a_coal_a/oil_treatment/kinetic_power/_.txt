@@ -1,0 +1,15 @@
+
+setIcon(<immersiveengineering:metal_device1:2>)
+setTitle("Kinetic Power")
+setDescription("In order to power many of the machines that you will build as an engineer, you're going to need to generate IF.\n\nA Kinetic Dynamo will generate power if hooked up to either a Windmill or Waterwheel...")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/_")
+setRequiresParents()
+setFrameType("GOAL")
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(0,-50)
+
+criteria1 = addCriteria("Craft a kinetic dynamo", "minecraft:inventory_changed")
+criteria1.addItem(<immersiveengineering:metal_device1:2, count:1~64>)

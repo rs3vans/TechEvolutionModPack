@@ -6,6 +6,8 @@ setDescription("When given a redstone signal, a Hibach will produce fire which c
 addParent("pack:1_mechanical/milling_around/bubble_bubble/dont_touch_it")
 hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/_")
 setRequiresParents()
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(100,100)
 
 criteria1 = addCriteria("Craft a hibachi", "minecraft:inventory_changed")

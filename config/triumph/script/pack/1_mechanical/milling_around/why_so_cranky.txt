@@ -6,6 +6,8 @@ setDescription("Until you can craft a Windmill, the Hand Crank is your only opti
 addParent("pack:1_mechanical/milling_around/_")
 hiddenUnless("pack:1_mechanical/milling_around/_")
 setRequiresParents()
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(100,-50)
 
 criteria1 = addCriteria("Craft a hand crank", "minecraft:inventory_changed")

@@ -6,6 +6,8 @@ setDescription("Potions aren't attainable right now, but elixirs are! Craft an A
 addParent("pack:0_starting_out/sticks_and_stones/sieze_the_clay/youre_kilning_me/_")
 hiddenUnless("pack:0_starting_out/sticks_and_stones/sieze_the_clay/youre_kilning_me/_")
 setRequiresParents()
+setCompletedIconColor(150, 150, 150)
+setCompletedTitleColor(33, 73, 0)
 setPos(100,150)
 
 criteria1 = addCriteria("Craft an alchemic condenser", "minecraft:inventory_changed")

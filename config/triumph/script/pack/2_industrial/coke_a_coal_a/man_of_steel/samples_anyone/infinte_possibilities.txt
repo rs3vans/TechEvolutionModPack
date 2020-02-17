@@ -1,0 +1,15 @@
+
+setIcon(<enderio:item_material:20>)
+setTitle("Infinite Possibilities")
+setDescription("What will happen when you obtain the infinite? Anything and everything - the possibilities are endless!")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/samples_anyone/this_isnt_the_end")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/samples_anyone/_")
+setRequiresParents()
+setFrameType("CHALLENGE")
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(500,100)
+
+criteria1 = addCriteria("Make at least 1 grains of infinity", "minecraft:inventory_changed")
+criteria1.addItem(<ore:dustBedrock, count:1~64>)

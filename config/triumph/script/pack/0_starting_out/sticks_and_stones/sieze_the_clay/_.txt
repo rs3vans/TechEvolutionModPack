@@ -7,6 +7,8 @@ addParent("pack:0_starting_out/sticks_and_stones/_")
 hiddenUnless("pack:0_starting_out/sticks_and_stones/_")
 setFrameType("GOAL")
 setRequiresParents()
+setCompletedIconColor(150, 150, 150)
+setCompletedTitleColor(33, 73, 0)
 setPos(50,100)
 
 criteria1 = addCriteria("Collect at least 24 clay balls", "minecraft:inventory_changed")

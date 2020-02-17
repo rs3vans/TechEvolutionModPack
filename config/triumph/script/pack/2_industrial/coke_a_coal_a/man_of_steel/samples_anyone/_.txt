@@ -1,0 +1,15 @@
+
+setIcon(<immersiveengineering:metal_device1:7>)
+setTitle("Samples, Anyone?")
+setDescription("The Core Sample Drill is a simple machine that, when powered with enough RF, will drill down into the ground and extract a sample of what can be found below the bedrock.\n\nUsing it, you can detect mineral deposits and fluid reservoirs that can be further processed by other machines.")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
+setRequiresParents()
+setFrameType("GOAL")
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(300,100)
+
+criteria1 = addCriteria("Craft a core sample drill", "minecraft:inventory_changed")
+criteria1.addItem(<immersiveengineering:metal_device1:7, count:1~64>)

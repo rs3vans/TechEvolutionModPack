@@ -7,6 +7,8 @@ addParent("pack:2_industrial/alloy_there")
 hiddenUnless("pack:2_industrial/_")
 setRequiresParents()
 setFrameType("GOAL")
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
 setPos(100,0)
 
 criteria1 = addCriteria("Form the 'Coke Oven' multiblock", "immersiveengineering:multiblock_formed")

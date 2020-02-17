@@ -7,6 +7,8 @@ addParent("pack:1_mechanical/milling_around/fiber_theory/_")
 hiddenUnless("pack:1_mechanical/milling_around/fiber_theory/_")
 setRequiresParents()
 setFrameType("GOAL")
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(50,-100)
 
 criteria1 = addCriteria("Craft a windmill", "minecraft:inventory_changed")

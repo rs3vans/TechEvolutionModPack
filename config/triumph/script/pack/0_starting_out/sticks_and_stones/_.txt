@@ -6,6 +6,8 @@ setDescription("You did what now?! You tried to punch a tree? I bet that hurt! Y
 addParent("pack:0_starting_out/_")
 setRequiresParents()
 setFrameType("GOAL")
+setCompletedIconColor(150, 150, 150)
+setCompletedTitleColor(33, 73, 0)
 setPos(50,0)
 
 criteria1 = addCriteria("Collect at least 2 sticks", "minecraft:inventory_changed")

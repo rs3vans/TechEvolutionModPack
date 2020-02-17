@@ -6,6 +6,8 @@ addParent("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/_")
 hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/_")
 setRequiresParents()
 setFrameType("GOAL")
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(200,0)
 
 criteria1 = addCriteria("Craft a saw", "minecraft:inventory_changed")

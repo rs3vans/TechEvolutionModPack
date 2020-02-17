@@ -1,0 +1,14 @@
+
+setIcon(<forge:bucketfilled, nbt:{FluidName:"concrete",Amount:1000}>)
+setTitle("All Mixed Up")
+setDescription("The Mixer multiblock is a machine which can ... mix things! With it, you can mix up some liquid concrete, brew large batches of potions, and a few other things as well.")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(250,0)
+
+criteria1 = addCriteria("Form the 'Mixer' multiblock", "immersiveengineering:multiblock_formed")
+criteria1.setMultiblock("IE:Mixer")

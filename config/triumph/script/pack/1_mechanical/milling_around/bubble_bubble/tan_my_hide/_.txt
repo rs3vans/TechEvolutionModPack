@@ -7,6 +7,8 @@ addParent("pack:1_mechanical/milling_around/bubble_bubble/_")
 hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/_")
 setRequiresParents()
 setFrameType("GOAL")
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(150,0)
 
 criteria1 = addCriteria("Make at least 3 tanned leather", "minecraft:inventory_changed")

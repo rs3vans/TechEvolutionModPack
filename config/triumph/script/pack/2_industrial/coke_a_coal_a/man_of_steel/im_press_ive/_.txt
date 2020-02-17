@@ -1,4 +1,4 @@
-setIcon(<minecraft:piston>)
+setIcon(<immersiveengineering:mold:0>)
 setTitle("Im-press-ive")
 setDescription("A Metal Press is a multiblock which will help you convert metals to/from variaus forms and shapes.\n\nTo form it, follow the instructions of the relevant entry in the in the Engineer's Manual.")
 
@@ -6,7 +6,9 @@ addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
 hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
 setRequiresParents()
 setFrameType("GOAL")
-setPos(150,50)
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(100,100)
 
 criteria1 = addCriteria("Form the 'Blast Furnace' multiblock", "immersiveengineering:multiblock_formed")
 criteria1.setMultiblock("IE:MetalPress")

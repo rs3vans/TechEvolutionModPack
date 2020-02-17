@@ -1,11 +1,13 @@
 
-setIcon(<minecraft:iron_ore>)
+setIcon(<immersiveengineering:metal:18>)
 setTitle("Simply Crushed")
 setDescription("The Crusher multiblock is a large machine which can process your ores, crushing them into dusts. It also doubles their yield - one ore produces two dust!")
 
 addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
 hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
 setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
 setPos(150,-50)
 
 criteria1 = addCriteria("Form the 'Crusher' multiblock", "immersiveengineering:multiblock_formed")

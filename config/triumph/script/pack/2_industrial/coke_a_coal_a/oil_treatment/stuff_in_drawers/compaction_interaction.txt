@@ -6,7 +6,9 @@ setDescription("The Compacting Drawer has the unique ability to store multiple f
 addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/stuff_in_drawers/_")
 hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/stuff_in_drawers/_")
 setRequiresParents()
-setPos(50,-100)
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(50,-200)
 
 criteria1 = addCriteria("Craft a compacting drawer", "minecraft:inventory_changed")
 criteria1.addItem(<storagedrawers:compdrawers, count:1~64>)

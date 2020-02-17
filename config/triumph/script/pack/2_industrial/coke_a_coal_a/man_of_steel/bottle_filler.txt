@@ -1,0 +1,14 @@
+
+setIcon(<minecraft:potion>)
+setTitle("Bottle Filler")
+setDescription("The Bottling Machine multiblock is a machine which can fill things (e.g. bottles) with fluids! Automated potion filler? You bet!")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/all_mixed_up")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(300,0)
+
+criteria1 = addCriteria("Form the 'Bottling Machine' multiblock", "immersiveengineering:multiblock_formed")
+criteria1.setMultiblock("IE:BottlingMachine")

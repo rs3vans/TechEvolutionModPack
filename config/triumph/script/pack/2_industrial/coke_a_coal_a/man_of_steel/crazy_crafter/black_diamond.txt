@@ -1,0 +1,14 @@
+
+setIcon(<carbonado:carbonado>)
+setTitle("Black Diamond")
+setDescription("At the very bottom of The Beneath you will find a special kind of ore - Carbonado.\n\nAlso known as 'Black Diamond', this mysterious substance can be used to make some pretty impressive gear. It's also necessary for advancing...")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/crazy_crafter/beware_of_the_dark")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/crazy_crafter/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(200,200)
+
+criteria1 = addCriteria("Collect at least 5 carbonado", "minecraft:inventory_changed")
+criteria1.addItem(<carbonado:carbonado, count:5~64>)

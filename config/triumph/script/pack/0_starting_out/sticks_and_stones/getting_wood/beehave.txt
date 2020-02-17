@@ -6,6 +6,8 @@ setDescription("Bees are your friend! You'll find beehives on trees, and can kno
 addParent("pack:0_starting_out/sticks_and_stones/getting_wood/_")
 hiddenUnless("pack:0_starting_out/sticks_and_stones/getting_wood/_")
 setRequiresParents()
+setCompletedIconColor(150, 150, 150)
+setCompletedTitleColor(33, 73, 0)
 setPos(150,0)
 
 criteria1 = addCriteria("Collect at least one bee", "minecraft:inventory_changed")

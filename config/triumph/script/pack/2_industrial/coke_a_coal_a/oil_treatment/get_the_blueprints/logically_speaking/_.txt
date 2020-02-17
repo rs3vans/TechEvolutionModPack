@@ -7,7 +7,9 @@ addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/in_p
 hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/_")
 setRequiresParents()
 setFrameType("GOAL")
-setPos(200,-150)
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(150,-300)
 
 criteria1 = addCriteria("Craft at least 4 logic chips", "minecraft:inventory_changed")
 criteria1.addItem(<vc:item_logic_chip, count:4~64>)

@@ -6,6 +6,8 @@ setDescription("Not nearly as good as the real thing, Crude Steel can be used in
 addParent("pack:1_mechanical/milling_around/melting_down/_")
 hiddenUnless("pack:1_mechanical/milling_around/melting_down/_")
 setRequiresParents()
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(50,150)
 
 criteria1 = addCriteria("Make at least 4 crude steel", "minecraft:inventory_changed")

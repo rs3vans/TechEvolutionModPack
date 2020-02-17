@@ -6,6 +6,8 @@ setDescription("You'll need to collect some Netherrack to advance... and then yo
 addParent("pack:1_mechanical/milling_around/_")
 hiddenUnless("pack:1_mechanical/milling_around/_")
 setRequiresParents()
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(0,50)
 
 criteria1 = addCriteria("Make at least 3 ground netherrack", "minecraft:inventory_changed")

@@ -1,0 +1,14 @@
+
+setIcon(<minecraft:dragon_breath>)
+setTitle("Synthetic Blend")
+setDescription("Even without travelling to The End, a substance that is identical to the incredibly-hard-to-obtain Dragon's Breath can be made with the right ingredients, and a series of processes.\n\nThis will be vital in order to move advance your technological prowess.")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/samples_anyone/tall_tower")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/samples_anyone/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(400,100)
+
+criteria1 = addCriteria("Make a bottle of dragon's breath", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:dragon_breath, count:1~64>)

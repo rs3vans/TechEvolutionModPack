@@ -1,0 +1,15 @@
+
+setIcon(<forge:bucketfilled, nbt:{FluidName:"biodiesel",Amount:1000}>)
+setTitle("Refined Tastes")
+setDescription("The Refinery multiblock is a machine which will refine two liquids into another.\n\nIts primary purpose is for making Biodiesel, but it's also necessary for advancing to better technology.")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/ez_squeezy")
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/ferment_event")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(250,-100)
+
+criteria1 = addCriteria("Form the 'Refinery' multiblock", "immersiveengineering:multiblock_formed")
+criteria1.setMultiblock("IE:Refinery")

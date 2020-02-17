@@ -1,0 +1,14 @@
+
+setIcon(<immersiveengineering:metal_device0:2>)
+setTitle("Save it for Later 3")
+setDescription("The HV Capacitor will store a high amount of IF power - up to 4,000,000 IF.")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/kinetic_power/save_it_for_later_2")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/kinetic_power/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(0,-200)
+
+criteria1 = addCriteria("Craft an HV capacitor", "minecraft:inventory_changed")
+criteria1.addItem(<immersiveengineering:metal_device0:2, count:1~64>)

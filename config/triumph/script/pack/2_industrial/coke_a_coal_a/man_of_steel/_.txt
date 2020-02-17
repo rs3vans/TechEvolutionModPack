@@ -7,6 +7,8 @@ addParent("pack:2_industrial/coke_a_coal_a/having_a_blast")
 hiddenUnless("pack:2_industrial/coke_a_coal_a/_")
 setRequiresParents()
 setFrameType("GOAL")
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
 setPos(200,0)
 
 criteria1 = addCriteria("Make at least 3 steel ingots", "minecraft:inventory_changed")

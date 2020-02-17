@@ -5,6 +5,8 @@ setDescription("Some noises can be REALLY annoying! Don't want to listen to them
 addParent("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/saw_right_through/_")
 hiddenUnless("pack:1_mechanical/milling_around/bubble_bubble/tan_my_hide/saw_right_through/_")
 setRequiresParents()
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(200,50)
 
 criteria1 = addCriteria("Craft a super sound muffler", "minecraft:inventory_changed")

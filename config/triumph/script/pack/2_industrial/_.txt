@@ -5,6 +5,8 @@ setDescription("Ah! The smell of smoke in the air! The sound of steel grinding a
 setBackground("immersiveengineering:textures/blocks/sheetmetal_steel.png")
 setShowToast(false)
 setAnnounceToChat(false)
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
 setPos(0, 0)
 
 criteria = addCriteria("Completed 'Mechanist's Playground'", "triumph:completed_advancement")

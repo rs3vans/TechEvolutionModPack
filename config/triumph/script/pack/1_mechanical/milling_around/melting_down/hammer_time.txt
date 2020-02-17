@@ -7,6 +7,8 @@ addParent("pack:1_mechanical/milling_around/melting_down/thats_just_crude")
 hiddenUnless("pack:1_mechanical/milling_around/melting_down/_")
 setRequiresParents()
 setFrameType("CHALLENGE")
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(50,200)
 
 criteria1 = addCriteria("Craft an engineer's hammer", "minecraft:inventory_changed")

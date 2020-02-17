@@ -5,7 +5,9 @@ setDescription("The Blast Furnace is slow! On top of that, you can't automate it
 addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/im_press_ive/_")
 hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/im_press_ive/_")
 setRequiresParents()
-setPos(100,100)
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(50,100)
 
 criteria1 = addCriteria("Form the 'Enhanced Blast Furnace' multiblock", "immersiveengineering:multiblock_formed")
 criteria1.setMultiblock("IE:BlastFurnaceAdvanced")

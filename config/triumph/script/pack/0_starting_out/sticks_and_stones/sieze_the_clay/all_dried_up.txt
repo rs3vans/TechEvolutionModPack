@@ -6,6 +6,8 @@ setDescription("An essential part of acquiring iron early on, the drying basin w
 addParent("pack:0_starting_out/sticks_and_stones/sieze_the_clay/_")
 hiddenUnless("pack:0_starting_out/sticks_and_stones/sieze_the_clay/_")
 setRequiresParents()
+setCompletedIconColor(150, 150, 150)
+setCompletedTitleColor(33, 73, 0)
 setPos(100,100)
 
 criteria1 = addCriteria("Make a drying basin", "minecraft:inventory_changed")

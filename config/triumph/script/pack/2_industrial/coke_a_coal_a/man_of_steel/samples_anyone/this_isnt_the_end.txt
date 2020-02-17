@@ -1,0 +1,14 @@
+
+setIcon(<minecraft:end_stone>)
+setTitle("This Isn't The End")
+setDescription("Obtaining End Stone without travelling to The End isn't possible, right? Wrong! Toss a bottle of Dragon's Breath at some regular ol' stone and watch what happens!")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/samples_anyone/synthetic_blend")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/samples_anyone/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(450,100)
+
+criteria1 = addCriteria("Collect at least 64 end stone", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:end_stone, count:64>)

@@ -7,6 +7,8 @@ addParent("pack:1_mechanical/milling_around/_")
 hiddenUnless("pack:1_mechanical/milling_around/_")
 setFrameType("GOAL")
 setRequiresParents()
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(50,-50)
 
 criteria1 = addCriteria("Collect at least 8 hemp fibers", "minecraft:inventory_changed")

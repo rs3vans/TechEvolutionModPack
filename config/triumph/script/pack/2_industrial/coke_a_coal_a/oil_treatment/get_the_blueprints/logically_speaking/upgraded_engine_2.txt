@@ -6,7 +6,9 @@ setDescription("A Tier 2 Engine Upgrade will increase your Airship's fuel effici
 addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/upgraded_engine_1")
 hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/get_the_blueprints/logically_speaking/_")
 setRequiresParents()
-setPos(300,-200)
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(200,-400)
 
 criteria1 = addCriteria("Craft a tier 2 engine upgrade", "minecraft:inventory_changed")
 criteria1.addItem(<vc:upgrades/item_upgrade_airship_engine:2, count:1~64>)

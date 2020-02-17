@@ -7,6 +7,8 @@ addParent("pack:0_starting_out/sticks_and_stones/sieze_the_clay/cruel_irony/_")
 hiddenUnless("pack:0_starting_out/sticks_and_stones/sieze_the_clay/cruel_irony/_")
 setRequiresParents()
 setFrameType("CHALLENGE")
+setCompletedIconColor(150, 150, 150)
+setCompletedTitleColor(33, 73, 0)
 setPos(200,100)
 
 criteria1 = addCriteria("Collect at least 3 iron ingots", "minecraft:inventory_changed")

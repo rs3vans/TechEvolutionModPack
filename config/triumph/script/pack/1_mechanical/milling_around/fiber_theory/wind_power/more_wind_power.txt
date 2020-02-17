@@ -6,6 +6,8 @@ setDescription("A Vertical Windmill is just like a Windmill, except bigger, and 
 addParent("pack:1_mechanical/milling_around/fiber_theory/wind_power/_")
 hiddenUnless("pack:1_mechanical/milling_around/fiber_theory/wind_power/_")
 setRequiresParents()
+setCompletedIconColor(138, 166, 112)
+setCompletedTitleColor(148, 98, 68)
 setPos(0,-150)
 
 criteria1 = addCriteria("Craft a vertical windmill", "minecraft:inventory_changed")

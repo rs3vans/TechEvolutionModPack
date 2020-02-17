@@ -6,6 +6,8 @@ setDescription("In order to break down wood into planks you'll need to place the
 addParent("pack:0_starting_out/sticks_and_stones/getting_wood/_")
 hiddenUnless("pack:0_starting_out/sticks_and_stones/getting_wood/_")
 setRequiresParents()
+setCompletedIconColor(150, 150, 150)
+setCompletedTitleColor(33, 73, 0)
 setPos(150,50)
 
 criteria1 = addCriteria("Craft at least 12 planks", "minecraft:inventory_changed")

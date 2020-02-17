@@ -1,0 +1,14 @@
+
+setIcon(<immersiveengineering:metal_device0:1>)
+setTitle("Save it for Later 2")
+setDescription("The MV Capacitor will store a medium amount of IF power - up to 1,000,000 IF.")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/kinetic_power/save_it_for_later")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/kinetic_power/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(0,-150)
+
+criteria1 = addCriteria("Craft an MV capacitor", "minecraft:inventory_changed")
+criteria1.addItem(<immersiveengineering:metal_device0:1, count:1~64>)

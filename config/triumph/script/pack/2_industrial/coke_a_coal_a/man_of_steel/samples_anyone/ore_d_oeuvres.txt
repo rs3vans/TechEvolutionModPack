@@ -1,0 +1,16 @@
+
+setIcon(<minecraft:iron_ore>)
+setTitle("Ore D'oeuvres")
+setDescription("The Excavator multiblock is a massive machine which can extract ores from deposits found beneath the bedrock.\n\nUse a Core Sample Drill to locate these deposits before constructing your Excavator.")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/samples_anyone/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/samples_anyone/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(300,50)
+
+criteria1 = addCriteria("Form the 'BucketWheel' multiblock", "immersiveengineering:multiblock_formed")
+criteria1.setMultiblock("IE:BucketWheel")
+criteria2 = addCriteria("Form the 'Excavator' multiblock", "immersiveengineering:multiblock_formed")
+criteria2.setMultiblock("IE:Excavator")
