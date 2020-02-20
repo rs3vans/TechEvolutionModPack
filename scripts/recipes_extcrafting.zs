@@ -16,7 +16,7 @@ JEI.removeAndHide(<extendedcrafting:table_ultimate>);
 TableCrafting.remove(<extendedcrafting:material:24>);
 
 recipes.addShaped("custom/steel_crafting_table", <extendedcrafting:table_advanced>, [
-    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+    [<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>],
     [null, <ore:craftingTableTreatedWood>, null],
     [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 ]);

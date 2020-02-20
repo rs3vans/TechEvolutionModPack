@@ -9,7 +9,12 @@ JEI.removeAndHide(<enderio:item_material:24>);
 JEI.removeAndHide(<enderio:item_material:25>);
 JEI.removeAndHide(<enderio:item_material:26>);
 
-# Crystalline Pink Slime, Energetic Silver, Vivid Alloy
+# Crystalline Pink Slime, Energetic Silver, Vivid Alloy & Others
+JEI.removeAndHide(<enderio:item_alloy_nugget:3>);
+JEI.removeAndHide(<enderio:item_alloy_nugget:4>);
+JEI.removeAndHide(<enderio:item_alloy_nugget:9>);
+JEI.removeAndHide(<enderio:item_alloy_endergy_nugget:1>);
+JEI.removeAndHide(<enderio:item_alloy_endergy_nugget:2>);
 JEI.removeAndHide(<enderio:block_alloy_endergy:4>);
 JEI.removeAndHide(<enderio:item_alloy_endergy_ingot:4>);
 JEI.removeAndHide(<enderio:item_alloy_endergy_nugget:4>);
