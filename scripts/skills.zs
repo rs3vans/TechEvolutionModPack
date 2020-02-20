@@ -268,7 +268,6 @@ Requirement.addRequirement(<immersiveengineering:connector:7>, "reskillable:buil
 Requirement.addRequirement(<immersiveengineering:connector:8>, "reskillable:building|12");
 Requirement.addRequirement(<immersiveengineering:connector:12>, "reskillable:building|8");
 Requirement.addRequirement(<immersiveengineering:connector:13>, "reskillable:building|8");
-Requirement.addRequirement(<immersivetech:connectors:*>, "reskillable:building|8");
 Requirement.addRequirement(<immersiveengineering:metal_device0:0>, "reskillable:building|6");
 Requirement.addRequirement(<immersiveengineering:metal_device0:1>, "reskillable:building|8");
 Requirement.addRequirement(<immersiveengineering:metal_device0:2>, "reskillable:building|12");

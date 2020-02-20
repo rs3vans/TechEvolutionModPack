@@ -19,8 +19,6 @@ JEI.hide(<immersiveengineering:hemp>);
 JEI.hide(<immersiveengineering:fake_light>);
 JEI.hide(<immersivepetroleum:dummy>);
 JEI.hide(<immersivepetroleum:metal_multiblock>);
-JEI.hide(<immersivetech:stone_multiblock>);
-JEI.hide(<immersivetech:metal_multiblock>);
 
 # Misc recipes
 AlloySmelter.addRecipe(<ore:cobblestoneWhite>.firstItem, <ore:cobblestone>, <ore:dyeWhite>, 100);
@@ -280,14 +278,6 @@ TableCrafting.addShaped(<immersiveengineering:metal_device1:0>, [
     [<ore:blockSheetmetalIron>, <immersiveengineering:metal_device1:1>, <ore:blockSheetmetalIron>],
     [<ore:blockSheetmetalIron>, null, <ore:blockSheetmetalIron>],
     [<immersiveengineering:metal_device1:6>, <ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>]
-]);
-
-// Coke oven preheater
-recipes.remove(<immersivetech:metal_device>);
-TableCrafting.addShaped(<immersivetech:metal_device>, [
-    [<ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>],
-    [<ore:blockSheetmetalIron>, null, <immersiveengineering:metal_device1:1>, null, <ore:blockSheetmetalIron>],
-    [<ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>, <immersiveengineering:metal_device1:6>, <ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>]
 ]);
 
 // Thermo-electric generator
