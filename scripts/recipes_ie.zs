@@ -10,10 +10,10 @@ import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.BottlingMachine;
 import mods.immersiveengineering.Fermenter;
 import mods.immersivepetroleum.Distillation;
-import mods.inworldcrafting.ExplosionCrafting;
 import mods.inworldcrafting.FluidToItem;
-import scripts.ietools.ieHammerTransformer;
 import mods.extendedcrafting.TableCrafting;
+import mods.extendedcrafting.CombinationCrafting;
+import scripts.ietools.ieHammerTransformer;
 
 JEI.hide(<immersiveengineering:hemp>);
 JEI.hide(<immersiveengineering:fake_light>);
@@ -54,6 +54,37 @@ recipes.removeByRecipeName("immersiveengineering:tool/wirecutters");
 recipes.addShaped("custom/wirecutters", <immersiveengineering:tool:1>, [
     [<ore:ingotIron>, <ore:stickTreatedWood>],
     [<ore:stickTreatedWood>, null]
+]);
+
+# Mining Drill
+recipes.removeByRecipeName("immersiveengineering:tool/drill_diesel");
+CombinationCrafting.addRecipe(<immersiveengineering:drill>, 2457600, 4096, <immersiveengineering:metal_decoration0:5>, [
+    <immersiveengineering:material:13>, <immersiveengineering:material:13>,
+    <immersiveengineering:material:9>, <immersiveengineering:material:9>
+]);
+
+# Chem Thrower
+recipes.removeByRecipeName("immersiveengineering:tool/chemthrower");
+CombinationCrafting.addRecipe(<immersiveengineering:chemthrower>, 2457600, 4096, <immersiveengineering:metal_decoration0:5>, [
+    <immersiveengineering:material:13>, <immersiveengineering:material:13>,
+    <immersiveengineering:toolupgrade:0>, <immersiveengineering:metal_device1:6>,
+    <minecraft:bucket>
+]);
+
+# Revolver
+recipes.removeByRecipeName("immersiveengineering:tool/revolver");
+CombinationCrafting.addRecipe(<immersiveengineering:revolver>, 2457600, 4096, <immersiveengineering:material:15>, [
+    <immersiveengineering:material:13>, <immersiveengineering:material:13>,
+    <immersiveengineering:material:14>, <immersiveengineering:material:16>,
+    <ore:ingotSteel>, <ore:ingotSteel>
+]);
+
+# Railgun
+recipes.removeByRecipeName("immersiveengineering:tool/railgun");
+CombinationCrafting.addRecipe(<immersiveengineering:railgun>, 2457600, 4096, <immersiveengineering:metal_device0:2>, [
+    <immersiveengineering:material:13>, <immersiveengineering:material:13>,
+    <immersiveengineering:material:14>, <immersiveengineering:material:14>,
+    <immersiveengineering:metal_decoration0:1>, <immersiveengineering:metal_decoration0:1>
 ]);
 
 # Hemp

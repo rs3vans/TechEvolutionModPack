@@ -2,6 +2,7 @@
 
 import mods.jei.JEI;
 import mods.extendedcrafting.TableCrafting;
+import mods.extendedcrafting.CombinationCrafting;
 import mods.enderio.AlloySmelter;
 
 JEI.removeAndHide(<enderio:item_material:9>);
@@ -52,6 +53,44 @@ recipes.addShaped("custom/glider_wing2", <enderio:item_material:6>, [
     [<ore:nuggetDarkSteel>, null, null],
     [<ore:hideTanned>, <ore:nuggetDarkSteel>, null],
     [<ore:hideTanned>, <ore:hideTanned>, <ore:nuggetDarkSteel>]
+]);
+
+# Gears
+recipes.removeByRecipeName("enderio:gear_energized");
+CombinationCrafting.addRecipe(<enderio:item_material:12>, 100000, 500, <enderio:item_material:11>, [
+    <ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>,
+	<ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>
+]);
+
+recipes.removeByRecipeName("enderio:gear_vibrant");
+CombinationCrafting.addRecipe(<enderio:item_material:13>, 200000, 1000, <enderio:item_material:11>, [
+    <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>,
+	<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>
+]);
+
+recipes.removeByRecipeName("enderio:gear_dark");
+CombinationCrafting.addRecipe(<enderio:item_material:73>, 300000, 1000, <enderio:item_material:11>, [
+    <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>,
+	<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>
+]);
+
+# Crystals
+recipes.removeByRecipeName("enderio:pulsating_crystal");
+CombinationCrafting.addRecipe(<enderio:item_material:14>, 200000, 1000, <minecraft:diamond>, [
+    <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>,
+	<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>
+]);
+
+recipes.removeByRecipeName("enderio:vibrant_crystal");
+CombinationCrafting.addRecipe(<enderio:item_material:15>, 300000, 1000, <minecraft:emerald>, [
+    <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>,
+	<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>
+]);
+
+recipes.removeByRecipeName("enderio:weather_crystal");
+CombinationCrafting.addRecipe(<enderio:item_material:18>, 400000, 1000, <enderio:item_material:16>, [
+    <ore:itemPulsatingCrystal>, <ore:itemVibrantCrystal>,
+	<ore:itemPulsatingCrystal>, <ore:itemVibrantCrystal>
 ]);
 
 # Rename Soularium Dust

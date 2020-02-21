@@ -1,4 +1,5 @@
 import mods.jei.JEI;
+import mods.extendedcrafting.CombinationCrafting;
 
 JEI.removeAndHide(<quark:iron_rod>);
 
@@ -24,17 +25,21 @@ recipes.removeByRecipeName("quark:soul_powder");
 <quark:soul_powder>.displayName = "Soul Sand Dust";
 
 recipes.removeByRecipeName("quark:duskbound_lantern");
-recipes.addShaped("custom/duskbound_lantern", <quark:duskbound_lantern>, [
-    [<quark:duskbound_block>, <quark:duskbound_block>, <quark:duskbound_block>],
-    [<quark:duskbound_block>, <minecraft:ender_eye>, <quark:duskbound_block>],
-    [<quark:duskbound_block>, <quark:duskbound_block>, <quark:duskbound_block>]
+CombinationCrafting.addRecipe(<quark:duskbound_lantern>, 51200, 512, <minecraft:ender_eye>, [
+    <quark:duskbound_block>, <quark:duskbound_block>, <quark:duskbound_block>, <quark:duskbound_block>,
+    <quark:duskbound_block>, <quark:duskbound_block>, <quark:duskbound_block>, <quark:duskbound_block>
+]);
+
+recipes.removeByRecipeName("quark:arrow_explosive");
+CombinationCrafting.addRecipe(<quark:arrow_explosive> * 8, 51200, 512, <minecraft:arrow>, [
+    <ore:gunpowder>, <ore:gunpowder>, <ore:gunpowder>, <ore:gunpowder>,
+    <ore:gunpowder>, <ore:gunpowder>, <ore:gunpowder>, <ore:gunpowder>
 ]);
 
 recipes.removeByRecipeName("quark:arrow_ender");
-recipes.addShaped("custom/ender_arrow", <quark:arrow_ender> * 8, [
-    [<ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>],
-    [<ore:enderpearl>, <ore:arrow>, <ore:enderpearl>],
-    [<ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>]
+CombinationCrafting.addRecipe(<quark:arrow_ender> * 8, 51200, 512, <minecraft:arrow>, [
+    <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>,
+    <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>
 ]);
 
 # Biotite

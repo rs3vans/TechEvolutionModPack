@@ -1,4 +1,5 @@
 import mods.jei.JEI;
+import mods.extendedcrafting.CombinationCrafting;
 
 <ore:ingotUranium>.remove(<bigreactors:ingotyellorium>);
 <ore:dustUranium>.remove(<bigreactors:dustyellorium>);
@@ -46,3 +47,8 @@ for i in loadedMods["bigreactors"].items {
         i.displayName = i.displayName.replace(" (Legacy)", "");
     }
 }
+
+CombinationCrafting.addRecipe(<ore:dustBlutonium>.firstItem * 8, 20480, 2048, <ore:gemLapis>.firstItem, [
+    <ore:dustCyanite>, <ore:dustCyanite>, <ore:dustCyanite>, <ore:dustCyanite>,
+    <ore:dustCyanite>, <ore:dustCyanite>, <ore:dustCyanite>, <ore:dustCyanite>
+]);
