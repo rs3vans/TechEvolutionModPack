@@ -4,6 +4,8 @@ import mods.jei.JEI;
 import mods.extendedcrafting.TableCrafting;
 import mods.extendedcrafting.CombinationCrafting;
 import mods.enderio.AlloySmelter;
+import mods.enderio.Vat;
+import mods.enderio.Tank;
 
 JEI.removeAndHide(<enderio:item_material:9>);
 JEI.removeAndHide(<enderio:item_material:24>);
@@ -675,3 +677,21 @@ TableCrafting.addShaped(<enderio:block_enhanced_alloy_smelter>, [
 	[<ore:plateDarkSteel>, <ore:ingotElectricalSteel>, <ore:gearDark>, <ore:ingotElectricalSteel>, <ore:plateDarkSteel>], 
 	[<ore:ingotDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:ingotDarkSteel>]
 ]);
+
+# Dragon's Breath
+Vat.addRecipe(
+	<liquid:dragonsbreath>,
+	0.25 as float,
+	<liquid:honey>,
+	[<ore:enderpearl>, <ore:dustEnder>, <ore:pearlEnderEye>],
+	[0.9 as float, 1.0 as float, 1.5 as float],
+	[<minecraft:magma>, <minecraft:magma_cream>, <ore:ingotHellfire>],
+	[0.5 as float, 1.0 as float, 1.5 as float],
+	10000
+);
+Tank.addRecipe(
+	false,
+	<minecraft:glass_bottle>,
+	<liquid:dragonsbreath> * 250,
+	<minecraft:dragon_breath>
+);
