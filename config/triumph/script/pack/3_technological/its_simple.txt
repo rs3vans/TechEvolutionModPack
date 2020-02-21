@@ -1,0 +1,14 @@
+
+setIcon(<enderio:item_material:0>)
+setTitle("It's Simple")
+setDescription("The Simple Machine Chassis is the basis for any EnderIO machine. Craft one to begin your foray into the world of compact, high-tech machinery!")
+
+addParent("pack:3_technological/_")
+hiddenUnless("pack:3_technological/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(50,0)
+
+criteria1 = addCriteria("Make at least 1 simple machine chassis", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_material:0, count:1~64>)

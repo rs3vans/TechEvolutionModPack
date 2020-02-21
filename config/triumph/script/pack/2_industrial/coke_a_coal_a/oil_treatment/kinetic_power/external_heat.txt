@@ -1,0 +1,14 @@
+
+setIcon(<immersiveengineering:metal_device1:1>)
+setTitle("External Heat")
+setDescription("An external heater will power any adjacent normal furnace using IF (no solid fuel needed).\n\nJust connect power to the external heater and smelt away!")
+
+addParent("pack:2_industrial/coke_a_coal_a/oil_treatment/kinetic_power/_")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/oil_treatment/kinetic_power/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(-50,-50)
+
+criteria1 = addCriteria("Craft an external heater", "minecraft:inventory_changed")
+criteria1.addItem(<immersiveengineering:metal_device1:1, count:1~64>)

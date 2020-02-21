@@ -1,0 +1,16 @@
+
+setIcon(<immersiveengineering:drillhead:0>)
+setTitle("Mine Nine")
+setDescription("The Mining Drill can power through stone and other blocks, nine at a time.\n\nFill it with diesel (or other appropriate fuel) and mine to your heart's content!")
+
+addParent("pack:2_industrial/coke_a_coal_a/man_of_steel/crazy_crafter/combination_station")
+hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/crazy_crafter/_")
+setRequiresParents()
+setCompletedIconColor(239, 199, 123)
+setCompletedTitleColor(65, 34, 20)
+setPos(100,150)
+
+criteria1 = addCriteria("Craft a mining drill", "minecraft:inventory_changed")
+criteria1.addItem(<immersiveengineering:drill, count:1~64>)
+criteria2 = addCriteria("Craft a drill head", "minecraft:inventory_changed")
+criteria2.addItem(<immersiveengineering:drillhead:*, count:1~64>)

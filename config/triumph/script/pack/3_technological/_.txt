@@ -12,4 +12,4 @@ setPos(0, 0)
 criteria = addCriteria("Completed 'Industrial Revolution'", "triumph:completed_advancement")
 criteria.setAdvancement("pack:2_industrial/z")
 
-// addRewardItem(<immersiveengineering:tool:3>)
+addRewardItem(<enderio:item_yeta_wrench>)

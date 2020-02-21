@@ -1,0 +1,14 @@
+
+setIcon(<extendedcrafting:table_elite>)
+setTitle("Crazier Crafting")
+setDescription("If you thought a 5 x 5 crafting grid was crazy, try 7 x 7! The Dark Steel Crafting Table will be required for some pretty complex recipes - but it'll be worth it!.")
+
+addParent("pack:3_technological/next_level_steel/_")
+hiddenUnless("pack:3_technological/next_level_steel/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(150,50)
+
+criteria1 = addCriteria("Craft a dark steel crafting table", "minecraft:inventory_changed")
+criteria1.addItem(<extendedcrafting:table_elite, count:1~64>)

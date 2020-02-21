@@ -8,7 +8,7 @@ hiddenUnless("pack:2_industrial/coke_a_coal_a/man_of_steel/crazy_crafter/_")
 setRequiresParents()
 setCompletedIconColor(239, 199, 123)
 setCompletedTitleColor(65, 34, 20)
-setPos(250,200)
+setPos(150,200)
 
 criteria1 = addCriteria("Craft an airship", "minecraft:inventory_changed")
 criteria1.addItem(<vc:airships/item_airship:0, count:1~64>)

@@ -1,0 +1,14 @@
+
+setIcon(<enderio:block_simple_furnace:0>)
+setTitle("Cook with Electricity")
+setDescription("The Simple Powered Furnace is like a regular furnace, but runs on power instead of solid fuel.")
+
+addParent("pack:3_technological/its_simple")
+hiddenUnless("pack:3_technological/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(50,-50)
+
+criteria1 = addCriteria("Make at least 1 simple powered furnace", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_simple_furnace:0, count:1~64>)
