@@ -1,0 +1,14 @@
+
+setIcon(<enderio:block_cap_bank:1>)
+setTitle("Basic Bank")
+setDescription("The Basic Capacitor Bank is an expandable form of power storage.\n\nEach one will store 1 million RF - the same amount of power as an MV Capacitor (IE).\n\nPlace multiple banks adjacent to each other to form one large multi-block power-storage solution.")
+
+addParent("pack:3_technological/_")
+hiddenUnless("pack:3_technological/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(0,-50)
+
+criteria1 = addCriteria("Make at least 1 basic capacitor bank", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_cap_bank:1, count:1~64>)

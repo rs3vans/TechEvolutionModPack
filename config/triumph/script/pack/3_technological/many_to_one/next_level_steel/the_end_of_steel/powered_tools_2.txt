@@ -1,0 +1,21 @@
+
+setIcon(<enderio:item_end_steel_pickaxe>)
+setTitle("Powered Tools 2")
+setDescription("An upgrade to your Dark Steel Gear, Ender Tools are more durable, more efficient, do more damage, and holds more power.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(100,-100)
+
+setRequirements("any")
+criteria1 = addCriteria("Craft the Ender Mk2", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_end_steel_sword, count:1~64>)
+criteria2 = addCriteria("Craft an ender pickaxe", "minecraft:inventory_changed")
+criteria2.addItem(<enderio:item_end_steel_pickaxe, count:1~64>)
+criteria3 = addCriteria("Craft an ender axe", "minecraft:inventory_changed")
+criteria3.addItem(<enderio:item_end_steel_axe, count:1~64>)
+criteria4 = addCriteria("Craft an ender bow", "minecraft:inventory_changed")
+criteria4.addItem(<enderio:item_end_steel_bow, count:1~64>)

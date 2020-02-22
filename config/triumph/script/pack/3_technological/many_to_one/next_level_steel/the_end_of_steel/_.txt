@@ -1,0 +1,15 @@
+
+setIcon(<enderio:item_alloy_ingot:8>)
+setTitle("The End of Steel")
+setDescription("Dark Steel is enhanced by materials from an alien dimension, giving it new properties, and opening up new possibilities.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setFrameType("GOAL")
+setPos(150,-100)
+
+criteria1 = addCriteria("Make at least 6 end steel ingots", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_alloy_ingot:8, count:6~64>)

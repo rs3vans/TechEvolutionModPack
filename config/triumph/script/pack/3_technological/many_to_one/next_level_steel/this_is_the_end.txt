@@ -1,0 +1,14 @@
+
+setIcon(<minecraft:end_portal_frame>)
+setTitle("This is the End")
+setDescription("The End is nigh - at least that's what some say! You won't find any natural End Portals in your world, but you can MAKE one.\n\nJust be sure to place down the portal blocks in the right shape around you while standing in the middle...")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/crazier_crafting")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(200,-100)
+
+criteria = addCriteria("Travel to The End dimension", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_end")

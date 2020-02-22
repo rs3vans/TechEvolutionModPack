@@ -1,0 +1,14 @@
+
+setIcon(<enderio:block_vat>)
+setTitle("Vatman!")
+setDescription("The Vat is your high-tech cauldron. Various fluids can be concocted in the Vat - just throw in the right ingredients, add some power, and away you go!")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/its_industrial/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/its_industrial/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(300,50)
+
+criteria1 = addCriteria("Make at least 1 vat", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_vat, count:1~64>)

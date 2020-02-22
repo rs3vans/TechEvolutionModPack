@@ -1,0 +1,14 @@
+
+setIcon(<enderio:block_sag_mill>)
+setTitle("A Fine Grind")
+setDescription("Faster and more efficient than its Simple predecessor, the SAG Mill is your one-stop shop for any grinding needs.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/its_industrial/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/its_industrial/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(250,50)
+
+criteria1 = addCriteria("Make at least 1 SAG mill", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_sag_mill, count:1~64>)

@@ -1,0 +1,18 @@
+setIcon(<enderio:item_stellar_alloy_pickaxe>)
+setTitle("Powered Tools 3")
+setDescription("An upgrade to your Ender Gear, Stellar Tools are the most durable, the most efficient, do the most damage, and hold the most power.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/absolutely_stellar/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/absolutely_stellar/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(200,-200)
+
+setRequirements("any")
+criteria1 = addCriteria("Craft the Ender Mk4", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_stellar_alloy_sword, count:1~64>)
+criteria2 = addCriteria("Craft a stellar pickaxe", "minecraft:inventory_changed")
+criteria2.addItem(<enderio:item_stellar_alloy_pickaxe, count:1~64>)
+criteria3 = addCriteria("Craft a stellar axe", "minecraft:inventory_changed")
+criteria3.addItem(<enderio:item_stellar_alloy_axe, count:1~64>)

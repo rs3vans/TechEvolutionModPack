@@ -1,0 +1,13 @@
+setIcon(<extendedcrafting:singularity:0>)
+setTitle("Singularities")
+setDescription("What do you do when you have an abundance of everything? Why not crush it all into an infinitesimally-tiny-yet-dense ball of matter?!\n\nHow many can you make? What will you do with them?")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/absolutely_stellar/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/absolutely_stellar/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(150,-300)
+
+criteria1 = addCriteria("Make a coal singularity", "minecraft:inventory_changed")
+criteria1.addItem(<extendedcrafting:singularity:0, count:1~64>)

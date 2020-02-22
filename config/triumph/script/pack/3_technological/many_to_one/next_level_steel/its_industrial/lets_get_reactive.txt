@@ -1,0 +1,20 @@
+
+setIcon(<bigreactors:reactoraccessport>)
+setTitle("Let's Get Reactive")
+setDescription("Compact and efficient power generation just isn't enough for some people. Time for a lesson in nuclear science!\n\nBuilding a reactor is a great way to generate absolutely silly amounts of power.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/its_industrial/next_gen_power")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/its_industrial/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(250,-100)
+
+criteria1 = addCriteria("Make at least 48 reactor casings", "minecraft:inventory_changed")
+criteria1.addItem(<bigreactors:reactorcasing, count:48~64>)
+criteria2 = addCriteria("Make at least 1 reactor access port", "minecraft:inventory_changed")
+criteria2.addItem(<bigreactors:reactoraccessport, count:1~64>)
+criteria3 = addCriteria("Make at least 1 reactor power tap", "minecraft:inventory_changed")
+criteria3.addItem(<bigreactors:reactorpowertap, count:1~64>)
+criteria4 = addCriteria("Make at least 1 reactor controller", "minecraft:inventory_changed")
+criteria4.addItem(<bigreactors:reactorcontroller, count:1~64>)

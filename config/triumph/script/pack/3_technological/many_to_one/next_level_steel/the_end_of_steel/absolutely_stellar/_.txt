@@ -1,0 +1,15 @@
+
+setIcon(<enderio:item_alloy_endergy_ingot:3>)
+setTitle("Absolutely Stellar")
+setDescription("The ultimate metal.\n\nMade from a Nether Star and the soul of a Shulker, this metal can be used to make some truly impressive gear...")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/a_strange_melody")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setFrameType("GOAL")
+setPos(150,-250)
+
+criteria1 = addCriteria("Make at least 2 stellar alloy ingots", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_alloy_endergy_ingot:3, count:6~64>)

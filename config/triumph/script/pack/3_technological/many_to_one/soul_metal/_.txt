@@ -1,0 +1,14 @@
+setIcon(<enderio:item_alloy_ingot:7>)
+setTitle("Soul Metal")
+setDescription("A strange metal... for making strange things.")
+
+addParent("pack:3_technological/many_to_one/_")
+hiddenUnless("pack:3_technological/many_to_one/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setFrameType("GOAL")
+setPos(100,100)
+
+criteria1 = addCriteria("Make at least 3 soularium", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_alloy_ingot:7, count:3~64>)

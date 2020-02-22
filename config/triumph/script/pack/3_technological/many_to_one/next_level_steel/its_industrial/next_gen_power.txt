@@ -1,0 +1,14 @@
+
+setIcon(<enderio:block_combustion_generator>)
+setTitle("Next-gen Power")
+setDescription("A Diesel generator might output a lot of IF over time, but it's not very efficient - and it's LOUD! Enter the Combustion Generator...\n\nThis Generator is compact, quiet, and burns diesel more efficiently (albeit more slowly) than a Diesel Generator.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/its_industrial/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/its_industrial/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(250,-50)
+
+criteria1 = addCriteria("Make at least 1 combustion generator", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_combustion_generator, count:1~64>)

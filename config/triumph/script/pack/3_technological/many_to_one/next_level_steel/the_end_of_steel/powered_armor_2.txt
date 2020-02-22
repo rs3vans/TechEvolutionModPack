@@ -1,0 +1,23 @@
+
+setIcon(<enderio:item_end_steel_helmet>)
+setTitle("Powered Armor 2")
+setDescription("An upgrade to your Dark Steel Gear, Ender Armor is more durable, more protective, and holds more power.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(100,-150)
+
+setRequirements("any")
+criteria1 = addCriteria("Craft an ender helm", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_end_steel_helmet, count:1~64>)
+criteria2 = addCriteria("Craft an ender plate", "minecraft:inventory_changed")
+criteria2.addItem(<enderio:item_end_steel_chestplate, count:1~64>)
+criteria3 = addCriteria("Craft some ender leggings", "minecraft:inventory_changed")
+criteria3.addItem(<enderio:item_end_steel_leggings, count:1~64>)
+criteria4 = addCriteria("Craft some ender boots", "minecraft:inventory_changed")
+criteria4.addItem(<enderio:item_end_steel_boots, count:1~64>)
+criteria5 = addCriteria("Craft an ender shield", "minecraft:inventory_changed")
+criteria5.addItem(<enderio:item_end_steel_shield, count:1~64>)

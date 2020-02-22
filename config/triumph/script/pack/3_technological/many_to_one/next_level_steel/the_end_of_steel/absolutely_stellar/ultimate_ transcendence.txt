@@ -1,0 +1,14 @@
+setIcon(<extendedcrafting:singularity_ultimate:0>)
+setTitle("Ultimate Transcendence")
+setDescription("Are you up to the ultimate challenge in crafting?")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/absolutely_stellar/singularities")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/absolutely_stellar/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setFrameType("CHALLENGE")
+setPos(150,-350)
+
+criteria1 = addCriteria("Make the ultimate singularity", "minecraft:inventory_changed")
+criteria1.addItem(<extendedcrafting:singularity_ultimate:0, count:1~64>)

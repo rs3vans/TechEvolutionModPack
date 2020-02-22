@@ -1,0 +1,14 @@
+
+setIcon(<enderio:item_alloy_endergy_ingot:2>)
+setTitle("A Strange Melody")
+setDescription("A strange metal indeed.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(150,-150)
+
+criteria1 = addCriteria("Make at least 3 melodic alloy ingots", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_alloy_endergy_ingot:2, count:6~64>)
