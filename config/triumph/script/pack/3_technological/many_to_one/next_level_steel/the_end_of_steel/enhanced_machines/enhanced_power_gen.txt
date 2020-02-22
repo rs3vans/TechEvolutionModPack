@@ -1,0 +1,14 @@
+
+setIcon(<enderio:block_enhanced_combustion_generator:0>)
+setTitle("Enhanced Power Generation")
+setDescription("The Enhanced Combustion Generator is more efficient and faster than its unenhanced version.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/enhanced_machines/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/enhanced_machines/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(50,-250)
+
+criteria1 = addCriteria("Craft an enhanced combustion generator", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_enhanced_combustion_generator:0, count:1~64>)

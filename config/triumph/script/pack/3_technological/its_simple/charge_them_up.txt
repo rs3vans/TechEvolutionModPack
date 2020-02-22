@@ -1,0 +1,14 @@
+
+setIcon(<enderio:block_simple_wired_charger:0>)
+setTitle("Charge Them Up")
+setDescription("The Simple Wired Charger will charge certain RF-holding items for you.")
+
+addParent("pack:3_technological/its_simple/_")
+hiddenUnless("pack:3_technological/its_simple/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(0,50)
+
+criteria1 = addCriteria("Make at least 1 simple wired charger", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_simple_wired_charger:0, count:1~64>)

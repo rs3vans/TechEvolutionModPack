@@ -1,0 +1,14 @@
+
+setIcon(<refinedstorage:storage_part:0>)
+setTitle("1,000 Items")
+setDescription("A 1k Storage Part will add up to 1,000 items worth of capacity to your digital storage system when crafted into a Stoage Block or Disk.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/digital_storage/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/digital_storage/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(400,-100)
+
+criteria1 = addCriteria("Craft a 1k storage part", "minecraft:inventory_changed")
+criteria1.addItem(<refinedstorage:storage_part:0, count:1~64>)

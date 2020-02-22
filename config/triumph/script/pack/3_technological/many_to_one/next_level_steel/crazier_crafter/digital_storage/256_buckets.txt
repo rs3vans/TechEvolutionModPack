@@ -1,0 +1,14 @@
+
+setIcon(<refinedstorage:fluid_storage_part:1>)
+setTitle("256 Buckets")
+setDescription("A 256k Fluid Storage Part will add up to 256 buckets worth of capacity to your digital storage system when crafted into a Stoage Block or Disk and accessed through a Fluid Grid.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/digital_storage/64_buckets")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/digital_storage/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(450,-50)
+
+criteria1 = addCriteria("Craft a 256k fluid storage part", "minecraft:inventory_changed")
+criteria1.addItem(<refinedstorage:fluid_storage_part:1, count:1~64>)

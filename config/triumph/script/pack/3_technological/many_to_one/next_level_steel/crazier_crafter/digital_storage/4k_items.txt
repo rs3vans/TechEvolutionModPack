@@ -1,0 +1,14 @@
+
+setIcon(<refinedstorage:storage_part:1>)
+setTitle("4000 Items")
+setDescription("A 4k Storage Part will add up to 4,000 items worth of capacity to your digital storage system when crafted into a Stoage Block or Disk.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/digital_storage/1k_items")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/digital_storage/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(450,-100)
+
+criteria1 = addCriteria("Craft a 4k storage part", "minecraft:inventory_changed")
+criteria1.addItem(<refinedstorage:storage_part:1, count:1~64>)

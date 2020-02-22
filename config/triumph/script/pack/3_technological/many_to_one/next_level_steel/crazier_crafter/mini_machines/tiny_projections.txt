@@ -1,0 +1,14 @@
+
+setIcon(<compactmachines3:fieldprojector>)
+setTitle("Tiny Projections")
+setDescription("The Miniaturization Field Projectors are what make compact machines possible. Place 4 of them equidistant from each other in the shape of a square.\n\nOnce placed correctly, they will emit an orange projection field. Check JEI for recipes.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/mini_machines/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/mini_machines/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(250,-250)
+
+criteria1 = addCriteria("Craft 4 miniaturization field projectors", "minecraft:inventory_changed")
+criteria1.addItem(<compactmachines3:fieldprojector, count:4~64>)

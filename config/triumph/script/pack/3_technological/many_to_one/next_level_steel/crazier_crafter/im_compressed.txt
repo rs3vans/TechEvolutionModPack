@@ -1,0 +1,14 @@
+
+setIcon(<extendedcrafting:compressor>)
+setTitle("I'm Compressed")
+setDescription("Various forms of matter, when exposed to extremely high pressure, can be transformed into something different.\n\nCraft a Matter Compressor and supply it with plenty of power (and the right catalyst) and start compressing!")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(300,-150)
+
+criteria1 = addCriteria("Craft a matter compressor", "minecraft:inventory_changed")
+criteria1.addItem(<extendedcrafting:compressor, count:1~64>)

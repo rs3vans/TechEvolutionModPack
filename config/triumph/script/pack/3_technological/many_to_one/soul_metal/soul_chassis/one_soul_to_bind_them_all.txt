@@ -1,0 +1,13 @@
+setIcon(<enderio:block_soul_binder:0>)
+setTitle("One Soul To Bind Them All...")
+setDescription("A Soul Binder can imbue objects with the souls of mobs (caught in Soul Vials). Just make sure you supply it with plenty of power...")
+
+addParent("pack:3_technological/many_to_one/soul_metal/soul_chassis/_")
+hiddenUnless("pack:3_technological/many_to_one/soul_metal/soul_chassis/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(100,200)
+
+criteria1 = addCriteria("Craft a soul binder", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_soul_binder:0, count:1~64>)

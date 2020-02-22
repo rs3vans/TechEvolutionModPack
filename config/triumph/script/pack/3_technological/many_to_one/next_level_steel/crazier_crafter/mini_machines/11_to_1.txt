@@ -1,0 +1,13 @@
+setIcon(<compactmachines3:machine:4>)
+setTitle("11-to-1")
+setDescription("The Giant Compact Machine will give you a 11x11x11 room to build in.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/mini_machines/9_to_1")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/mini_machines/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(450,-300)
+
+criteria1 = addCriteria("Make a giant compact machine", "minecraft:inventory_changed")
+criteria1.addItem(<compactmachines3:machine:4, count:1~64>)

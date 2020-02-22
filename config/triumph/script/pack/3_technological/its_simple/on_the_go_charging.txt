@@ -1,0 +1,14 @@
+
+setIcon(<enderio:item_inventory_charger_simple:0>)
+setTitle("On-the-go Charging")
+setDescription("The Simple Inventory Charger acts like a portable battery, charging adjacent RF-holding items in your inventory.")
+
+addParent("pack:3_technological/its_simple/_")
+hiddenUnless("pack:3_technological/its_simple/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(-50,-50)
+
+criteria1 = addCriteria("Craft a simple inventory charger", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_inventory_charger_simple:0, count:1~64>)

@@ -1,0 +1,14 @@
+
+setIcon(<enderio:block_wireless_charger>)
+setTitle("Cut The Cord")
+setDescription("The Wireless Charger works just like the Wired Charger, only you don't have to put items in it - it will simply charge the items in your inventory as long as you are within range.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/its_industrial/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/its_industrial/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(350,50)
+
+criteria1 = addCriteria("Make at least 1 wireless charger", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_wireless_charger, count:1~64>)

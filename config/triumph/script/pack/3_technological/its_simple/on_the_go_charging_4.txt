@@ -1,0 +1,14 @@
+
+setIcon(<enderio:item_inventory_charger_vibrant:0>)
+setTitle("Upgraded On-the-go Charging 3")
+setDescription("The Vibrant Inventory Charger acts like a portable battery, charging ALL (not just adjacent) RF-holding items in your inventory. It has the largest capacity of all inventory chargers.")
+
+addParent("pack:3_technological/its_simple/on_the_go_charging_3")
+hiddenUnless("pack:3_technological/its_simple/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(-50,-200)
+
+criteria1 = addCriteria("Craft a vibrant inventory charger", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_inventory_charger_vibrant:0, count:1~64>)

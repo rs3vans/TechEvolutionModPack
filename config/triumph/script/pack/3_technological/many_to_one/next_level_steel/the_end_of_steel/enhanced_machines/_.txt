@@ -1,0 +1,15 @@
+
+setIcon(<enderio:item_material:54>)
+setTitle("Enhanced Machines")
+setDescription("Some machines have an enhanced form that greatly increases their efficiency and output. Make an Enhanced Machine Chassis to get started and check out JEI for the machine recipes you can make...")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setFrameType("GOAL")
+setPos(50,-200)
+
+criteria1 = addCriteria("Make at least 1 enhanced machine chassis", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_material:54, count:1~64>)

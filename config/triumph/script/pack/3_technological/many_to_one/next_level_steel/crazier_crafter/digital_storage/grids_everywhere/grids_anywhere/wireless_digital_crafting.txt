@@ -1,0 +1,14 @@
+
+setIcon(<refinedstorageaddons:wireless_crafting_grid>)
+setTitle("Wireless Digital Crafting")
+setDescription("Upgrade your Wireless Grid with the ability to have a fully-remote crafting table!")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/digital_storage/grids_everywhere/grids_anywhere/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/digital_storage/grids_everywhere/grids_anywhere/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(450,-200)
+
+criteria1 = addCriteria("Craft a wireless crafting grid", "minecraft:inventory_changed")
+criteria1.addItem(<refinedstorageaddons:wireless_crafting_grid, count:1~64>)

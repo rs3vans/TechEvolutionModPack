@@ -3,6 +3,7 @@
 import mods.jei.JEI;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.ArcFurnace;
+import mods.extendedcrafting.TableCrafting;
 
 JEI.removeAndHide(<refinedstorage:silicon>);
 furnace.remove(<refinedstorage:silicon>);
@@ -20,15 +21,21 @@ recipes.addShapeless("custom/rs_processor_binding", <refinedstorage:processor_bi
 ]);
 
 recipes.remove(<refinedstorage:machine_casing>);
-recipes.addShaped("custom/rs_machine_casing", <refinedstorage:machine_casing>, [
-    [<enderio:item_alloy_ingot>, <enderio:item_alloy_ingot>, <enderio:item_alloy_ingot>],
-    [<enderio:item_alloy_ingot>, <ore:blockSteel>, <enderio:item_alloy_ingot>],
-    [<enderio:item_alloy_ingot>, <enderio:item_alloy_ingot>, <enderio:item_alloy_ingot>]
+TableCrafting.addShaped(<refinedstorage:machine_casing>, [
+	[<ore:blockDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:blockDarkSteel>], 
+	[<ore:plateDarkSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:plateDarkSteel>], 
+	[<ore:plateDarkSteel>, <ore:ingotElectricalSteel>, <ore:compressed3xDustBedrock>, <ore:ingotElectricalSteel>, <ore:plateDarkSteel>], 
+	[<ore:plateDarkSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:plateDarkSteel>], 
+	[<ore:blockDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:blockDarkSteel>]
 ]);
 
 recipes.remove(<refinedstorage:controller>);
-recipes.addShaped("custom/rs_controller", <refinedstorage:controller>, [
-    [<enderio:item_alloy_ingot>, <refinedstorage:processor:5>, <enderio:item_alloy_ingot>],
-    [<ore:dustBedrock>, <refinedstorage:machine_casing>, <ore:dustBedrock>],
-    [<enderio:item_alloy_ingot>, <ore:dustBedrock>, <enderio:item_alloy_ingot>]
+TableCrafting.addShaped(<refinedstorage:controller>, [
+	[<ore:blockDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:blockDarkSteel>], 
+	[<ore:plateDarkSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:plateDarkSteel>], 
+	[<ore:plateDarkSteel>, <ore:ingotElectricalSteel>, <enderio:item_power_conduit:2>, <enderio:item_basic_capacitor:2>, <enderio:item_power_conduit:2>, <ore:ingotElectricalSteel>, <ore:plateDarkSteel>], 
+	[<ore:plateDarkSteel>, <ore:ingotElectricalSteel>, <ore:gearDark>, <ore:compressed3xDustBedrock>, <ore:gearDark>, <ore:ingotElectricalSteel>, <ore:plateDarkSteel>], 
+	[<ore:plateDarkSteel>, <ore:ingotElectricalSteel>, <enderio:item_power_conduit:2>, <ore:gearDark>, <enderio:item_power_conduit:2>, <ore:ingotElectricalSteel>, <ore:plateDarkSteel>], 
+	[<ore:plateDarkSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:plateDarkSteel>], 
+	[<ore:blockDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:blockDarkSteel>]
 ]);

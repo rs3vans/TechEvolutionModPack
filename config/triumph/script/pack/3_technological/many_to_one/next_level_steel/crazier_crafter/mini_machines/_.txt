@@ -1,0 +1,15 @@
+
+setIcon(<compactmachines3:psd>)
+setTitle("Mini-Machines")
+setDescription("A marvel of technology, compact machines can shrink entire areas of blocks into a 1-block space!\n\nCraft a Personal Shrinking Device to get started...")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setFrameType("GOAL")
+setPos(250,-200)
+
+criteria1 = addCriteria("Craft a pesonal shrinking device", "minecraft:inventory_changed")
+criteria1.addItem(<compactmachines3:psd, count:1~64>)

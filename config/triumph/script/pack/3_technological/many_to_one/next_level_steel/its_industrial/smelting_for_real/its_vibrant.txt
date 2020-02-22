@@ -1,0 +1,14 @@
+
+setIcon(<enderio:item_alloy_ingot:2>)
+setTitle("It's Vibrant!")
+setDescription("One of the many strange alloys you can make, Vibrant Alloy will be a vital ingredient in many of the recipes you'll encounter.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/its_industrial/smelting_for_real/get_energetic")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/its_industrial/smelting_for_real/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(500,0)
+
+criteria1 = addCriteria("Make at least 3 vibrant alloy ingots", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_alloy_ingot:2, count:3~64>)

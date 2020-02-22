@@ -1,0 +1,13 @@
+setIcon(<enderio:block_experience_obelisk:0>)
+setTitle("Master of Experience")
+setDescription("The Experience Obelisk can store an insane amount of XP - up to 21,862 levels!\n\nLiquid XP can be inserted/extracted to/from it, as well.")
+
+addParent("pack:3_technological/many_to_one/soul_metal/experience_control")
+hiddenUnless("pack:3_technological/many_to_one/soul_metal/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(0,150)
+
+criteria1 = addCriteria("Craft an experience obelisk", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_experience_obelisk:0, count:1~64>)

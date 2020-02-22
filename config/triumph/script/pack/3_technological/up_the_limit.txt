@@ -8,7 +8,7 @@ hiddenUnless("pack:3_technological/_")
 setRequiresParents()
 setCompletedIconColor(67, 237, 255)
 setCompletedTitleColor(127, 211, 57)
-setPos(0,-100)
+setPos(-100,-100)
 
 criteria1 = addCriteria("Make at least 1 capacitor bank", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_cap_bank:2, count:1~64>)

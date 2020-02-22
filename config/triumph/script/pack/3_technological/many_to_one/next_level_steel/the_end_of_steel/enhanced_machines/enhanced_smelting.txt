@@ -1,0 +1,14 @@
+
+setIcon(<enderio:block_enhanced_alloy_smelter:0>)
+setTitle("Enhanced Smelting")
+setDescription("The Enhanced Alloy Smelter is more efficient and faster than its unenhanced version.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/enhanced_machines/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/enhanced_machines/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(0,-200)
+
+criteria1 = addCriteria("Craft an enhanced alloy smelter", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_enhanced_alloy_smelter:0, count:1~64>)

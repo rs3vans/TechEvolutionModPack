@@ -1,0 +1,17 @@
+
+setIcon(<enderio:block_vacuum_chest:0>)
+setTitle("A Bit of Grit!")
+setDescription("The Vacuum Chest and XP Vacuum are great for building mob farms (and other automation).\n\nThe Vacuum Chest will suck up items within its range, and the XP Vacuum will do the same with XP orbs.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/its_industrial/smelting_for_real/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/its_industrial/smelting_for_real/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(400,50)
+
+setRequirements("any")
+criteria1 = addCriteria("Craft a vacuum chest", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_vacuum_chest:0, count:1~64>)
+criteria1 = addCriteria("Craft an xp vacuum", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_xp_vacuum:0, count:1~64>)

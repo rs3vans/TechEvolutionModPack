@@ -8,7 +8,7 @@ hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel
 setRequiresParents()
 setCompletedIconColor(67, 237, 255)
 setCompletedTitleColor(127, 211, 57)
-setPos(100,-150)
+setPos(200,-150)
 
 setRequirements("any")
 criteria1 = addCriteria("Craft an ender helm", "minecraft:inventory_changed")

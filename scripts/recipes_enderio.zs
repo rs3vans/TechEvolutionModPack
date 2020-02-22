@@ -37,6 +37,8 @@ recipes.removeByRecipeName("enderio:gear_stone");
 recipes.removeByRecipeName("enderio:tweak_stick_from_wood");
 recipes.removeByRecipeName("enderio:tweak_chest_from_wood");
 recipes.removeByRecipeName("enderio:tweak_wood_hopper");
+recipes.removeByRecipeName("enderio:wireless_charger_antenna");
+recipes.removeByRecipeName("enderio:wireless_charger_antenna_enhanced");
 
 recipes.removeByRecipeName("enderio:x_p_rod");
 recipes.addShaped("custom/xp_rod", <enderio:item_xp_transfer>, [

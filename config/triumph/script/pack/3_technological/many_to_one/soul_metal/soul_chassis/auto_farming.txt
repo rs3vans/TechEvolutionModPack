@@ -1,0 +1,13 @@
+setIcon(<enderio:block_farm_station:0>)
+setTitle("Auto-Farming")
+setDescription("The Farming Station will do your farming for you!\n\nFrom crops to trees, this machine will greatly speed up the growth of those plants within range, and will automatically harvest them.")
+
+addParent("pack:3_technological/many_to_one/soul_metal/soul_chassis/_")
+hiddenUnless("pack:3_technological/many_to_one/soul_metal/soul_chassis/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(150,200)
+
+criteria1 = addCriteria("Craft a farming station", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_farm_station:0, count:1~64>)

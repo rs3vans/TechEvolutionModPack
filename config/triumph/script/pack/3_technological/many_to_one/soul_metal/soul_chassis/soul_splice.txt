@@ -1,0 +1,13 @@
+setIcon(<enderio:block_slice_and_splice:0>)
+setTitle("Soul Splice")
+setDescription("A Slice'N'Splice will take the leftover parts of some mobs (yuck!) and splice them onto other materials to make some... useful things.")
+
+addParent("pack:3_technological/many_to_one/soul_metal/soul_chassis/_")
+hiddenUnless("pack:3_technological/many_to_one/soul_metal/soul_chassis/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(50,200)
+
+criteria1 = addCriteria("Craft a slice'n'splice", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_slice_and_splice:0, count:1~64>)

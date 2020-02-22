@@ -1,0 +1,13 @@
+setIcon(<enderio:item_xp_transfer:0>)
+setTitle("Experience Control")
+setDescription("The Experience Rod gives you mastery over your own XP.\n\nWith it in your hand, right-clicking any fluid tank containing liquid XP will transfer the XP to you, and shift-right-clicking will transfer your XP to the tank.")
+
+addParent("pack:3_technological/many_to_one/soul_metal/_")
+hiddenUnless("pack:3_technological/many_to_one/soul_metal/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(50,150)
+
+criteria1 = addCriteria("Craft an experience rod", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_xp_transfer:0, count:1~64>)

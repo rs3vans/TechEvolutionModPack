@@ -7,7 +7,7 @@ setShowToast(false)
 setAnnounceToChat(false)
 setCompletedIconColor(67, 237, 255)
 setCompletedTitleColor(127, 211, 57)
-setPos(0, 0)
+setPos(-100, 0)
 
 criteria = addCriteria("Completed 'Industrial Revolution'", "triumph:completed_advancement")
 criteria.setAdvancement("pack:2_industrial/z")

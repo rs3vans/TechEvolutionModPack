@@ -1,0 +1,14 @@
+setIcon(<enderio:item_material:53>)
+setTitle("Soul Chassis")
+setDescription("Another metal, another chassis. Machines based on the Soul Machine Chassis are very useful indeed...")
+
+addParent("pack:3_technological/many_to_one/soul_metal/_")
+hiddenUnless("pack:3_technological/many_to_one/soul_metal/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setFrameType("GOAL")
+setPos(100,150)
+
+criteria1 = addCriteria("Make at least 1 soul machine chassis", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_material:53, count:3~64>)

@@ -8,7 +8,7 @@ hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel
 setRequiresParents()
 setCompletedIconColor(67, 237, 255)
 setCompletedTitleColor(127, 211, 57)
-setPos(100,-100)
+setPos(200,-100)
 
 setRequirements("any")
 criteria1 = addCriteria("Craft the Ender Mk2", "minecraft:inventory_changed")

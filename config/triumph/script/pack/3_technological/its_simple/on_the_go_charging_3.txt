@@ -1,0 +1,14 @@
+
+setIcon(<enderio:item_inventory_charger:0>)
+setTitle("Upgraded On-the-go Charging 2")
+setDescription("The Inventory Charger acts like a portable battery, charging ALL (not just adjacent) RF-holding items in your inventory. It has a larger capacity than the Basic Inventory Charger.")
+
+addParent("pack:3_technological/its_simple/on_the_go_charging_2")
+hiddenUnless("pack:3_technological/its_simple/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(-50,-150)
+
+criteria1 = addCriteria("Craft an inventory charger", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_inventory_charger:0, count:1~64>)

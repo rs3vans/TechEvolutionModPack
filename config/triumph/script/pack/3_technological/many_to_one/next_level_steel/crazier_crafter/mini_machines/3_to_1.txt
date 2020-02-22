@@ -1,0 +1,14 @@
+
+setIcon(<compactmachines3:machine:0>)
+setTitle("3-to-1")
+setDescription("The Tiny Compact Machine will give you a 3x3x3 room to build in.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/mini_machines/tiny_projections")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/mini_machines/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(250,-300)
+
+criteria1 = addCriteria("Make a tiny compact machine", "minecraft:inventory_changed")
+criteria1.addItem(<compactmachines3:machine:0, count:1~64>)

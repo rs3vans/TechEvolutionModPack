@@ -1,0 +1,13 @@
+setIcon(<enderio:item_soul_vial:0>)
+setTitle("It's Not Vile")
+setDescription("A Soul Vial is used to capture (the soul of) a mob.\n\nOnce held in your hand, just right-click on any mob to immediately capture it inside the vial. Right-clicking again will release the mob.")
+
+addParent("pack:3_technological/many_to_one/soul_metal/_")
+hiddenUnless("pack:3_technological/many_to_one/soul_metal/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(50,100)
+
+criteria1 = addCriteria("Craft at least 1 soul vial", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_soul_vial:0, count:1~64>)

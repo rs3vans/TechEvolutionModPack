@@ -1,0 +1,13 @@
+setIcon(<enderio:block_killer_joe:0>)
+setTitle("Don't Mess With Joe")
+setDescription("The Killer Joe is a machine that will ... kill mobs for you!\n\nJust give it enough Nutrient Distillation and a decent sword. Be careful not to get within its range while it's on - it will attack you just the same!")
+
+addParent("pack:3_technological/many_to_one/soul_metal/_")
+hiddenUnless("pack:3_technological/many_to_one/soul_metal/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(150,100)
+
+criteria1 = addCriteria("Craft a killer joe", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_killer_joe:0, count:1~64>)

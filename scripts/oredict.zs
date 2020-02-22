@@ -107,6 +107,10 @@
 # padding
 <ore:padding>.add(<betterwithmods:material:41>);
 
+# itemDrillHead
+<ore:itemDrillHead>.add(<immersiveengineering:drillhead:0>);
+<ore:itemDrillHead>.add(<immersiveengineering:drillhead:1>);
+
 # itemSkull
 <ore:itemSkull>.add(<minecraft:skull:*>);
 <ore:itemSkull>.add(<enderio:block_enderman_skull:*>);

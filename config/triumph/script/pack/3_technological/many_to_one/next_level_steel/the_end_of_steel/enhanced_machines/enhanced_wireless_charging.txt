@@ -1,0 +1,14 @@
+
+setIcon(<enderio:block_enhanced_wireless_charger:0>)
+setTitle("Enhanced Wireless Charging")
+setDescription("The Enhanced Wireless Charging Antenna is more efficient and faster than its unenhanced version.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/enhanced_machines/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/enhanced_machines/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(50,-150)
+
+criteria1 = addCriteria("Craft an enhanced wireless charging antenna", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_enhanced_wireless_charger:0, count:1~64>)

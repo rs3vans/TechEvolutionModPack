@@ -1,0 +1,14 @@
+
+setIcon(<refinedstorage:grid:3>)
+setTitle("Digital Fluids")
+setDescription("Storing your items digitally is awesome, but being able to store fluids too is even MORE awesome!")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/digital_storage/grids_everywhere/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/digital_storage/grids_everywhere/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(400,-200)
+
+criteria1 = addCriteria("Craft a fluid grid", "minecraft:inventory_changed")
+criteria1.addItem(<refinedstorage:grid:3, count:1~64>)

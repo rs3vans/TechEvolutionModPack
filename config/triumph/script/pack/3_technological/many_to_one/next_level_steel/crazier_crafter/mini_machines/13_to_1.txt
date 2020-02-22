@@ -1,0 +1,13 @@
+setIcon(<compactmachines3:machine:5>)
+setTitle("13-to-1")
+setDescription("The Maximum Compact Machine will give you a 13x13x13 room to build in, and is the largest compact machine you can make.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/mini_machines/11_to_1")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/mini_machines/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(500,-300)
+
+criteria1 = addCriteria("Make a maximum compact machine", "minecraft:inventory_changed")
+criteria1.addItem(<compactmachines3:machine:5, count:1~64>)

@@ -1,0 +1,14 @@
+
+setIcon(<compactmachines3:machine:2>)
+setTitle("7-to-1")
+setDescription("The Normal Compact Machine will give you a 7x7x7 room to build in.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/mini_machines/5_to_1")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/crazier_crafter/mini_machines/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(350,-300)
+
+criteria1 = addCriteria("Make a normal compact machine", "minecraft:inventory_changed")
+criteria1.addItem(<compactmachines3:machine:2, count:1~64>)
