@@ -1,0 +1,16 @@
+setIcon(<enderio:item_travel_staff:0>)
+setTitle("Don't Blink")
+setDescription("A Rod of Travelling (or an item upgraded with the 'Travelling' Dark Steel Upgrade) will allow you to instantly travel to any Travel Anchor within range.\n\nAdditionally, you can travel a short distance ('blink') in any direction - even through blocks!")
+
+addParent("pack:3_technological/many_to_one/soul_metal/soul_chassis/soulbound/_")
+hiddenUnless("pack:3_technological/many_to_one/soul_metal/soul_chassis/soulbound/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(150,250)
+
+setRequirements("any")
+criteria1 = addCriteria("Craft a rod of travelling", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:item_travel_staff:0, count:1~64>)
+criteria2 = addCriteria("Craft a travelling dark steel upgrade", "minecraft:inventory_changed")
+criteria2.addItem(<enderio:item_dark_steel_upgrade:1, nbt:{"enderio:dsu":"enderio:travel"}, count:1~64>)

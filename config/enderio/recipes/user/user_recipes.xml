@@ -427,6 +427,14 @@
     </sagmilling>
   </recipe>
 
+  <recipe name="Sagmill: Hemp Fiber" required="true">
+    <sagmilling energy="2400">
+      <input name="cropHemp"/>
+      <output name="fiberHemp" amount="6" />
+      <output name="fiberHemp" chance="0.5" />
+    </sagmilling>
+  </recipe>
+
   <recipe name="Sagmill: Ender Skull" required="true">
     <sagmilling energy="3500">
       <input name="itemEndermanSkull" />

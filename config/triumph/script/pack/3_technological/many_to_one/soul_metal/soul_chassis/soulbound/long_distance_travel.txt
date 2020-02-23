@@ -1,0 +1,13 @@
+setIcon(<enderio:block_tele_pad>)
+setTitle("Long-distance Travel")
+setDescription("Travel Anchor too far away? No problem! The teleporter can send you where you want to go - even to another dimension.")
+
+addParent("pack:3_technological/many_to_one/soul_metal/soul_chassis/soulbound/_")
+hiddenUnless("pack:3_technological/many_to_one/soul_metal/soul_chassis/soulbound/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(50,250)
+
+criteria1 = addCriteria("Craft at least 9 tele-pad blocks", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_tele_pad, count:9~64>)

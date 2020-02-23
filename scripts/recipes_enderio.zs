@@ -39,6 +39,7 @@ recipes.removeByRecipeName("enderio:tweak_chest_from_wood");
 recipes.removeByRecipeName("enderio:tweak_wood_hopper");
 recipes.removeByRecipeName("enderio:wireless_charger_antenna");
 recipes.removeByRecipeName("enderio:wireless_charger_antenna_enhanced");
+recipes.removeByRecipeName("enderio:travel_anchor");
 
 recipes.removeByRecipeName("enderio:x_p_rod");
 recipes.addShaped("custom/xp_rod", <enderio:item_xp_transfer>, [
@@ -95,6 +96,13 @@ recipes.removeByRecipeName("enderio:weather_crystal");
 CombinationCrafting.addRecipe(<enderio:item_material:18>, 400000, 1000, <enderio:item_material:16>, [
     <ore:itemPulsatingCrystal>, <ore:itemVibrantCrystal>,
 	<ore:itemPulsatingCrystal>, <ore:itemVibrantCrystal>
+]);
+
+# Travel
+recipes.addShaped("custom/travel_anchor", <enderio:block_travel_anchor>, [
+    [<ore:ingotDarkSteel>, <ore:itemConduitBinder>, <ore:ingotDarkSteel>],
+    [<ore:itemConduitBinder>, <ore:itemEnderCrystal>, <ore:itemConduitBinder>],
+    [<ore:ingotDarkSteel>, <ore:itemConduitBinder>, <ore:ingotDarkSteel>]
 ]);
 
 # Rename Soularium Dust

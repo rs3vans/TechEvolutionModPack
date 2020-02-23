@@ -1,0 +1,13 @@
+setIcon(<enderio:block_travel_anchor:0>)
+setTitle("Instant Travelling")
+setDescription("Travel Anchors are blocks that allow you to instantly travel to one when standing on another (or when holding an item that allows travelling).")
+
+addParent("pack:3_technological/many_to_one/soul_metal/soul_chassis/soulbound/_")
+hiddenUnless("pack:3_technological/many_to_one/soul_metal/soul_chassis/soulbound/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(100,250)
+
+criteria1 = addCriteria("Craft at least 2 travel anchors", "minecraft:inventory_changed")
+criteria1.addItem(<enderio:block_travel_anchor:0, count:2~64>)

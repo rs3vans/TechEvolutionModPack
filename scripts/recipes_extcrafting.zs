@@ -1,6 +1,8 @@
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 import mods.extendedcrafting.TableCrafting;
 import mods.extendedcrafting.CompressionCrafting;
+import mods.extendedcrafting.CombinationCrafting;
 
 recipes.removeByMod("extendedcrafting");
 
@@ -61,3 +63,20 @@ CompressionCrafting.addRecipe(<ore:gemDiamond>.firstItem, <minecraft:coal:0>, 64
 CompressionCrafting.addRecipe(<ore:gemCarbonado>.firstItem, <ore:gemDiamond>.firstItem, 64, <enderio:item_capacitor_melodic>, 500000, 5000);
 CompressionCrafting.addRecipe(<ore:gemAmethyst>.firstItem, <ore:gemQuartz>.firstItem, 16, <enderio:item_capacitor_melodic>, 500000, 5000);
 CompressionCrafting.addRecipe(<ore:gemEmerald>.firstItem, <ore:dustGlowstone>.firstItem, 32, <enderio:item_capacitor_melodic>, 500000, 5000);
+
+
+var singularityItems = [] as IItemStack[];
+
+val defaultSingularityMetas = [0, 1, 2, 3, 5, 16, 17, 22, 23, 25, 32] as int[];
+val defaultSingularityDef = <extendedcrafting:singularity>.definition;
+for i in defaultSingularityMetas {
+	singularityItems += defaultSingularityDef.makeStack(i);
+}
+
+val customSingularityMetas = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] as int[];
+val customSingularityDef = <extendedcrafting:singularity_custom>.definition;
+for i in customSingularityMetas {
+	singularityItems += customSingularityDef.makeStack(i);
+}
+
+CombinationCrafting.addRecipe(<extendedcrafting:singularity_ultimate>, 10000000, 10000, <minecraft:nether_star>, singularityItems);

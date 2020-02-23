@@ -88,3 +88,46 @@ TableCrafting.addShaped(<weirdinggadget:weirding_gadget>, [
     [null, <ore:blockElectrum>, <ore:ingotAluminum>, <ore:blockElectrum>, null],
     [null, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, null]
 ]);
+
+# Baubles
+JEI.removeAndHide(<baubles:ring>);
+
+# MF
+recipes.removeByMod("magicfeather");
+recipes.addShapeless("custom/magic_feather", <magicfeather:magicfeather>, [
+    [<minecraft:feather>, <minecraft:feather>, <minecraft:feather>],
+    [<minecraft:feather>, <extendedcrafting:singularity_ultimate>, <minecraft:feather>],
+    [<minecraft:feather>, <minecraft:feather>, <minecraft:feather>]
+]);
+
+# PF
+recipes.removeByMod("potionfingers");
+recipes.addShaped("custom/potion_ring", <potionfingers:ring:0>, [
+    [<minecraft:diamond>, <ore:nuggetGold>, null],
+    [<ore:nuggetGold>, null, <ore:nuggetGold>],
+    [null, <ore:nuggetGold>, null]
+]);
+recipes.addShapeless("custom/potion_ring_speed", <potionfingers:ring:1>.withTag({effect: "minecraft:speed"}), [
+    <extendedcrafting:singularity_ultimate>, <potionfingers:ring:0>,
+    <minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"})
+]);
+recipes.addShapeless("custom/potion_ring_haste", <potionfingers:ring:1>.withTag({effect: "minecraft:haste"}), [
+    <extendedcrafting:singularity_ultimate>, <potionfingers:ring:0>,
+    <minecraft:potion>.withTag({Potion: "quark:strong_haste"})
+]);
+recipes.addShapeless("custom/potion_ring_resist", <potionfingers:ring:1>.withTag({effect: "minecraft:resistance"}), [
+    <extendedcrafting:singularity_ultimate>, <potionfingers:ring:0>,
+    <minecraft:potion>.withTag({Potion: "quark:strong_resistance"})
+]);
+recipes.addShapeless("custom/potion_ring_jump", <potionfingers:ring:1>.withTag({effect: "minecraft:jump_boost"}), [
+    <extendedcrafting:singularity_ultimate>, <potionfingers:ring:0>,
+    <minecraft:potion>.withTag({Potion: "minecraft:strong_leaping"})
+]);
+recipes.addShapeless("custom/potion_ring_strength", <potionfingers:ring:1>.withTag({effect: "minecraft:strength"}), [
+    <extendedcrafting:singularity_ultimate>, <potionfingers:ring:0>,
+    <minecraft:potion>.withTag({Potion: "minecraft:strong_strength"})
+]);
+recipes.addShapeless("custom/potion_ring_regen", <potionfingers:ring:1>.withTag({effect: "minecraft:regeneration"}), [
+    <extendedcrafting:singularity_ultimate>, <potionfingers:ring:0>,
+    <minecraft:potion>.withTag({Potion: "minecraft:strong_regeneration"})
+]);
