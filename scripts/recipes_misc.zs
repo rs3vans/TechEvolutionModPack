@@ -17,10 +17,12 @@ JEI.removeAndHide(<theoneprobe:iron_helmet_probe>);
 JEI.removeAndHide(<theoneprobe:creativeprobe>);
 JEI.removeAndHide(<theoneprobe:probenote>);
 recipes.remove(<theoneprobe:probe>);
-recipes.addShaped("custom/top_probe", <theoneprobe:probe>, [
-    [<ore:paneGlassColorless>, <ore:nuggetSilver>, null],
-    [null, <enderio:item_basic_capacitor:0>, null],
-    [null, null, <ore:ingotSteel>]
+TableCrafting.addShaped(<theoneprobe:probe>, [
+	[<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>], 
+	[<ore:ingotElectricalSteel>, <ore:paneGlass>, <ore:ingotElectricalSteel>], 
+	[<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>], 
+	[<ore:ingotElectricalSteel>, <ore:gearDark>, <ore:ingotElectricalSteel>], 
+	[<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>]
 ]);
 
 # CB

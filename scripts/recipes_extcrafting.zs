@@ -13,6 +13,7 @@ JEI.removeAndHide(<extendedcrafting:lamp:*>);
 JEI.removeAndHide(<extendedcrafting:crafting_table>);
 JEI.removeAndHide(<extendedcrafting:table_basic>);
 JEI.removeAndHide(<extendedcrafting:table_ultimate>);
+JEI.removeAndHide(<extendedcrafting:handheld_table>);
 
 TableCrafting.remove(<extendedcrafting:material:24>);
 
