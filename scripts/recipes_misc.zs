@@ -94,7 +94,7 @@ JEI.removeAndHide(<baubles:ring>);
 
 # MF
 recipes.removeByMod("magicfeather");
-recipes.addShapeless("custom/magic_feather", <magicfeather:magicfeather>, [
+recipes.addShaped("custom/magic_feather", <magicfeather:magicfeather>, [
     [<minecraft:feather>, <minecraft:feather>, <minecraft:feather>],
     [<minecraft:feather>, <extendedcrafting:singularity_ultimate>, <minecraft:feather>],
     [<minecraft:feather>, <minecraft:feather>, <minecraft:feather>]
