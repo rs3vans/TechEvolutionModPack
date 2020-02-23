@@ -2,7 +2,9 @@
 
 A mod pack for Minecraft.
 
-This mod pack takes the player through an evolution of technology - from primitive to advanced. It includes almost 200 custom advancements which guide the player through 4 general "evolutions":
+This mod pack takes the player through an evolution of technology - from primitive to advanced. It's not just your ordinary collection of mods... _Hundreds of recipes have been customized to provide a unique, and challenging experince that truly feels integrated from start to finish!_
+
+Even if you've played with these mods before, this mod pack is sure to present them with a fun new twist. It includes almost 200 custom advancements which guide the player through 4 general "evolutions":
 
 - Evolution 0: _Primitive_
     - Primary mod: [Rustic](https://www.curseforge.com/minecraft/mc-mods/rustic)
