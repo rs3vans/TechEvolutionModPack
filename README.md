@@ -1,4 +1,4 @@
-# Tech Evolution
+![Tech Evolution](https://raw.githubusercontent.com/rs3vans/TechEvolutionModPack/master/thumbnail.png)
 
 A mod pack for Minecraft.
 
