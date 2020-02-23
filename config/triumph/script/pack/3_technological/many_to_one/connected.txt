@@ -7,7 +7,7 @@ hiddenUnless("pack:3_technological/many_to_one/_")
 setRequiresParents()
 setCompletedIconColor(67, 237, 255)
 setCompletedTitleColor(127, 211, 57)
-setPos(100,-50)
+setPos(50,-50)
 
 criteria1 = addCriteria("Make at least 12 conduit binder", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:item_material:4, count:12~64>)

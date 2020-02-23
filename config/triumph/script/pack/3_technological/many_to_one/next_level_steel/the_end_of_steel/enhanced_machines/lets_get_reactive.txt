@@ -1,7 +1,7 @@
 
 setIcon(<bigreactors:reactoraccessport>)
 setTitle("Let's Get Reactive")
-setDescription("Compact and efficient power generation just isn't enough for some people. Time for a lesson in nuclear science!\n\nBuilding a reactor is a great way to generate absolutely silly amounts of power.")
+setDescription("Compact and efficient power generation just isn't enough for some people. Time for a lesson in nuclear science!\n\nBuilding a reactor is a great way to generate absolutely silly amounts of power. You can opt for a passively-cooled reactor (try using Vapor of Levity) or you can build a Steam Turbine to eek out even more power!")
 
 addParent("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/enhanced_machines/enhanced_power_gen")
 hiddenUnless("pack:3_technological/many_to_one/next_level_steel/the_end_of_steel/enhanced_machines/_")

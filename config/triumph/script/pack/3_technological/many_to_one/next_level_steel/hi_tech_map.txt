@@ -1,0 +1,13 @@
+setIcon(<theoneprobe:probe:0>)
+setTitle("Hi-Tech Map")
+setDescription("Finally, a true map to help you find your way around.\n\nConstruct the probe and keep it in your hot bar to display the map.")
+
+addParent("pack:3_technological/many_to_one/next_level_steel/_")
+hiddenUnless("pack:3_technological/many_to_one/next_level_steel/_")
+setRequiresParents()
+setCompletedIconColor(67, 237, 255)
+setCompletedTitleColor(127, 211, 57)
+setPos(100,-50)
+
+criteria1 = addCriteria("Craft the probe", "minecraft:inventory_changed")
+criteria1.addItem(<theoneprobe:probe:0, count:1~64>)
