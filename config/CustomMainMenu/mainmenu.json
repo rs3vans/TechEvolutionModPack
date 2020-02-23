@@ -9,6 +9,15 @@
             "width" : 512,
             "height" : 512,
             "alignment" : "top_center"
+        },
+        "pack":
+        {
+            "image" : "pack:textures/gui/title/pack.png",
+            "posX" : -102,
+            "posY" : 80,
+            "width" : 206,
+            "height" : 28,
+            "alignment" : "top_center"
         }
     },
     
@@ -143,7 +152,7 @@
     {
         "panorama":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "images" : "pack:textures/gui/title/background/panorama_%c.png",
             "animate" : true,
             "animationSpeed" : 1,
             "blur" : true,
