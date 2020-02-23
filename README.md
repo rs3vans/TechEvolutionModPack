@@ -17,4 +17,4 @@ This mod pack takes the player through an evolution of technology - from primiti
     - Primary mod: [Ender IO](https://www.curseforge.com/minecraft/mc-mods/ender-io)
     - Supporting mod(s): [Refined Storage](https://www.curseforge.com/minecraft/mc-mods/refined-storage), [Compact Machines 3](https://www.curseforge.com/minecraft/mc-mods/compact-machines), [Extended Crafting](https://www.curseforge.com/minecraft/mc-mods/extended-crafting)
 
-_Note: This is by no means an exhaustive mod list, it's just the highlights._
+_Note: This is by no means an exhaustive mod list, it's just the highlights. For the full mod list, see [here](https://github.com/rs3vans/TechEvolutionModPack/blob/master/docs/modlist.md)_
