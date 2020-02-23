@@ -24,3 +24,7 @@ Dryable.addRecipe(<ore:foodStock>, <harvestcraft:driedsoupitem>, 400);
 Dryable.addRecipe(<ore:meatRotten>, <minecraft:leather>, 1800);
 
 Dryable.addRecipe(<minecraft:clay_ball>, <minecraft:brick>, 1200);
+
+recipes.addShapeless("custom/rustic_log_to_chopping_block", <survivalist:chopping_block>, [
+    <rustic:log:*>
+]);
