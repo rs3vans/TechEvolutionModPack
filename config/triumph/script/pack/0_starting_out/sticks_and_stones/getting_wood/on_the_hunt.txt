@@ -7,7 +7,7 @@ hiddenUnless("pack:0_starting_out/sticks_and_stones/getting_wood/_")
 setRequiresParents()
 setCompletedIconColor(150, 150, 150)
 setCompletedTitleColor(33, 73, 0)
-setPos(100,-50)
+setPos(150,-50)
 
 criteria = addCriteria("Travel to the Hunting dimension", "minecraft:changed_dimension")
 criteria.setDimensionDestination("hunting_dim")

@@ -1,7 +1,7 @@
 
 setIcon(<minecraft:brick_block>)
 setTitle("You're Kilning Me")
-setDescription("A kiln is like a primitive furnace which will heat certain items as long as a fire burns underneath.")
+setDescription("A kiln is like a primitive furnace which will heat certain items as long as a fire burns underneath.\n\nIn order to make the kiln, you'll need to craft 5 bick blocks and place them on 5 sides of an air block. Light a fire underneath and you're good to go!")
 
 addParent("pack:0_starting_out/sticks_and_stones/sieze_the_clay/_")
 hiddenUnless("pack:0_starting_out/sticks_and_stones/sieze_the_clay/_")

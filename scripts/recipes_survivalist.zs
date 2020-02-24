@@ -16,6 +16,8 @@ JEI.removeAndHide(<survivalist:hatchet>);
 JEI.removeAndHide(<survivalist:pick>);
 JEI.removeAndHide(<survivalist:spade>);
 
+recipes.removeByRecipeName("survivalist:string");
+
 furnace.remove(<survivalist:rock_ore:*>);
 
 Dryable.addRecipe(<ore:listAllbeefraw>, <harvestcraft:beefjerkyitem>, 400);

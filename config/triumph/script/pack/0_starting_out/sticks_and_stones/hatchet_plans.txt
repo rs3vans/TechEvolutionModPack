@@ -1,0 +1,14 @@
+
+setIcon(<notreepunching:axe/flint>)
+setTitle("Hatchet Plans")
+setDescription("In order to get an axe, you're going to need to take the flint you just collected and knap it against a hard surface (such as stone). Just right-click some flint on such a block and collect the sharpened pieces.")
+
+addParent("pack:0_starting_out/sticks_and_stones/_")
+hiddenUnless("pack:0_starting_out/sticks_and_stones/_")
+setRequiresParents()
+setCompletedIconColor(150, 150, 150)
+setCompletedTitleColor(33, 73, 0)
+setPos(100,0)
+
+criteria1 = addCriteria("Craft a flint hatchet", "minecraft:inventory_changed")
+criteria1.addItem(<notreepunching:axe/flint, count:1~64>)

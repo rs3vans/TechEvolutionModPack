@@ -1,0 +1,23 @@
+
+setIcon(<harvestcraft:cuttingboarditem>)
+setTitle("Master Chef")
+setDescription("Some cooking tools will help you make much better food. BAM!")
+
+addParent("pack:0_starting_out/sticks_and_stones/sieze_the_clay/_")
+hiddenUnless("pack:0_starting_out/sticks_and_stones/sieze_the_clay/_")
+setRequiresParents()
+setCompletedIconColor(150, 150, 150)
+setCompletedTitleColor(33, 73, 0)
+setPos(0,100)
+
+setRequirements("any")
+criteria1 = addCriteria("Craft a cutting board", "minecraft:inventory_changed")
+criteria1.addItem(<ore:itemCookingTool, count:1~64>)
+criteria2 = addCriteria("Craft a pot", "minecraft:inventory_changed")
+criteria2.addItem(<harvestcraft:potitem>)
+criteria3 = addCriteria("Craft a skillet", "minecraft:inventory_changed")
+criteria3.addItem(<harvestcraft:skilletitem>)
+criteria4 = addCriteria("Craft a saucepan", "minecraft:inventory_changed")
+criteria4.addItem(<harvestcraft:saucepanitem>)
+criteria5 = addCriteria("Craft some bakeware", "minecraft:inventory_changed")
+criteria5.addItem(<harvestcraft:bakewareitem>)

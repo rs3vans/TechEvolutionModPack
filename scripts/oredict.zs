@@ -8,6 +8,9 @@
 # ingotDiamond
 <ore:ingotDiamond>.add(<betterwithmods:material:45>);
 
+# fiberPlant
+<ore:fiberPlant>.add(<survivalist:plant_fibres>);
+
 # dustWood
 <ore:dustWood>.add(<betterwithmods:material:22>);
 
@@ -35,9 +38,6 @@
 <ore:shardCarbonado>.add(<carbonado:carbonado_shard>);
 <ore:shardMoltenCarbonado>.add(<carbonado:carbonado_shard_molten>);
 <ore:gemCarbonado>.add(<carbonado:carbonado>);
-
-# itemSharpFlint
-<ore:itemSharpFlint>.add(<flintmod:tool_part_flint>);
 
 # drawerWood
 <ore:drawerWood>.add(<storagedrawers:basicdrawers:*>);
@@ -205,7 +205,7 @@
 
 # itemAxeTool
 <ore:itemAxeTool>.remove(<betterwithmods:steel_battleaxe>);
-<ore:itemAxeTool>.add(<flintmod:axe_flint>);
+<ore:itemAxeTool>.add(<notreepunching:axe/flint>);
 <ore:itemAxeTool>.add(<minecraft:iron_axe>);
 <ore:itemAxeTool>.add(<minecraft:golden_axe>);
 <ore:itemAxeTool>.add(<minecraft:diamond_axe>);
@@ -216,7 +216,7 @@
 <ore:itemAxeTool>.add(<enderio:item_stellar_alloy_axe>);
 
 # itemSwordTool
-<ore:itemSwordTool>.add(<flintmod:knife_flint>);
+<ore:itemSwordTool>.add(<notreepunching:knife/flint>);
 <ore:itemSwordTool>.add(<minecraft:iron_sword>);
 <ore:itemSwordTool>.add(<minecraft:golden_sword>);
 <ore:itemSwordTool>.add(<minecraft:diamond_sword>);
