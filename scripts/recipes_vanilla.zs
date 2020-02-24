@@ -26,6 +26,14 @@ recipes.addShapeless("custom/gunpowder", <minecraft:gunpowder> * 2, [
     <ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustCarbon>
 ]);
 
+# Arrow
+recipes.remove(<minecraft:arrow>);
+recipes.addShaped("custom/arrow", <minecraft:arrow>, [
+    [<ore:shardFlint>],
+    [<ore:stickWood>],
+    [<ore:feather>]
+]);
+
 # Compass
 recipes.remove(<minecraft:compass>);
 recipes.addShaped("custom/compass", <minecraft:compass>, [
