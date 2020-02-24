@@ -9,4 +9,4 @@ alwaysHidden()
 addParent("pack:0_starting_out/_")
 
 criteria = addCriteria("Completed 'Starting Out'", "triumph:completed_advancement")
-criteria.setAdvancement("pack:0_starting_out/sticks_and_stones/cruel_irony/essential_metal")
+criteria.setAdvancement("pack:0_starting_out/sticks_and_stones/sieze_the_clay/cruel_irony/essential_metal")

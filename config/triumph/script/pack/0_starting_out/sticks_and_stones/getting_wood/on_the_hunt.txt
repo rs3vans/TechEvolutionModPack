@@ -1,6 +1,6 @@
 setIcon(<huntingdim:frame, nbt:{BaseBlock:{id:"minecraft:log",Count:1b,Damage:0s}}>)
 setTitle("On The Hunt")
-setDescription("The Hunting dimension is a place of eternal night, where mobs are stronger and you are weaker.\n\nConstruct a portal from 14 Hunting Dimension Frames (crafted from wood and mob heads), and right-click with a sword to activate. Stand in the portal and sneak to travel to the Hunting dimension!")
+setDescription("The Hunting dimension is a place of eternal night, where mobs are stronger and you are weaker.\n\nConstruct a portal from 14 Hunting Dimension Frames (crafted from wood and mob heads), and activate with a fire-starter. Stand in the portal and sneak to travel to the Hunting dimension!")
 
 addParent("pack:0_starting_out/sticks_and_stones/getting_wood/_")
 hiddenUnless("pack:0_starting_out/sticks_and_stones/getting_wood/_")
