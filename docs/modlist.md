@@ -114,10 +114,16 @@
 - [Realistic Item Drops (by Funwayguy)](https://minecraft.curseforge.com/mc-mods/245620)
 - [Uppers (by vadis365)](https://minecraft.curseforge.com/mc-mods/281274)
 - [Survivalist (by gigaherz)](https://minecraft.curseforge.com/mc-mods/242289)
-- [AlcatrazCore (by AlcatrazEscapee)](https://minecraft.curseforge.com/mc-mods/304493")
-- [No Tree Punching (by AlcatrazEscapee)](https://minecraft.curseforge.com/mc-mods/289043")
+- [AlcatrazCore (by AlcatrazEscapee)](https://minecraft.curseforge.com/mc-mods/304493)
+- [No Tree Punching (by AlcatrazEscapee)](https://minecraft.curseforge.com/mc-mods/289043)
+- [No More Punching Tree (by TheAwesomeGem)](https://minecraft.curseforge.com/mc-mods/284011)
 
 ## Changelist
+
+### Version 0.2.0
+
+#### Added:
+- [No More Punching Tree (by TheAwesomeGem)](https://minecraft.curseforge.com/mc-mods/284011)
 
 ### Version 0.1.3
 
