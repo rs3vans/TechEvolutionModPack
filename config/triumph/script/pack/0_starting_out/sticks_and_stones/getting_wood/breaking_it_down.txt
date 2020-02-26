@@ -14,3 +14,5 @@ criteria1 = addCriteria("Craft a chopping block", "minecraft:inventory_changed")
 criteria1.addItem(<survivalist:chopping_block:0, count:1~64>)
 criteria1 = addCriteria("Make at least 12 planks", "minecraft:inventory_changed")
 criteria1.addItem(<ore:plankWood, count:12~64>)
+
+setRewardExperience(25)

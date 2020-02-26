@@ -19,3 +19,5 @@ criteria3 = addCriteria("Craft an ender axe", "minecraft:inventory_changed")
 criteria3.addItem(<enderio:item_end_steel_axe, count:1~64>)
 criteria4 = addCriteria("Craft an ender bow", "minecraft:inventory_changed")
 criteria4.addItem(<enderio:item_end_steel_bow, count:1~64>)
+
+setRewardExperience(10)

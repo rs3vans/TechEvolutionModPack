@@ -13,3 +13,5 @@ setPos(500,100)
 
 criteria1 = addCriteria("Make at least 1 grains of infinity", "minecraft:inventory_changed")
 criteria1.addItem(<ore:dustBedrock, count:1~64>)
+
+setRewardExperience(100)

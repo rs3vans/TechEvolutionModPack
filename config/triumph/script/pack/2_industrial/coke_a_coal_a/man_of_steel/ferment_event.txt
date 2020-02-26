@@ -12,3 +12,5 @@ setPos(200,-50)
 
 criteria1 = addCriteria("Form the 'Fermenter' multiblock", "immersiveengineering:multiblock_formed")
 criteria1.setMultiblock("IE:Fermenter")
+
+setRewardExperience(10)

@@ -14,3 +14,5 @@ criteria1 = addCriteria("Craft an alchemic condenser", "minecraft:inventory_chan
 criteria1.addItem(<rustic:condenser>)
 criteria2 = addCriteria("Craft two alchemic retorts", "minecraft:inventory_changed")
 criteria2.addItem(<rustic:retort, count:2~64>)
+
+setRewardExperience(25)

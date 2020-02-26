@@ -13,3 +13,5 @@ setPos(50,200)
 
 criteria1 = addCriteria("Craft an engineer's hammer", "minecraft:inventory_changed")
 criteria1.addItem(<immersiveengineering:tool:0, count:1~64>)
+
+setRewardExperience(100)

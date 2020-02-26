@@ -11,3 +11,5 @@ setPos(150,200)
 
 criteria1 = addCriteria("Craft a farming station", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_farm_station:0, count:1~64>)
+
+setRewardExperience(10)

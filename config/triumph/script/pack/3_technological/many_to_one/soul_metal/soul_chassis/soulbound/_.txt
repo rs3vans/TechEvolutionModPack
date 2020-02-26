@@ -12,3 +12,5 @@ setPos(100,200)
 
 criteria1 = addCriteria("Craft a soul binder", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_soul_binder:0, count:1~64>)
+
+setRewardExperience(25)

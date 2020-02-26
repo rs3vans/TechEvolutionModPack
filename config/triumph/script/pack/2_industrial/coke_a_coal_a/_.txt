@@ -13,3 +13,5 @@ setPos(100,0)
 
 criteria1 = addCriteria("Form the 'Coke Oven' multiblock", "immersiveengineering:multiblock_formed")
 criteria1.setMultiblock("IE:CokeOven")
+
+setRewardExperience(25)

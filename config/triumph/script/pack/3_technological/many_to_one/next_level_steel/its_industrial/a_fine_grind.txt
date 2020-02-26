@@ -12,3 +12,5 @@ setPos(250,50)
 
 criteria1 = addCriteria("Make at least 1 SAG mill", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_sag_mill, count:1~64>)
+
+setRewardExperience(10)

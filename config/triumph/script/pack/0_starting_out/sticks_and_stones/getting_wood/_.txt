@@ -13,3 +13,5 @@ setPos(150,0)
 
 criteria1 = addCriteria("Collect at least 32 wood", "minecraft:inventory_changed")
 criteria1.addItem(<ore:logWood, count:32~64>)
+
+setRewardExperience(25)

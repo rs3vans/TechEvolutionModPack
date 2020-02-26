@@ -14,3 +14,5 @@ criteria1 = addCriteria("Craft a rod of travelling", "minecraft:inventory_change
 criteria1.addItem(<enderio:item_travel_staff:0, count:1~64>)
 criteria2 = addCriteria("Craft a travelling dark steel upgrade", "minecraft:inventory_changed")
 criteria2.addItem(<enderio:item_dark_steel_upgrade:1, nbt:{"enderio:dsu":"enderio:travel"}, count:1~64>)
+
+setRewardExperience(10)

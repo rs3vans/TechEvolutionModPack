@@ -12,3 +12,5 @@ setPos(200,200)
 
 criteria1 = addCriteria("Collect at least 5 carbonado", "minecraft:inventory_changed")
 criteria1.addItem(<carbonado:carbonado, count:5~64>)
+
+setRewardExperience(10)

@@ -13,3 +13,5 @@ setPos(400,0)
 
 criteria1 = addCriteria("Make at least 1 alloy smelter", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_alloy_smelter, count:1~64>)
+
+setRewardExperience(25)

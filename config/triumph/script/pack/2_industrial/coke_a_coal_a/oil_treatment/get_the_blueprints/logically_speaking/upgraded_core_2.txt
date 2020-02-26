@@ -12,3 +12,5 @@ setPos(250,-350)
 
 criteria1 = addCriteria("Craft a tier 2 core upgrade", "minecraft:inventory_changed")
 criteria1.addItem(<vc:upgrades/item_upgrade_airship_core:2, count:1~64>)
+
+setRewardExperience(10)

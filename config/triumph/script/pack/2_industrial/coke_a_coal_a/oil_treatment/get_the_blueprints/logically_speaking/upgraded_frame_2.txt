@@ -12,3 +12,5 @@ setPos(100,-400)
 
 criteria1 = addCriteria("Craft a tier 2 frame upgrade", "minecraft:inventory_changed")
 criteria1.addItem(<vc:upgrades/item_upgrade_airship_frame:2, count:1~64>)
+
+setRewardExperience(10)

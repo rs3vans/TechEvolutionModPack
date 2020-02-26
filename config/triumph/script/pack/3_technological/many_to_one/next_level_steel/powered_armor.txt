@@ -20,3 +20,5 @@ criteria4 = addCriteria("Craft some dark boots", "minecraft:inventory_changed")
 criteria4.addItem(<enderio:item_dark_steel_boots, count:1~64>)
 criteria5 = addCriteria("Craft a dark shield", "minecraft:inventory_changed")
 criteria5.addItem(<enderio:item_dark_steel_shield, count:1~64>)
+
+setRewardExperience(10)

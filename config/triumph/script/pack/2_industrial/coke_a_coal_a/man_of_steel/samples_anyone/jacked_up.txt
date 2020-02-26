@@ -12,3 +12,5 @@ setPos(300,150)
 
 criteria1 = addCriteria("Form the 'Pumpjack' multiblock", "immersiveengineering:multiblock_formed")
 criteria1.setMultiblock("IP:Pumpjack")
+
+setRewardExperience(10)

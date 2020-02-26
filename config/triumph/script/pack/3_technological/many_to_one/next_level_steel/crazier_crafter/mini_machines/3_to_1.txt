@@ -12,3 +12,5 @@ setPos(250,-300)
 
 criteria1 = addCriteria("Make a tiny compact machine", "minecraft:inventory_changed")
 criteria1.addItem(<compactmachines3:machine:0, count:1~64>)
+
+setRewardExperience(10)

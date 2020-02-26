@@ -13,3 +13,5 @@ setPos(250,-200)
 
 criteria1 = addCriteria("Craft a pesonal shrinking device", "minecraft:inventory_changed")
 criteria1.addItem(<compactmachines3:psd, count:1~64>)
+
+setRewardExperience(25)

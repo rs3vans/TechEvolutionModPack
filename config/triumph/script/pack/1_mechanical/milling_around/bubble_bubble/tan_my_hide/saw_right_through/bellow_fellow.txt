@@ -11,3 +11,5 @@ setPos(250,0)
 
 criteria1 = addCriteria("Craft a bellows", "minecraft:inventory_changed")
 criteria1.addItem(<betterwithmods:bellows:0, count:1~64>)
+
+setRewardExperience(10)

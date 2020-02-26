@@ -12,3 +12,5 @@ setPos(50,-150)
 
 criteria1 = addCriteria("Craft an enhanced wireless charging antenna", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_enhanced_wireless_charger:0, count:1~64>)
+
+setRewardExperience(10)

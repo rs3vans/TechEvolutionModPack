@@ -12,3 +12,5 @@ setPos(-50,-50)
 
 criteria1 = addCriteria("Craft a simple inventory charger", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:item_inventory_charger_simple:0, count:1~64>)
+
+setRewardExperience(10)

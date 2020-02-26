@@ -12,3 +12,5 @@ setPos(450,0)
 
 criteria1 = addCriteria("Make at least 3 energetic alloy ingots", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:item_alloy_ingot:1, count:3~64>)
+
+setRewardExperience(10)

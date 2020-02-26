@@ -13,3 +13,5 @@ setPos(50,100)
 
 criteria1 = addCriteria("Collect at least 24 clay balls", "minecraft:inventory_changed")
 criteria1.addItem(<ore:itemClay, count:24~64>)
+
+setRewardExperience(25)

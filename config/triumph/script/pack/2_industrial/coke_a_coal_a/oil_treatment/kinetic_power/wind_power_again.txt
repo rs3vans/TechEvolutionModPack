@@ -15,3 +15,5 @@ criteria1 = addCriteria("Craft a windmill (IE)", "minecraft:inventory_changed")
 criteria1.addItem(<immersiveengineering:wooden_device1:1, count:1~64>)
 criteria2 = addCriteria("Craft a waterwheel (IE)", "minecraft:inventory_changed")
 criteria2.addItem(<immersiveengineering:wooden_device1:0, count:1~64>)
+
+setRewardExperience(10)

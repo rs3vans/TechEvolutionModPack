@@ -11,3 +11,5 @@ setPos(100,-50)
 
 criteria1 = addCriteria("Craft the probe", "minecraft:inventory_changed")
 criteria1.addItem(<theoneprobe:probe:0, count:1~64>)
+
+setRewardExperience(10)

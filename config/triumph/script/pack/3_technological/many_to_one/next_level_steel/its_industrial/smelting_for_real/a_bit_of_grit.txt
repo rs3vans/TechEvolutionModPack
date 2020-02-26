@@ -15,3 +15,5 @@ criteria1 = addCriteria("Craft a vacuum chest", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_vacuum_chest:0, count:1~64>)
 criteria1 = addCriteria("Craft an xp vacuum", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_xp_vacuum:0, count:1~64>)
+
+setRewardExperience(10)

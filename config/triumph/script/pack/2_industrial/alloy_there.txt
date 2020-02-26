@@ -12,3 +12,5 @@ setPos(50,0)
 
 criteria1 = addCriteria("Form the 'Alloy Kiln' multiblock", "immersiveengineering:multiblock_formed")
 criteria1.setMultiblock("IE:AlloySmelter")
+
+setRewardExperience(10)

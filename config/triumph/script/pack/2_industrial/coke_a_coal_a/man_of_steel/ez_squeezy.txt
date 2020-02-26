@@ -12,3 +12,5 @@ setPos(250,-50)
 
 criteria1 = addCriteria("Form the 'Squeezer' multiblock", "immersiveengineering:multiblock_formed")
 criteria1.setMultiblock("IE:Squeezer")
+
+setRewardExperience(10)

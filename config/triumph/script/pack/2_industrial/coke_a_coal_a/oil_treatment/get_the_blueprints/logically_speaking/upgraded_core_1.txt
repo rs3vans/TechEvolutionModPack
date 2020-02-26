@@ -14,3 +14,5 @@ criteria1 = addCriteria("Craft a tier 1 core upgrade", "minecraft:inventory_chan
 criteria1.addItem(<vc:upgrades/item_upgrade_airship_core:1, count:1~64>)
 criteria2 = addCriteria("Completed Flying Machine", "triumph:completed_advancement")
 criteria2.setAdvancement("pack:2_industrial/coke_a_coal_a/man_of_steel/crazy_crafter/flying_machine")
+
+setRewardExperience(10)

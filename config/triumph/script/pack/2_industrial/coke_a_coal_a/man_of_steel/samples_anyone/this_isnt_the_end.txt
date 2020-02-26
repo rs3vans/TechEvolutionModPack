@@ -12,3 +12,5 @@ setPos(450,100)
 
 criteria1 = addCriteria("Collect at least 64 end stone", "minecraft:inventory_changed")
 criteria1.addItem(<minecraft:end_stone, count:64>)
+
+setRewardExperience(10)

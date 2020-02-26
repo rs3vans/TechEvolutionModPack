@@ -13,3 +13,5 @@ setPos(200,0)
 
 criteria1 = addCriteria("Make at least 3 steel ingots", "minecraft:inventory_changed")
 criteria1.addItem(<ore:ingotSteel, count:3~64>)
+
+setRewardExperience(25)

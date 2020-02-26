@@ -12,3 +12,5 @@ setPos(-50,-200)
 
 criteria1 = addCriteria("Craft a vibrant inventory charger", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:item_inventory_charger_vibrant:0, count:1~64>)
+
+setRewardExperience(25)

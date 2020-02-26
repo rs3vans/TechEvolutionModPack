@@ -11,3 +11,5 @@ setPos(150,100)
 
 criteria1 = addCriteria("Craft a killer joe", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_killer_joe:0, count:1~64>)
+
+setRewardExperience(10)

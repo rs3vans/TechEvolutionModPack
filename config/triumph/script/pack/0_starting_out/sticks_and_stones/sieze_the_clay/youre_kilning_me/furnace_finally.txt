@@ -12,3 +12,5 @@ setPos(50,200)
 
 criteria1 = addCriteria("Craft a furnace", "minecraft:inventory_changed")
 criteria1.addItem(<minecraft:furnace>)
+
+setRewardExperience(10)

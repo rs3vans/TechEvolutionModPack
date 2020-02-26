@@ -11,3 +11,5 @@ setPos(50,150)
 
 criteria1 = addCriteria("Craft an experience rod", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:item_xp_transfer:0, count:1~64>)
+
+setRewardExperience(10)

@@ -13,3 +13,5 @@ setPos(200,100)
 
 criteria1 = addCriteria("Craft a steel crafting table", "minecraft:inventory_changed")
 criteria1.addItem(<extendedcrafting:table_advanced, count:1~64>)
+
+setRewardExperience(25)

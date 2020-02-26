@@ -11,5 +11,7 @@ setCompletedIconColor(138, 166, 112)
 setCompletedTitleColor(148, 98, 68)
 setPos(150,0)
 
-criteria1 = addCriteria("Make at least 3 tanned leather", "minecraft:inventory_changed")
-criteria1.addItem(<betterwithmods:material:32, count:3~64>)
+criteria1 = addCriteria("Make at least 4 tanned leather", "minecraft:inventory_changed")
+criteria1.addItem(<betterwithmods:material:32, count:4~64>)
+
+setRewardExperience(25)

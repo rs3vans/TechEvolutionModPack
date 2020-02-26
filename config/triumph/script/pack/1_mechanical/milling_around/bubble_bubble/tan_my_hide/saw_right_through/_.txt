@@ -12,3 +12,5 @@ setPos(200,0)
 
 criteria1 = addCriteria("Craft a saw", "minecraft:inventory_changed")
 criteria1.addItem(<betterwithmods:saw>)
+
+setRewardExperience(25)

@@ -12,3 +12,5 @@ setPos(100,150)
 
 criteria1 = addCriteria("Make at least 1 soul machine chassis", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:item_material:53, count:3~64>)
+
+setRewardExperience(25)

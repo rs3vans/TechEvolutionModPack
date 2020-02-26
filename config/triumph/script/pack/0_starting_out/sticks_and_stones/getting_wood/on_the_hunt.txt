@@ -11,3 +11,5 @@ setPos(150,-50)
 
 criteria = addCriteria("Travel to the Hunting dimension", "minecraft:changed_dimension")
 criteria.setDimensionDestination("hunting_dim")
+
+setRewardExperience(25)

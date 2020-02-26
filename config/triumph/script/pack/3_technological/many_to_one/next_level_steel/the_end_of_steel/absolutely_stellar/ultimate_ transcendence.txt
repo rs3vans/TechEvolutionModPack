@@ -12,3 +12,5 @@ setPos(150,-400)
 
 criteria1 = addCriteria("Make the ultimate singularity", "minecraft:inventory_changed")
 criteria1.addItem(<extendedcrafting:singularity_ultimate:0, count:1~64>)
+
+setRewardExperience(150)

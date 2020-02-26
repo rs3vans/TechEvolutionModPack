@@ -13,3 +13,5 @@ setPos(150,-300)
 
 criteria1 = addCriteria("Craft at least 4 logic chips", "minecraft:inventory_changed")
 criteria1.addItem(<vc:item_logic_chip, count:4~64>)
+
+setRewardExperience(25)

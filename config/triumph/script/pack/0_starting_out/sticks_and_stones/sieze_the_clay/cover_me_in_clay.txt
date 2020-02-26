@@ -19,3 +19,5 @@ criteria3 = addCriteria("Craft some clay leggings", "minecraft:inventory_changed
 criteria3.addItem(<ceramics:clay_leggings>)
 criteria4 = addCriteria("Craft some clay boots", "minecraft:inventory_changed")
 criteria4.addItem(<ceramics:clay_boots>)
+
+setRewardExperience(10)

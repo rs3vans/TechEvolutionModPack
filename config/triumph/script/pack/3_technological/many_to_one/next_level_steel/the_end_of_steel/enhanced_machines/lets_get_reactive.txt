@@ -18,3 +18,5 @@ criteria3 = addCriteria("Make at least 1 reactor power tap", "minecraft:inventor
 criteria3.addItem(<bigreactors:reactorpowertaprf, count:1~64>)
 criteria4 = addCriteria("Make at least 1 reactor controller", "minecraft:inventory_changed")
 criteria4.addItem(<bigreactors:reactorcontroller, count:1~64>)
+
+setRewardExperience(10)

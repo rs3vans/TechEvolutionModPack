@@ -14,3 +14,5 @@ setPos(100,-150)
 setRequirements("any")
 criteria1 = addCriteria("Make at least 3 drawers", "minecraft:inventory_changed")
 criteria1.addItem(<ore:drawerWood, count:3~64>)
+
+setRewardExperience(25)

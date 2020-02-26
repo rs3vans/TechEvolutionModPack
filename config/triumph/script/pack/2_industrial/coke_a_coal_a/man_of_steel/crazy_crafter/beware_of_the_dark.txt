@@ -12,3 +12,5 @@ setPos(200,150)
 
 criteria = addCriteria("Travel to the Beneath dimension", "minecraft:changed_dimension")
 criteria.setDimensionDestination("The Beneath")
+
+setRewardExperience(10)

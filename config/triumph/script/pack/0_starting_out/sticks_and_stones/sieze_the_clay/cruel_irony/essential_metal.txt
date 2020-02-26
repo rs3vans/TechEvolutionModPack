@@ -11,5 +11,7 @@ setCompletedIconColor(150, 150, 150)
 setCompletedTitleColor(33, 73, 0)
 setPos(200,100)
 
-criteria1 = addCriteria("Collect at least 3 iron ingots", "minecraft:inventory_changed")
-criteria1.addItem(<ore:ingotIron, count:3~64>)
+criteria1 = addCriteria("Collect at least 6 iron ingots", "minecraft:inventory_changed")
+criteria1.addItem(<ore:ingotIron, count:6~64>)
+
+setRewardExperience(100)

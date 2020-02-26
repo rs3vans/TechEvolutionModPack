@@ -12,3 +12,5 @@ setPos(0,-200)
 
 criteria1 = addCriteria("Craft an enhanced alloy smelter", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_enhanced_alloy_smelter:0, count:1~64>)
+
+setRewardExperience(10)

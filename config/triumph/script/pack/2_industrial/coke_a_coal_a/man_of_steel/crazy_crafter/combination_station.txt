@@ -14,3 +14,5 @@ criteria1 = addCriteria("Craft a crafting core", "minecraft:inventory_changed")
 criteria1.addItem(<extendedcrafting:crafting_core, count:1~64>)
 criteria2 = addCriteria("Craft atleast 4 pedestals", "minecraft:inventory_changed")
 criteria2.addItem(<extendedcrafting:pedestal, count:4~64>)
+
+setRewardExperience(10)

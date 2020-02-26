@@ -11,3 +11,5 @@ setPos(50,100)
 
 criteria1 = addCriteria("Craft at least 1 soul vial", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:item_soul_vial:0, count:1~64>)
+
+setRewardExperience(10)

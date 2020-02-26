@@ -12,3 +12,5 @@ setPos(300,50)
 
 criteria1 = addCriteria("Make at least 1 wired charger", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_wired_charger, count:1~64>)
+
+setRewardExperience(10)

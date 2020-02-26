@@ -12,3 +12,5 @@ setPos(500,0)
 
 criteria1 = addCriteria("Make at least 3 vibrant alloy ingots", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:item_alloy_ingot:2, count:3~64>)
+
+setRewardExperience(25)

@@ -12,3 +12,5 @@ setPos(-100,-100)
 
 criteria1 = addCriteria("Make at least 1 capacitor bank", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_cap_bank:2, count:1~64>)
+
+setRewardExperience(10)

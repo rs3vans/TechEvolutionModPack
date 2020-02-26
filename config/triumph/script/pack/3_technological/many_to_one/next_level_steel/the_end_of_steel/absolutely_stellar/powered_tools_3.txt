@@ -16,3 +16,5 @@ criteria2 = addCriteria("Craft a stellar pickaxe", "minecraft:inventory_changed"
 criteria2.addItem(<enderio:item_stellar_alloy_pickaxe, count:1~64>)
 criteria3 = addCriteria("Craft a stellar axe", "minecraft:inventory_changed")
 criteria3.addItem(<enderio:item_stellar_alloy_axe, count:1~64>)
+
+setRewardExperience(50)

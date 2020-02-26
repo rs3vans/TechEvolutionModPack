@@ -12,3 +12,5 @@ setPos(500,-200)
 
 criteria1 = addCriteria("Upgrade your backpack to 'Tier 5'", "minecraft:inventory_changed")
 criteria1.addItem(<improvedbackpacks:backpack, nbt:{Tier:5}, count:1~64>)
+
+setRewardExperience(25)

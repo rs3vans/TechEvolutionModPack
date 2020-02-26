@@ -12,3 +12,5 @@ setPos(150,-50)
 
 criteria1 = addCriteria("Form the 'Crusher' multiblock", "immersiveengineering:multiblock_formed")
 criteria1.setMultiblock("IE:Crusher")
+
+setRewardExperience(10)

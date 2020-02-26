@@ -12,3 +12,5 @@ setPos(250,-200)
 
 criteria1 = addCriteria("Craft the 'Backpack Upgrades' blueprint", "minecraft:inventory_changed")
 criteria1.addItem(<immersiveengineering:blueprint, nbt:{blueprint:"Backpack Upgrades"}, count:1~64>)
+
+setRewardExperience(10)

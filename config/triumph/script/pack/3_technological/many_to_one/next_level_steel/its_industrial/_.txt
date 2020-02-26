@@ -13,3 +13,5 @@ setPos(300,0)
 
 criteria1 = addCriteria("Make at least 1 industrial machine chassis", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:item_material:1, count:1~64>)
+
+setRewardExperience(25)

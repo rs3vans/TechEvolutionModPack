@@ -12,3 +12,5 @@ setPos(300,-50)
 
 criteria1 = addCriteria("Make at least 1 combustion generator", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_combustion_generator, count:1~64>)
+
+setRewardExperience(10)

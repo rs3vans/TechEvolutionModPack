@@ -12,3 +12,5 @@ setPos(400,100)
 
 criteria1 = addCriteria("Make a bottle of dragon's breath", "minecraft:inventory_changed")
 criteria1.addItem(<minecraft:dragon_breath, count:1~64>)
+
+setRewardExperience(10)

@@ -21,3 +21,5 @@ criteria4 = addCriteria("Craft a saucepan", "minecraft:inventory_changed")
 criteria4.addItem(<harvestcraft:saucepanitem>)
 criteria5 = addCriteria("Craft some bakeware", "minecraft:inventory_changed")
 criteria5.addItem(<harvestcraft:bakewareitem>)
+
+setRewardExperience(10)

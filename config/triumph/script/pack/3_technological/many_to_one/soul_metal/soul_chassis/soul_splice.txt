@@ -11,3 +11,5 @@ setPos(50,200)
 
 criteria1 = addCriteria("Craft a slice'n'splice", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_slice_and_splice:0, count:1~64>)
+
+setRewardExperience(10)

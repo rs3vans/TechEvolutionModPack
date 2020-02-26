@@ -12,3 +12,5 @@ setPos(50,-200)
 
 criteria1 = addCriteria("Craft a compacting drawer", "minecraft:inventory_changed")
 criteria1.addItem(<storagedrawers:compdrawers, count:1~64>)
+
+setRewardExperience(10)

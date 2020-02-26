@@ -14,3 +14,5 @@ criteria1 = addCriteria("Collect at least one bee", "minecraft:inventory_changed
 criteria1.addItem(<rustic:bee, count:1~64>)
 criteria2 = addCriteria("Craft an apiary", "minecraft:inventory_changed")
 criteria2.addItem(<rustic:apiary>)
+
+setRewardExperience(25)

@@ -12,3 +12,5 @@ setPos(100,100)
 
 criteria1 = addCriteria("Form the 'Blast Furnace' multiblock", "immersiveengineering:multiblock_formed")
 criteria1.setMultiblock("IE:MetalPress")
+
+setRewardExperience(25)

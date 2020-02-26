@@ -14,3 +14,5 @@ criteria1 = addCriteria("Form the 'BucketWheel' multiblock", "immersiveengineeri
 criteria1.setMultiblock("IE:BucketWheel")
 criteria2 = addCriteria("Form the 'Excavator' multiblock", "immersiveengineering:multiblock_formed")
 criteria2.setMultiblock("IE:Excavator")
+
+setRewardExperience(10)

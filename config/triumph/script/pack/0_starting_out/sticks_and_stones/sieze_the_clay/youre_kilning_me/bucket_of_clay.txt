@@ -12,3 +12,5 @@ setPos(0,150)
 
 criteria1 = addCriteria("Craft a clay bucket", "minecraft:inventory_changed")
 criteria1.addItem(<ceramics:clay_bucket>)
+
+setRewardExperience(10)

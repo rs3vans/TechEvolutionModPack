@@ -12,3 +12,5 @@ setPos(100,-50)
 
 criteria1 = addCriteria("Craft a hand crank", "minecraft:inventory_changed")
 criteria1.addItem(<betterwithmods:hand_crank>)
+
+setRewardExperience(10)

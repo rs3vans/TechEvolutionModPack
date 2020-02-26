@@ -12,3 +12,5 @@ setPos(150,200)
 
 criteria1 = addCriteria("Craft an airship", "minecraft:inventory_changed")
 criteria1.addItem(<vc:airships/item_airship:0, count:1~64>)
+
+setRewardExperience(10)

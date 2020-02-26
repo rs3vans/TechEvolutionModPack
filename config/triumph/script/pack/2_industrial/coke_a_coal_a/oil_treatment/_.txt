@@ -13,3 +13,5 @@ setPos(100,-50)
 
 criteria1 = addCriteria("Make at least 32 treated wood planks", "minecraft:inventory_changed")
 criteria1.addItem(<ore:plankTreatedWood, count:32~64>)
+
+setRewardExperience(25)

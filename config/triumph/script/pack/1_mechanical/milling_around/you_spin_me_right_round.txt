@@ -12,3 +12,5 @@ setPos(50,50)
 
 criteria1 = addCriteria("Craft a turntable", "minecraft:inventory_changed")
 criteria1.addItem(<betterwithmods:single_machine:3>)
+
+setRewardExperience(10)

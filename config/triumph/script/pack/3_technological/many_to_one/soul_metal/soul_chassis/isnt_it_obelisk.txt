@@ -20,3 +20,5 @@ criteria1 = addCriteria("Craft a relocator obelisk", "minecraft:inventory_change
 criteria1.addItem(<enderio:block_relocator_obelisk:0, count:1~64>)
 criteria1 = addCriteria("Craft a weather obelisk", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_weather_obelisk:0, count:1~64>)
+
+setRewardExperience(10)

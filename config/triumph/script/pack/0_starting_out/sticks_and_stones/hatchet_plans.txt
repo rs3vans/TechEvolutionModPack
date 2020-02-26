@@ -12,3 +12,5 @@ setPos(100,0)
 
 criteria1 = addCriteria("Craft a flint hatchet", "minecraft:inventory_changed")
 criteria1.addItem(<notreepunching:axe/flint, count:1~64>)
+
+setRewardExperience(10)

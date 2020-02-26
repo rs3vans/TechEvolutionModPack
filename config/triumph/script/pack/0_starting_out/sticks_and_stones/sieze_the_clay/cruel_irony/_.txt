@@ -15,3 +15,5 @@ criteria1 = addCriteria("Reach 'Gathering' level 2", "reskillable:skill_level")
 criteria1.addConditions({"skill": "reskillable:gathering", "level": 2})
 criteria2 = addCriteria("Collect at least 12 ironberries", "minecraft:inventory_changed")
 criteria2.addItem(<rustic:ironberries, count:12~64>)
+
+setRewardExperience(50)

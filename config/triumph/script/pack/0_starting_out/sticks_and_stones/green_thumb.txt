@@ -14,3 +14,5 @@ criteria1 = addCriteria("Reach 'Farming' level 2", "reskillable:skill_level")
 criteria1.addConditions({"skill": "reskillable:farming", "level": 2})
 criteria2 = addCriteria("Collect at least 64 hemp", "minecraft:inventory_changed")
 criteria2.addItem(<betterwithmods:material:2, count:64>)
+
+setRewardExperience(25)

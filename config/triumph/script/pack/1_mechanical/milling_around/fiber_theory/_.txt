@@ -13,3 +13,5 @@ setPos(50,-50)
 
 criteria1 = addCriteria("Collect at least 8 hemp fibers", "minecraft:inventory_changed")
 criteria1.addItem(<immersiveengineering:material:4, count:8~64>)
+
+setRewardExperience(25)

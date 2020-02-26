@@ -13,3 +13,5 @@ setPos(300,100)
 
 criteria1 = addCriteria("Craft a core sample drill", "minecraft:inventory_changed")
 criteria1.addItem(<immersiveengineering:metal_device1:7, count:1~64>)
+
+setRewardExperience(25)

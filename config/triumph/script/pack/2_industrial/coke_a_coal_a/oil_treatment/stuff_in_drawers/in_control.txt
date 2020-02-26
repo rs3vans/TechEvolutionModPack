@@ -12,3 +12,5 @@ setPos(100,-200)
 
 criteria1 = addCriteria("Craft a drawer controller", "minecraft:inventory_changed")
 criteria1.addItem(<storagedrawers:controller, count:1~64>)
+
+setRewardExperience(10)

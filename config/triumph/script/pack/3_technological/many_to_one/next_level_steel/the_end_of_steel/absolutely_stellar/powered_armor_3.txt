@@ -18,3 +18,5 @@ criteria3 = addCriteria("Craft some stellar leggings", "minecraft:inventory_chan
 criteria3.addItem(<enderio:item_stellar_alloy_leggings, count:1~64>)
 criteria4 = addCriteria("Craft some stellar boots", "minecraft:inventory_changed")
 criteria4.addItem(<enderio:item_stellar_alloy_boots, count:1~64>)
+
+setRewardExperience(50)

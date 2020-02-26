@@ -12,3 +12,5 @@ setPos(150,-150)
 
 criteria1 = addCriteria("Make at least 3 melodic alloy ingots", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:item_alloy_endergy_ingot:2, count:6~64>)
+
+setRewardExperience(10)

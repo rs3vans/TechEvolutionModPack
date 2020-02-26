@@ -13,3 +13,5 @@ setPos(150,-250)
 
 criteria1 = addCriteria("Make at least 2 stellar alloy ingots", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:item_alloy_endergy_ingot:3, count:6~64>)
+
+setRewardExperience(25)

@@ -12,3 +12,5 @@ setPos(0,-50)
 
 criteria1 = addCriteria("Make at least 1 simple powered furnace", "minecraft:inventory_changed")
 criteria1.addItem(<enderio:block_simple_furnace:0, count:1~64>)
+
+setRewardExperience(10)

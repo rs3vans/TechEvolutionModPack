@@ -12,3 +12,5 @@ setPos(0,-100)
 
 criteria1 = addCriteria("Craft an LV capacitor", "minecraft:inventory_changed")
 criteria1.addItem(<immersiveengineering:metal_device0:0, count:1~64>)
+
+setRewardExperience(10)

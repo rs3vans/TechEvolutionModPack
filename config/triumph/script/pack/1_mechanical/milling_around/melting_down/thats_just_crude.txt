@@ -12,3 +12,5 @@ setPos(50,150)
 
 criteria1 = addCriteria("Make at least 4 crude steel", "minecraft:inventory_changed")
 criteria1.addItem(<ore:ingotCrudeSteel, count:4~64>)
+
+setRewardExperience(10)

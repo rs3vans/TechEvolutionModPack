@@ -13,3 +13,5 @@ setPos(50,-100)
 
 criteria1 = addCriteria("Craft a windmill", "minecraft:inventory_changed")
 criteria1.addItem(<betterwithmods:axle_generator:0>)
+
+setRewardExperience(25)

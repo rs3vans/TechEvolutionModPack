@@ -13,3 +13,5 @@ setPos(250,-100)
 
 criteria1 = addCriteria("Form the 'Refinery' multiblock", "immersiveengineering:multiblock_formed")
 criteria1.setMultiblock("IE:Refinery")
+
+setRewardExperience(10)

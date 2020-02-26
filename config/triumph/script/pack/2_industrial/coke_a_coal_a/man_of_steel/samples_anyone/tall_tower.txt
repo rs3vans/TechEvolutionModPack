@@ -12,3 +12,5 @@ setPos(350,100)
 
 criteria1 = addCriteria("Form the 'Distillation Tower' multiblock", "immersiveengineering:multiblock_formed")
 criteria1.setMultiblock("IP:DistillationTower")
+
+setRewardExperience(10)

@@ -12,3 +12,5 @@ setPos(-50,-50)
 
 criteria1 = addCriteria("Craft an external heater", "minecraft:inventory_changed")
 criteria1.addItem(<immersiveengineering:metal_device1:1, count:1~64>)
+
+setRewardExperience(10)

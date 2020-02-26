@@ -11,3 +11,5 @@ setPos(200,50)
 
 criteria1 = addCriteria("Craft a super sound muffler", "minecraft:inventory_changed")
 criteria1.addItem(<supersoundmuffler:sound_muffler, count:1~64>)
+
+setRewardExperience(10)

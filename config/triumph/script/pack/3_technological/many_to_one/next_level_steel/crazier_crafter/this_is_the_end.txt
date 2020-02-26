@@ -12,3 +12,5 @@ setPos(250,-50)
 
 criteria = addCriteria("Travel to The End dimension", "minecraft:changed_dimension")
 criteria.setDimensionDestination("the_end")
+
+setRewardExperience(10)
