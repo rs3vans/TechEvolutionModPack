@@ -172,7 +172,7 @@ Requirement.addRequirement(<rustic:retort_advanced:*>, "reskillable:magic|10");
 
 
 // ~~~ BWM ~~~
-Requirement.addRequirement(<betterwithmods:hemp:*>, "reskillable:farming|4");
+Requirement.addRequirement(<betterwithmods:hemp:*>, "reskillable:farming|2");
 Requirement.addRequirement(<betterwithmods:fertilizer:*>, "reskillable:farming|7");
 Requirement.addRequirement(<betterwithmods:planter:*>, "reskillable:farming|7");
 

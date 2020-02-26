@@ -17,6 +17,7 @@ JEI.removeAndHide(<survivalist:pick>);
 JEI.removeAndHide(<survivalist:spade>);
 
 recipes.removeByRecipeName("survivalist:string");
+recipes.removeByRecipeName("survivalist:gravel");
 
 furnace.remove(<survivalist:rock_ore:*>);
 
