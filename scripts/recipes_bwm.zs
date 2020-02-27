@@ -172,6 +172,10 @@ Mill.addRecipe([<rustic:log:*>], [<betterwithmods:bark:0>, <betterwithmods:mater
 Saw.remove(<betterwithmods:blood_log>);
 Saw.add(<betterwithmods:blood_log>, [<minecraft:planks:3> * 4, <betterwithmods:bark:6>, <ore:dustWood>.firstItem * 2]);
 
+# Rustic Logs
+Saw.add(<rustic:log:0>, [<minecraft:planks:0> * 4, <betterwithmods:bark:0>, <betterwithmods:material:22> * 2]);
+Saw.add(<rustic:log:1>, [<minecraft:planks:0> * 4, <betterwithmods:bark:0>, <betterwithmods:material:22> * 2]);
+
 # Paperbark/Cinnamon logs
 Saw.remove(<harvestcraft:pampaperbark>);
 Saw.add(<harvestcraft:pampaperbark>, [<minecraft:planks:3> * 4, <minecraft:paper>, <betterwithmods:material:22> * 2]);
