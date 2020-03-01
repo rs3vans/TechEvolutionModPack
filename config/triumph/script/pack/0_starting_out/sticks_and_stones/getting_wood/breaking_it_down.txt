@@ -1,7 +1,7 @@
 
 setIcon(<survivalist:chopping_block:0>)
 setTitle("Breaking it Down")
-setDescription("In order to break down wood into planks you'll need to craft a chopping block.\n\nPlace logs on the chopping block and left-click with an axe until it tunrs into planks...")
+setDescription("In order to break down wood into planks you'll need to make a chopping block. This can be done by placing any vanilla-minecraft log on the ground (end-up) and right-clicking with your flint hatchet until it splits into two chopping blocks.\n\nPlace logs on the chopping block and left-click with an axe until it turns into planks! Planks can be similarly chopped into sticks.")
 
 addParent("pack:0_starting_out/sticks_and_stones/getting_wood/_")
 hiddenUnless("pack:0_starting_out/sticks_and_stones/getting_wood/_")
@@ -10,7 +10,7 @@ setCompletedIconColor(150, 150, 150)
 setCompletedTitleColor(33, 73, 0)
 setPos(200,50)
 
-criteria1 = addCriteria("Craft a chopping block", "minecraft:inventory_changed")
+criteria1 = addCriteria("Make a chopping block", "minecraft:inventory_changed")
 criteria1.addItem(<survivalist:chopping_block:0, count:1~64>)
 criteria1 = addCriteria("Make at least 12 planks", "minecraft:inventory_changed")
 criteria1.addItem(<ore:plankWood, count:12~64>)
