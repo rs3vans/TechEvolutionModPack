@@ -117,8 +117,14 @@
 - [AlcatrazCore (by AlcatrazEscapee)](https://minecraft.curseforge.com/mc-mods/304493)
 - [No Tree Punching (by AlcatrazEscapee)](https://minecraft.curseforge.com/mc-mods/289043)
 - [No More Punching Tree (by TheAwesomeGem)](https://minecraft.curseforge.com/mc-mods/284011)
+- [Wopper (by Ellpeck)](https://minecraft.curseforge.com/mc-mods/269377)
 
 ## Changelist
+
+### Version 0.2.3
+
+#### Added:
+- [Wopper (by Ellpeck)](https://minecraft.curseforge.com/mc-mods/269377)
 
 ### Version 0.2.0
 
